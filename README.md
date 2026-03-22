@@ -1,8 +1,6 @@
-# React + Vite
+# CST Research Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive dashboard for exploring and reviewing Creativity Support Tools (CST) research. This project provides a comprehensive library of research papers, categorized by their core contributions, research stages, and underlying cognitive frameworks.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+*Dashboard UI and interactive filtering experience co-designed and developed by **Antigravity (Google DeepMind AI)**.*
