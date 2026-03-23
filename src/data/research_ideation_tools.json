@@ -1,0 +1,4828 @@
+[
+  {
+    "_id": "14b94bc0-27eb-01ac-99a1-71e93cd85995",
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "de7fed2b-d13e-40c0-a434-499807ea7f2e",
+        "article_pdf": 1,
+        "created": 1774303800.385,
+        "filename": "All Papers/C/Chavula et al. 2022 - Understanding creative thinking processes in searching for new ideas.pdf",
+        "filesize": 586656,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "14b94bc0-27eb-01ac-99a1-71e93cd85995",
+        "source_filename": "3498366.3505783.pdf",
+        "xor_hash": [
+          "rLcPULe47fBRIE9Fa7PTgEc9O5Y="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Chavula",
+        "first": "Catherine",
+        "initials": "C",
+        "formatted": "Chavula C"
+      },
+      {
+        "last": "Choi",
+        "first": "Yujin",
+        "initials": "Y",
+        "formatted": "Choi Y"
+      },
+      {
+        "last": "Rieh",
+        "first": "Soo Young",
+        "initials": "SY",
+        "formatted": "Rieh SY"
+      }
+    ],
+    "booktitle": "ACM SIGIR Conference on Human Information Interaction and Retrieval",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3498366.3505783",
+    "citekey": "Chavula2022-dz",
+    "conference": "CHIIR '22: ACM SIGIR Conference on Human Information Interaction and Retrieval",
+    "conference_location": "Regensburg Germany",
+    "created": 1774303797.27,
+    "doi": "10.1145/3498366.3505783",
+    "dup_sha1": "502d5997dd3e49ca09ce96b913c2166740a38eee",
+    "folders": [],
+    "id_list": [
+      "sha1:4dc91c7a9387bba3db5b45f7ca71b4d883f0d051",
+      "dup_sha1:502d5997dd3e49ca09ce96b913c2166740a38eee",
+      "doi:10.1145/3498366.3505783",
+      "url:http://dx.doi.org/10.1145/3498366.3505783",
+      "url:https://dl.acm.org/doi/10.1145/3498366.3505783"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2022",
+      "month": "3",
+      "day": "14"
+    },
+    "publisher": "ACM",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "4dc91c7a9387bba3db5b45f7ca71b4d883f0d051",
+    "title": "Understanding creative thinking processes in searching for new ideas",
+    "url": [
+      "http://dx.doi.org/10.1145/3498366.3505783",
+      "https://dl.acm.org/doi/10.1145/3498366.3505783"
+    ]
+  },
+  {
+    "_id": "a0fdebf3-6a9c-0a2d-9838-d3f3113f8734",
+    "abstract": "Limited research studies the impact of AI on scientific creativity. The work investigates whether AI is a catalyst for scientific creativity and what theoretica",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "author": [
+      {
+        "last": "Chen",
+        "first": "Qian",
+        "initials": "Q",
+        "formatted": "Chen Q"
+      },
+      {
+        "last": "Ho",
+        "first": "Yi-Jen (ian)",
+        "initials": "YJ",
+        "formatted": "Ho YJ"
+      },
+      {
+        "last": "Sun",
+        "first": "Pin",
+        "initials": "P",
+        "formatted": "Sun P"
+      },
+      {
+        "last": "Wang",
+        "first": "Dashun",
+        "initials": "D",
+        "formatted": "Wang D"
+      }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.2139/ssrn.4749118",
+    "citekey": "Chen2024-zz",
+    "created": 1774303477.269,
+    "doi": "10.2139/ssrn.4749118",
+    "dup_sha1": "b4b201f062b586fe203cf52677b363235cbf446f",
+    "folders": [],
+    "id_list": [
+      "sha1:e7a1bdd573097778526a80c1ea38646bd3070555",
+      "dup_sha1:b4b201f062b586fe203cf52677b363235cbf446f",
+      "doi:10.2139/ssrn.4749118",
+      "url:http://dx.doi.org/10.2139/ssrn.4749118",
+      "url:https://papers.ssrn.com/abstract=4749118",
+      "url:https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=4749118",
+      "url:https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4749118",
+      "url:https://www.ssrn.com/abstract=4749118"
+    ],
+    "incomplete": 0,
+    "issn": "1556-5068",
+    "journal": "SSRN Electron. J.",
+    "journalfull": "SSRN Electronic Journal",
+    "keywords": "artificial intelligence, scientific creativity, logical creative thinking, citation network",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "language": "en",
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 1,
+    "published": {
+      "year": "2024",
+      "month": "3",
+      "day": "5"
+    },
+    "publisher": "Elsevier BV",
+    "pubtype": "PP_ARTICLE",
+    "sha1": "e7a1bdd573097778526a80c1ea38646bd3070555",
+    "title": "The philosopher’s stone for science – the catalyst change of AI for scientific creativity",
+    "url": [
+      "http://dx.doi.org/10.2139/ssrn.4749118",
+      "https://papers.ssrn.com/abstract=4749118",
+      "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=4749118",
+      "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4749118",
+      "https://www.ssrn.com/abstract=4749118"
+    ]
+  },
+  {
+    "_id": "6869874f-12f4-0940-8c70-719f820535c3",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "c0480b4a-a8fc-4328-b7c2-b5f39a3d8ccd",
+        "article_pdf": 1,
+        "created": 1774303319.542,
+        "filename": "All Papers/X/Xu et al. 2025 - DeepReport - An AI-assisted idea generation system for scientific research.pdf",
+        "filesize": 2828883,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "6869874f-12f4-0940-8c70-719f820535c3",
+        "source_filename": "3726302.3730151.pdf",
+        "xor_hash": [
+          "VCOH0jYG7O8QnYn+J51l4dKVCkQ="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Xu",
+        "first": "Yi",
+        "orcid": "0000-0002-5280-6132",
+        "initials": "Y",
+        "formatted": "Xu Y"
+      },
+      {
+        "last": "Fu",
+        "first": "Luoyi",
+        "orcid": "0000-0001-7796-9168",
+        "initials": "L",
+        "formatted": "Fu L"
+      },
+      {
+        "last": "Sheng",
+        "first": "Shuqian",
+        "orcid": "0009-0009-8714-2311",
+        "initials": "S",
+        "formatted": "Sheng S"
+      },
+      {
+        "last": "Xue",
+        "first": "Bo",
+        "orcid": "0009-0000-9826-0828",
+        "initials": "B",
+        "formatted": "Xue B"
+      },
+      {
+        "last": "Ding",
+        "first": "Jiaxin",
+        "orcid": "0000-0002-0009-9237",
+        "initials": "J",
+        "formatted": "Ding J"
+      },
+      {
+        "last": "Zhou",
+        "first": "Lei",
+        "orcid": "0000-0002-0433-3991",
+        "initials": "L",
+        "formatted": "Zhou L"
+      },
+      {
+        "last": "Wang",
+        "first": "Xinbing",
+        "orcid": "0000-0002-0357-8356",
+        "initials": "X",
+        "formatted": "Wang X"
+      },
+      {
+        "last": "Zhou",
+        "first": "Chenghu",
+        "orcid": "0000-0003-3331-2302",
+        "initials": "C",
+        "formatted": "Zhou C"
+      }
+    ],
+    "booktitle": "Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3726302.3730151",
+    "citekey": "Xu2025-bq",
+    "conference": "SIGIR '25: The 48th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "conference_location": "Padua Italy",
+    "created": 1774303316.528,
+    "doi": "10.1145/3726302.3730151",
+    "dup_sha1": "466a758a05b7f55a707798b2a5dbc4cc2530ce93",
+    "folders": [],
+    "id_list": [
+      "sha1:c62863e3681f4249ba28f7cb4dad53e2d8e870d7",
+      "dup_sha1:466a758a05b7f55a707798b2a5dbc4cc2530ce93",
+      "doi:10.1145/3726302.3730151",
+      "url:http://dx.doi.org/10.1145/3726302.3730151",
+      "url:https://dl.acm.org/doi/10.1145/3726302.3730151",
+      "url:https://dl.acm.org/doi/abs/10.1145/3726302.3730151"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "language": "en",
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "3969-3973",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2025",
+      "month": "7",
+      "day": "13"
+    },
+    "publisher": "ACM",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "c62863e3681f4249ba28f7cb4dad53e2d8e870d7",
+    "title": "DeepReport: An AI-assisted idea generation system for scientific research",
+    "url": [
+      "http://dx.doi.org/10.1145/3726302.3730151",
+      "https://dl.acm.org/doi/10.1145/3726302.3730151",
+      "https://dl.acm.org/doi/abs/10.1145/3726302.3730151"
+    ]
+  },
+  {
+    "_id": "dd2cfdaf-e45d-0289-b3cd-8781c270dbc6",
+    "abstract": "Scientific innovation is pivotal for humanity, and harnessing large language models (LLMs) to generate research ideas could transform discovery. However, existing LLMs often produce simplistic and repetitive suggestions due to their limited ability in acquiring external knowledge for innovation. To address this problem, we introduce an enhanced planning and search methodology designed to boost the creative potential of LLM-based systems. Our approach involves an iterative process to purposely plan the retrieval of external knowledge, progressively enriching the idea generation with broader and deeper insights. Validation through automated and human assessments indicates that our framework substantially elevates the quality of generated ideas, particularly in novelty and diversity. The number of unique novel ideas produced by our framework is 3.4 times higher than without it. Moreover, our method outperforms the current state-of-the-art, generating at least 2.5 times more top-rated ideas based on 170 seed papers in a Swiss Tournament evaluation.",
+    "archivePrefix": "arXiv",
+    "arxivid": "2410.14255",
+    "attachments": [
+      {
+        "_id": "6fa9d55b-f1e6-4f3f-8317-a2a75089a99b",
+        "article_pdf": 1,
+        "created": 1774303296.181,
+        "filename": "All Papers/H/Hu et al. 2024 - Nova - An iterative planning and search approach to enhance novelty and diversity of LLM generated ideas.pdf",
+        "filesize": 7699204,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "dd2cfdaf-e45d-0289-b3cd-8781c270dbc6",
+        "source_filename": "2410.14255v2.pdf",
+        "xor_hash": [
+          "wqx/4jl4N/GWkxzQhgTXCYUbX6o="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Hu",
+        "first": "Xiang",
+        "initials": "X",
+        "formatted": "Hu X"
+      },
+      {
+        "last": "Fu",
+        "first": "Hongyu",
+        "initials": "H",
+        "formatted": "Fu H"
+      },
+      {
+        "last": "Wang",
+        "first": "Jinge",
+        "initials": "J",
+        "formatted": "Wang J"
+      },
+      {
+        "last": "Wang",
+        "first": "Yifeng",
+        "initials": "Y",
+        "formatted": "Wang Y"
+      },
+      {
+        "last": "Li",
+        "first": "Zhikun",
+        "initials": "Z",
+        "formatted": "Li Z"
+      },
+      {
+        "last": "Xu",
+        "first": "Renjun",
+        "initials": "R",
+        "formatted": "Xu R"
+      },
+      {
+        "last": "Lu",
+        "first": "Yu",
+        "initials": "Y",
+        "formatted": "Lu Y"
+      },
+      {
+        "last": "Jin",
+        "first": "Yaochu",
+        "initials": "Y",
+        "formatted": "Jin Y"
+      },
+      {
+        "last": "Pan",
+        "first": "Lili",
+        "initials": "L",
+        "formatted": "Pan L"
+      },
+      {
+        "last": "Lan",
+        "first": "Zhenzhong",
+        "initials": "Z",
+        "formatted": "Lan Z"
+      }
+    ],
+    "citekey": "Hu2024-uz",
+    "copyright": "http://creativecommons.org/licenses/by/4.0/",
+    "created": 1774303295.5540001,
+    "dup_sha1": "c656083bf62760d3fa52150ea6f79c3bb5aaac76",
+    "eprint": "2410.14255",
+    "folders": [],
+    "id_list": [
+      "sha1:a14257ec093710268c9452fc2be2f65e6e48bcdf",
+      "dup_sha1:c656083bf62760d3fa52150ea6f79c3bb5aaac76",
+      "arxivid:2410.14255",
+      "url:http://arxiv.org/abs/2410.14255"
+    ],
+    "incomplete": 0,
+    "journal": "arXiv [cs.AI]",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 0,
+    "primaryClass": "cs.AI",
+    "published": {
+      "year": "2024",
+      "month": "10",
+      "day": "18"
+    },
+    "pubtype": "PP_PREPRINT",
+    "sha1": "a14257ec093710268c9452fc2be2f65e6e48bcdf",
+    "title": "Nova: An iterative planning and search approach to enhance novelty and diversity of LLM generated ideas",
+    "url": [
+      "http://arxiv.org/abs/2410.14255"
+    ]
+  },
+  {
+    "_id": "f5cb29f7-b51e-0a25-8cb8-7f128d45f5dd",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "95c89c39-de95-4bc2-8508-c924afe9d7d7",
+        "article_pdf": 1,
+        "created": 1774303272.287,
+        "filename": "All Papers/G/Guo et al. 2025 - IdeaBench - Benchmarking large language models for research idea generation.pdf",
+        "filesize": 2063719,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "f5cb29f7-b51e-0a25-8cb8-7f128d45f5dd",
+        "source_filename": "3711896.3737419.pdf",
+        "xor_hash": [
+          "PvT1oBbqMYJW2QHBJDt/S/98HV4="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Guo",
+        "first": "Sikun",
+        "orcid": "0000-0002-4764-3359",
+        "initials": "S",
+        "formatted": "Guo S"
+      },
+      {
+        "last": "Shariatmadari",
+        "first": "Amir Hassan",
+        "orcid": "0009-0002-6590-3748",
+        "initials": "AH",
+        "formatted": "Shariatmadari AH"
+      },
+      {
+        "last": "Xiong",
+        "first": "Guangzhi",
+        "orcid": "0000-0002-8049-5298",
+        "initials": "G",
+        "formatted": "Xiong G"
+      },
+      {
+        "last": "Huang",
+        "first": "Albert",
+        "orcid": "0009-0009-4875-805X",
+        "initials": "A",
+        "formatted": "Huang A"
+      },
+      {
+        "last": "Kim",
+        "first": "Myles",
+        "orcid": "0000-0002-0424-5473",
+        "initials": "M",
+        "formatted": "Kim M"
+      },
+      {
+        "last": "Williams",
+        "first": "Corey M",
+        "orcid": "0009-0002-3466-916X",
+        "initials": "CM",
+        "formatted": "Williams CM"
+      },
+      {
+        "last": "Bekiranov",
+        "first": "Stefan",
+        "orcid": "0000-0002-3177-4346",
+        "initials": "S",
+        "formatted": "Bekiranov S"
+      },
+      {
+        "last": "Zhang",
+        "first": "Aidong",
+        "orcid": "0000-0001-9723-3246",
+        "initials": "A",
+        "formatted": "Zhang A"
+      }
+    ],
+    "booktitle": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3711896.3737419",
+    "citekey": "Guo2025-yz",
+    "conference": "KDD '25: The 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+    "conference_location": "Toronto ON Canada",
+    "created": 1774303269.5900002,
+    "doi": "10.1145/3711896.3737419",
+    "dup_sha1": "9d9ff9681dcaf2dc7598da7bd190565f61507233",
+    "folders": [],
+    "id_list": [
+      "sha1:bd3da03f7bf4226025ca8e3ac1c80ca653b86dc1",
+      "dup_sha1:9d9ff9681dcaf2dc7598da7bd190565f61507233",
+      "doi:10.1145/3711896.3737419",
+      "url:http://dx.doi.org/10.1145/3711896.3737419",
+      "url:https://dl.acm.org/doi/10.1145/3711896.3737419"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "language": "en",
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "5888-5899",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2025",
+      "month": "8",
+      "day": "3"
+    },
+    "publisher": "ACM",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "bd3da03f7bf4226025ca8e3ac1c80ca653b86dc1",
+    "title": "IdeaBench: Benchmarking large language models for research idea generation",
+    "url": [
+      "http://dx.doi.org/10.1145/3711896.3737419",
+      "https://dl.acm.org/doi/10.1145/3711896.3737419"
+    ]
+  },
+  {
+    "_id": "46780f19-5fb4-0b7e-88ba-6609ded616ce",
+    "abstract": "Generating novel and creative scientific hypotheses is a cornerstone in achieving Artificial General Intelligence. Large language and reasoning models have the potential to aid in the systematic creation, selection, and validation of scientifically informed hypotheses. However, current foundation models often struggle to produce scientific ideas that are both novel and feasible. One reason is the lack of a dedicated dataset that frames Scientific Hypothesis Generation (SHG) as a Natural Language Generation (NLG) task. In this paper, we introduce HypoGen, the first dataset of approximately 5500 structured problem-hypothesis pairs extracted from top-tier computer science conferences structured with a Bit-Flip-Spark schema, where the Bit is the conventional assumption, the Spark is the key insight or conceptual leap, and the Flip is the resulting counterproposal. HypoGen uniquely integrates an explicit Chain-of-Reasoning component that reflects the intellectual process from Bit to Flip. We demonstrate that framing hypothesis generation as conditional language modelling, with the model fine-tuned on Bit-Flip-Spark and the Chain-of-Reasoning (and where, at inference, we only provide the Bit), leads to improvements in the overall quality of the hypotheses. Our evaluation employs automated metrics and LLM judge rankings for overall quality assessment. We show that by fine-tuning on our HypoGen dataset we improve the novelty, feasibility, and overall quality of the generated hypotheses. The HypoGen dataset is publicly available at huggingface.co/datasets/UniverseTBD/hypogen-dr1.",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "arxivid": "2504.12976",
+    "attachments": [
+      {
+        "_id": "ac4b194c-35d9-42ca-9ad0-fe52ae1c2ee7",
+        "article_pdf": 1,
+        "created": 1774303165.105,
+        "filename": "All Papers/O/O'Neill et al. 2025 - Sparks of science - Hypothesis generation using structured paper data.pdf",
+        "filesize": 1423375,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "46780f19-5fb4-0b7e-88ba-6609ded616ce",
+        "source_filename": "2504.12976v1.pdf",
+        "xor_hash": [
+          "Q4SAQXpB9G3MYy/n2wqkLTL7lTU="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "first": "Charles",
+        "last": "O'Neill",
+        "initials": "C",
+        "formatted": "O'Neill C"
+      },
+      {
+        "first": "Tirthankar",
+        "last": "Ghosal",
+        "initials": "T",
+        "formatted": "Ghosal T"
+      },
+      {
+        "first": "Roberta",
+        "last": "Răileanu",
+        "initials": "R",
+        "formatted": "Răileanu R"
+      },
+      {
+        "first": "Mike",
+        "last": "Walmsley",
+        "initials": "M",
+        "formatted": "Walmsley M"
+      },
+      {
+        "first": "Thang",
+        "last": "Bui",
+        "initials": "T",
+        "formatted": "Bui T"
+      },
+      {
+        "first": "Kevin",
+        "last": "Schawinski",
+        "initials": "K",
+        "formatted": "Schawinski K"
+      },
+      {
+        "first": "Ioana",
+        "last": "Ciucă",
+        "initials": "I",
+        "formatted": "Ciucă I"
+      }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.48550/ARXIV.2504.12976",
+    "citekey": "O-Neill2025-tx",
+    "created": 1774303164.737,
+    "doi": "10.48550/ARXIV.2504.12976",
+    "dup_sha1": "b847f375b345f528dc28ebe2a0f2bf235994ea25",
+    "eprint": "2504.12976",
+    "folders": [],
+    "id_list": [
+      "sha1:84ef340156fd474624115080ce8264b04f2a9361",
+      "dup_sha1:b847f375b345f528dc28ebe2a0f2bf235994ea25",
+      "arxivid:2504.12976",
+      "doi:10.48550/ARXIV.2504.12976",
+      "url:http://dx.doi.org/10.48550/ARXIV.2504.12976",
+      "url:http://dx.doi.org/10.48550/arXiv.2504.12976",
+      "url:http://arxiv.org/abs/2504.12976"
+    ],
+    "incomplete": 0,
+    "journal": "arXiv [cs.CL]",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 0,
+    "primaryClass": "cs.CL",
+    "published": {
+      "year": "2025",
+      "month": "4",
+      "day": "17"
+    },
+    "publisher": "arXiv",
+    "pubtype": "PP_PREPRINT",
+    "sha1": "84ef340156fd474624115080ce8264b04f2a9361",
+    "title": "Sparks of science: Hypothesis generation using structured paper data",
+    "url": [
+      "http://arxiv.org/abs/2504.12976",
+      "http://dx.doi.org/10.48550/arXiv.2504.12976",
+      "http://dx.doi.org/10.48550/ARXIV.2504.12976"
+    ]
+  },
+  {
+    "_id": "79561b90-6a31-075f-895c-71f7308f845e",
+    "abstract": "Hypothesis generation is a fundamental step in scientific discovery, yet it is increasingly challenged by information overload and disciplinary fragmentation. Recent advances in Large Language Models (LLMs) have sparked growing interest in their potential to enhance and automate this process. This paper presents a comprehensive survey of hypothesis generation with LLMs by (i) reviewing existing methods, from simple prompting techniques to more complex frameworks, and proposing a taxonomy that categorizes these approaches; (ii) analyzing techniques for improving hypothesis quality, such as novelty boosting and structured reasoning; (iii) providing an overview of evaluation strategies; and (iv) discussing key challenges and future directions, including multimodal integration and human-AI collaboration. Our survey aims to serve as a reference for researchers exploring LLMs for hypothesis generation.",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "arxivid": "2504.05496",
+    "attachments": [
+      {
+        "_id": "0ca2e6dc-5603-462a-b52e-0ea7533b51ed",
+        "article_pdf": 1,
+        "created": 1774303129.758,
+        "filename": "All Papers/A/Alkan et al. 2025 - A survey on hypothesis generation for scientific discovery in the era of Large Language Models.pdf",
+        "filesize": 136641,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "79561b90-6a31-075f-895c-71f7308f845e",
+        "source_filename": "2504.05496v1.pdf",
+        "xor_hash": [
+          "04ZYhImBHXxy3yJ/B0y/O+5/bSY="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "first": "Atilla Kaan",
+        "last": "Alkan",
+        "initials": "AK",
+        "formatted": "Alkan AK"
+      },
+      {
+        "first": "Shashwat",
+        "last": "Sourav",
+        "initials": "S",
+        "formatted": "Sourav S"
+      },
+      {
+        "first": "Maja",
+        "last": "Jablonska",
+        "initials": "M",
+        "formatted": "Jablonska M"
+      },
+      {
+        "first": "Simone",
+        "last": "Astarita",
+        "initials": "S",
+        "formatted": "Astarita S"
+      },
+      {
+        "first": "Rishabh",
+        "last": "Chakrabarty",
+        "initials": "R",
+        "formatted": "Chakrabarty R"
+      },
+      {
+        "first": "Nikhil",
+        "last": "Garuda",
+        "initials": "N",
+        "formatted": "Garuda N"
+      },
+      {
+        "first": "Pranav",
+        "last": "Khetarpal",
+        "initials": "P",
+        "formatted": "Khetarpal P"
+      },
+      {
+        "first": "Maciej",
+        "last": "Pióro",
+        "initials": "M",
+        "formatted": "Pióro M"
+      },
+      {
+        "first": "Dimitrios",
+        "last": "Tanoglidis",
+        "initials": "D",
+        "formatted": "Tanoglidis D"
+      },
+      {
+        "first": "Kartheik G",
+        "last": "Iyer",
+        "initials": "KG",
+        "formatted": "Iyer KG"
+      },
+      {
+        "first": "Mugdha S",
+        "last": "Polimera",
+        "initials": "MS",
+        "formatted": "Polimera MS"
+      },
+      {
+        "first": "Michael J",
+        "last": "Smith",
+        "initials": "MJ",
+        "formatted": "Smith MJ"
+      },
+      {
+        "first": "Tirthankar",
+        "last": "Ghosal",
+        "initials": "T",
+        "formatted": "Ghosal T"
+      },
+      {
+        "first": "Marc",
+        "last": "Huertas-Company",
+        "initials": "M",
+        "formatted": "Huertas-Company M"
+      },
+      {
+        "first": "Sandor",
+        "last": "Kruk",
+        "initials": "S",
+        "formatted": "Kruk S"
+      },
+      {
+        "first": "Kevin",
+        "last": "Schawinski",
+        "initials": "K",
+        "formatted": "Schawinski K"
+      },
+      {
+        "first": "Ioana",
+        "last": "Ciucă",
+        "initials": "I",
+        "formatted": "Ciucă I"
+      }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.48550/ARXIV.2504.05496",
+    "citekey": "Alkan2025-hu",
+    "created": 1774303129.436,
+    "doi": "10.48550/ARXIV.2504.05496",
+    "dup_sha1": "ac94e7ad8d7c764470f7491243021a8d2ce919e8",
+    "eprint": "2504.05496",
+    "folders": [],
+    "id_list": [
+      "sha1:8e7864d9c36bcc1c974e85cae4ec962f3926a829",
+      "dup_sha1:ac94e7ad8d7c764470f7491243021a8d2ce919e8",
+      "arxivid:2504.05496",
+      "doi:10.48550/ARXIV.2504.05496",
+      "url:http://dx.doi.org/10.48550/ARXIV.2504.05496",
+      "url:http://dx.doi.org/10.48550/arXiv.2504.05496",
+      "url:http://arxiv.org/abs/2504.05496"
+    ],
+    "incomplete": 0,
+    "journal": "arXiv [cs.CL]",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 0,
+    "primaryClass": "cs.CL",
+    "published": {
+      "year": "2025",
+      "month": "4",
+      "day": "7"
+    },
+    "publisher": "arXiv",
+    "pubtype": "PP_PREPRINT",
+    "sha1": "8e7864d9c36bcc1c974e85cae4ec962f3926a829",
+    "title": "A survey on hypothesis generation for scientific discovery in the era of Large Language Models",
+    "url": [
+      "http://arxiv.org/abs/2504.05496",
+      "http://dx.doi.org/10.48550/arXiv.2504.05496",
+      "http://dx.doi.org/10.48550/ARXIV.2504.05496"
+    ]
+  },
+  {
+    "_id": "01a0a32b-3a2f-0485-8ec6-3cf2b19b410c",
+    "abstract": "While there has been a surge of interest in automated scientific discovery (ASD), especially with the emergence of LLMs, it remains challenging for tools to generate hypotheses that are both testable and grounded in the scientific literature. Additionally, existing ideation tools are not adaptive to prior experimental outcomes. We developed HARPA to address these challenges by incorporating the ideation workflow inspired by human researchers. HARPA first identifies emerging research trends through literature mining, then explores hypothesis design spaces, and finally converges on precise, testable hypotheses by pinpointing research gaps and justifying design choices. Our evaluations show that HARPA-generated hypothesis-driven research proposals perform comparably to a strong baseline AI-researcher across most qualitative dimensions (e.g., specificity, novelty, overall quality), but achieve significant gains in feasibility(+0.78, p$<0.05$, bootstrap) and groundedness (+0.85, p$<0.01$, bootstrap) on a 10-point Likert scale. When tested with the ASD agent (CodeScientist), HARPA produced more successful executions (20 vs. 11 out of 40) and fewer failures (16 vs. 21 out of 40), showing that expert feasibility judgments track with actual execution success. Furthermore, to simulate how researchers continuously refine their understanding of what hypotheses are both testable and potentially interesting from experience, HARPA learns a reward model that scores new hypotheses based on prior experimental outcomes, achieving approx. a 28% absolute gain over HARPA's untrained baseline scorer. Together, these methods represent a step forward in the field of AI-driven scientific discovery.",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "arxivid": "2510.00620",
+    "attachments": [
+      {
+        "_id": "f8a0be53-2822-418e-bfd1-b1f9d13a70de",
+        "article_pdf": 1,
+        "created": 1774303011.666,
+        "filename": "All Papers/V/Vasu et al. 2025 - HARPA - A testability-driven, literature-grounded framework for research ideation.pdf",
+        "filesize": 5779598,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "01a0a32b-3a2f-0485-8ec6-3cf2b19b410c",
+        "source_filename": "2510.00620v1.pdf",
+        "xor_hash": [
+          "BF7Ori7MnsXy9B5iRIEhkLpfbHs="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "first": "Rosni",
+        "last": "Vasu",
+        "initials": "R",
+        "formatted": "Vasu R"
+      },
+      {
+        "first": "Peter",
+        "last": "Jansen",
+        "initials": "P",
+        "formatted": "Jansen P"
+      },
+      {
+        "first": "Pao",
+        "last": "Siangliulue",
+        "initials": "P",
+        "formatted": "Siangliulue P"
+      },
+      {
+        "first": "Cristina",
+        "last": "Sarasua",
+        "initials": "C",
+        "formatted": "Sarasua C"
+      },
+      {
+        "first": "Abraham",
+        "last": "Bernstein",
+        "initials": "A",
+        "formatted": "Bernstein A"
+      },
+      {
+        "first": "Peter",
+        "last": "Clark",
+        "initials": "P",
+        "formatted": "Clark P"
+      },
+      {
+        "first": "Bhavana Dalvi",
+        "last": "Mishra",
+        "initials": "BD",
+        "formatted": "Mishra BD"
+      }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.48550/ARXIV.2510.00620",
+    "citekey": "Vasu2025-in",
+    "created": 1774303010.497,
+    "doi": "10.48550/ARXIV.2510.00620",
+    "dup_sha1": "4a763d260617a60b740c26c8d099b9582c36d318",
+    "eprint": "2510.00620",
+    "folders": [],
+    "id_list": [
+      "sha1:89953a4155263092432a7eecc92e23a21b43031a",
+      "dup_sha1:4a763d260617a60b740c26c8d099b9582c36d318",
+      "arxivid:2510.00620",
+      "doi:10.48550/ARXIV.2510.00620",
+      "url:http://dx.doi.org/10.48550/ARXIV.2510.00620",
+      "url:http://dx.doi.org/10.48550/arXiv.2510.00620",
+      "url:http://arxiv.org/abs/2510.00620"
+    ],
+    "incomplete": 0,
+    "journal": "arXiv [cs.AI]",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 0,
+    "primaryClass": "cs.AI",
+    "published": {
+      "year": "2025",
+      "month": "10",
+      "day": "1"
+    },
+    "publisher": "arXiv",
+    "pubtype": "PP_PREPRINT",
+    "sha1": "89953a4155263092432a7eecc92e23a21b43031a",
+    "title": "HARPA: A testability-driven, literature-grounded framework for research ideation",
+    "url": [
+      "http://arxiv.org/abs/2510.00620",
+      "http://dx.doi.org/10.48550/arXiv.2510.00620",
+      "http://dx.doi.org/10.48550/ARXIV.2510.00620"
+    ]
+  },
+  {
+    "_id": "933d4736-3288-0f4a-9c22-602e7204930c",
+    "abstract": "Significant scientific discoveries have driven the progress of human civilisation. The explosion of scientific literature and data has created information barriers across disciplines that have slowed the pace of scientific discovery. Large Language Models (LLMs) hold a wealth of global and interdisciplinary knowledge that promises to break down these information barriers and foster a new wave of scientific discovery. However, the potential of LLMs for scientific discovery has not been formally explored. In this paper, we start from investigating whether LLMs can propose scientific hypotheses. To this end, we construct a dataset consist of background knowledge and hypothesis pairs from biomedical literature. The dataset is divided into training, seen, and unseen test sets based on the publication date to control visibility. We subsequently evaluate the hypothesis generation capabilities of various top-tier instructed models in zero-shot, few-shot, and fine-tuning settings, including both closed and open-source LLMs. Additionally, we introduce an LLM-based multi-agent cooperative framework with different role designs and external tools to enhance the capabilities related to generating hypotheses. We also design four metrics through a comprehensive review to evaluate the generated hypotheses for both ChatGPT-based and human evaluations. Through experiments and analyses, we arrive at the following findings: 1) LLMs surprisingly generate untrained yet validated hypotheses from testing literature. 2) Increasing uncertainty facilitates candidate generation, potentially enhancing zero-shot hypothesis generation capabilities. These findings strongly support the potential of LLMs as catalysts for new scientific discoveries and guide further exploration.",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "arxivid": "2311.05965",
+    "attachments": [
+      {
+        "_id": "108f7e11-1b72-48ce-a926-18056b9ca9d8",
+        "article_pdf": 1,
+        "created": 1774302939.747,
+        "filename": "All Papers/Q/Qi et al. 2023 - Large Language Models are zero shot hypothesis proposers.pdf",
+        "filesize": 4110143,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "933d4736-3288-0f4a-9c22-602e7204930c",
+        "source_filename": "2311.05965v1.pdf",
+        "xor_hash": [
+          "Ht57Xhg34WoixLgIxqjGqJ1Maak="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "first": "Biqing",
+        "last": "Qi",
+        "initials": "B",
+        "formatted": "Qi B"
+      },
+      {
+        "first": "Kaiyan",
+        "last": "Zhang",
+        "initials": "K",
+        "formatted": "Zhang K"
+      },
+      {
+        "first": "Haoxiang",
+        "last": "Li",
+        "initials": "H",
+        "formatted": "Li H"
+      },
+      {
+        "first": "Kai",
+        "last": "Tian",
+        "initials": "K",
+        "formatted": "Tian K"
+      },
+      {
+        "first": "Sihang",
+        "last": "Zeng",
+        "initials": "S",
+        "formatted": "Zeng S"
+      },
+      {
+        "first": "Zhang-Ren",
+        "last": "Chen",
+        "initials": "ZR",
+        "formatted": "Chen ZR"
+      },
+      {
+        "first": "Bowen",
+        "last": "Zhou",
+        "initials": "B",
+        "formatted": "Zhou B"
+      }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.48550/ARXIV.2311.05965",
+    "citekey": "Qi2023-wg",
+    "created": 1774302939.148,
+    "doi": "10.48550/ARXIV.2311.05965",
+    "dup_sha1": "b598c5d4bb4dfeeb2416d7e37e3a39d8b00005d1",
+    "eprint": "2311.05965",
+    "folders": [],
+    "id_list": [
+      "sha1:07592adf5fbd31f5056b60c448fb4bc0d7bbffd8",
+      "dup_sha1:b598c5d4bb4dfeeb2416d7e37e3a39d8b00005d1",
+      "arxivid:2311.05965",
+      "doi:10.48550/ARXIV.2311.05965",
+      "url:http://dx.doi.org/10.48550/ARXIV.2311.05965",
+      "url:http://dx.doi.org/10.48550/arXiv.2311.05965",
+      "url:http://arxiv.org/abs/2311.05965"
+    ],
+    "incomplete": 0,
+    "journal": "arXiv [cs.CL]",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 0,
+    "primaryClass": "cs.CL",
+    "published": {
+      "year": "2023",
+      "month": "11",
+      "day": "10"
+    },
+    "publisher": "arXiv",
+    "pubtype": "PP_PREPRINT",
+    "sha1": "07592adf5fbd31f5056b60c448fb4bc0d7bbffd8",
+    "title": "Large Language Models are zero shot hypothesis proposers",
+    "url": [
+      "http://arxiv.org/abs/2311.05965",
+      "http://dx.doi.org/10.48550/arXiv.2311.05965",
+      "http://dx.doi.org/10.48550/ARXIV.2311.05965"
+    ]
+  },
+  {
+    "_id": "3fffa716-57a4-030a-b6ca-6b80d711cb7f",
+    "abstract": "It is essential to develop innovative and original research questions/ideas for interdisciplinary research fields, such as Human-Computer Interaction (HCI). In this work, we focus on discussing how recent natural language generation (NLG) methodologies can be applied to promote the formulation of creative research questions. We collect and curate a dataset that contains texts of RQs and related work sections from HCI papers, and introduce a new NLG task of automatic HCI research question (RQ) generation. In addition to applying common NLG metrics used to evaluate generation accuracy, including ROUGE and BERTScore, we propose two sets of new metrics for evaluating the creativity of generated RQs: 1) DistGain and DiffBS for novelty, and 2) PPLGain for the level of surprise. The task is challenging due to the lack of external knowledge. We investigate four approaches to enhance the generation models with (1) general world knowledge, (2) task knowledge, (3) transferred knowledge, and (4) retrieved knowledge. The results of the experiment indicate that the incorporation of additional knowledge benefits both the accuracy and creativity of RQ generation. The dataset used in this study can be found at: https://github.com/yiren-liu/HAI-GEN-release.",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "attachments": [
+      {
+        "_id": "9e819315-24f6-4e32-a6e3-c54c79654588",
+        "article_pdf": 1,
+        "created": 1774302899.306,
+        "filename": "All Papers/L/Liu et al. 2023 - Creative research question generation for Human-Computer Interaction research.pdf",
+        "filesize": 299932,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "3fffa716-57a4-030a-b6ca-6b80d711cb7f",
+        "source_filename": "paper7.pdf",
+        "xor_hash": [
+          "Om5SNvmIxlU5RF9CWFp4D0ACu0g="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "first": "Yiren",
+        "last": "Liu",
+        "initials": "Y",
+        "formatted": "Liu Y"
+      },
+      {
+        "first": "Mengxia",
+        "last": "Yu",
+        "initials": "M",
+        "formatted": "Yu M"
+      },
+      {
+        "first": "Meng",
+        "last": "Jiang",
+        "initials": "M",
+        "formatted": "Jiang M"
+      },
+      {
+        "first": "Yun",
+        "last": "Huang",
+        "initials": "Y",
+        "formatted": "Huang Y"
+      }
+    ],
+    "booktitle": "IUI Workshops",
+    "citekey": "Liu2023-op",
+    "created": 1774302898.5210001,
+    "dup_sha1": "41b6c1835fcacdbc5f22791297c92119158ae00d",
+    "folders": [],
+    "id_list": [
+      "sha1:eaf9e0ac9f964078423a8234c3284103ec469468",
+      "dup_sha1:41b6c1835fcacdbc5f22791297c92119158ae00d",
+      "url:https://ceur-ws.org/Vol-3359/paper7.pdf"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "needsParsing": 0,
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2023"
+    },
+    "pubtype": "PP_WEBSITE",
+    "sha1": "eaf9e0ac9f964078423a8234c3284103ec469468",
+    "title": "Creative research question generation for Human-Computer Interaction research",
+    "url": [
+      "https://ceur-ws.org/Vol-3359/paper7.pdf"
+    ]
+  },
+  {
+    "_id": "9ace44a2-baac-0244-90aa-d5fbedb60a51",
+    "abstract": "Inductive reasoning is a core problem-solving capacity: humans can identify underlying principles from a few examples, which can then be robustly generalized to novel scenarios. Recent work has evaluated large language models (LLMs) on inductive reasoning tasks by directly prompting them yielding \"in context learning.\" This can work well for straightforward inductive tasks, but performs very poorly on more complex tasks such as the Abstraction and Reasoning Corpus (ARC). In this work, we propose to improve the inductive reasoning ability of LLMs by generating explicit hypotheses at multiple levels of abstraction: we prompt the LLM to propose multiple abstract hypotheses about the problem, in natural language, then implement the natural language hypotheses as concrete Python programs. These programs can be directly verified by running on the observed examples and generalized to novel inputs. To reduce the hypothesis search space, we explore steps to filter the set of hypotheses to be implemented as programs: we either ask the LLM to summarize them into a smaller set of hypotheses, or ask human annotators to select a subset. We verify our pipeline's effectiveness on the ARC visual inductive reasoning benchmark, its variant 1D-ARC, and string transformation dataset SyGuS. On a random 40-problem subset of ARC, our automated pipeline using LLM summaries achieves 27.5% accuracy, significantly outperforming the direct prompting baseline (accuracy of 12.5%). With the minimal human input of selecting from LLM-generated candidates, the performance is boosted to 37.5%. Our ablation studies show that abstract hypothesis generation and concrete program representations are both beneficial for LLMs to perform inductive reasoning tasks.",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "attachments": [
+      {
+        "_id": "5177dc67-6995-411d-a02d-c916babd13e6",
+        "article_pdf": 1,
+        "created": 1774302819.225,
+        "filename": "All Papers/W/Wang et al. 2023 - Hypothesis Search - Inductive Reasoning with Language Models.pdf",
+        "filesize": 855140,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "9ace44a2-baac-0244-90aa-d5fbedb60a51",
+        "source_filename": "2309.05660v2.pdf",
+        "xor_hash": [
+          "UwVK9DXwQJ+NTVgWXu0Ys0PRErM="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "first": "Ruocheng",
+        "last": "Wang",
+        "initials": "R",
+        "formatted": "Wang R"
+      },
+      {
+        "first": "Eric",
+        "last": "Zelikman",
+        "initials": "E",
+        "formatted": "Zelikman E"
+      },
+      {
+        "first": "Gabriel",
+        "last": "Poesia",
+        "initials": "G",
+        "formatted": "Poesia G"
+      },
+      {
+        "first": "Yewen",
+        "last": "Pu",
+        "initials": "Y",
+        "formatted": "Pu Y"
+      },
+      {
+        "first": "Nick",
+        "last": "Haber",
+        "initials": "N",
+        "formatted": "Haber N"
+      },
+      {
+        "first": "Noah",
+        "last": "Goodman",
+        "initials": "N",
+        "formatted": "Goodman N"
+      }
+    ],
+    "booktitle": "The Twelfth International Conference on Learning Representations",
+    "citekey": "Wang2023-su",
+    "created": 1774302816.461,
+    "dup_sha1": "3c4db5419a5c16c32cb14fd9f8d4f53fe0ec4259",
+    "folders": [],
+    "id_list": [
+      "sha1:0ba0ff7671e5971aa3d432851228ac54eb2dbbcf",
+      "dup_sha1:3c4db5419a5c16c32cb14fd9f8d4f53fe0ec4259",
+      "url:https://openreview.net/forum?id=G7UtIGQmjm",
+      "url:https://openreview.net/pdf?id=G7UtIGQmjm"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2023",
+      "month": "10",
+      "day": "13"
+    },
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "0ba0ff7671e5971aa3d432851228ac54eb2dbbcf",
+    "title": "Hypothesis Search: Inductive Reasoning with Language Models",
+    "url": [
+      "https://openreview.net/forum?id=G7UtIGQmjm",
+      "https://openreview.net/pdf?id=G7UtIGQmjm"
+    ]
+  },
+  {
+    "_id": "d94d1a23-7384-02a8-b33d-ccb8e1493a43",
+    "abstract": "Yangqiaoyu Zhou, Haokun Liu, Tejes Srivastava, Hongyuan Mei, Chenhao Tan. Proceedings of the 1st Workshop on NLP for Science (NLP4Science). 2024.",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "address": "Stroudsburg, PA, USA",
+    "attachments": [
+      {
+        "_id": "e18a2568-5672-4773-b85d-ef7b382b3bd9",
+        "article_pdf": 1,
+        "created": 1774302677.069,
+        "filename": "All Papers/Z/Zhou et al. 2024 - Hypothesis generation with large language models.pdf",
+        "filesize": 5341027,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "d94d1a23-7384-02a8-b33d-ccb8e1493a43",
+        "source_filename": "2024.nlp4science-1.10.pdf",
+        "xor_hash": [
+          "6ob3mEB3yNAQ0t8ANyGxripUg1M="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Zhou",
+        "first": "Yangqiaoyu",
+        "initials": "Y",
+        "formatted": "Zhou Y"
+      },
+      {
+        "last": "Liu",
+        "first": "Haokun",
+        "initials": "H",
+        "formatted": "Liu H"
+      },
+      {
+        "last": "Srivastava",
+        "first": "Tejes",
+        "initials": "T",
+        "formatted": "Srivastava T"
+      },
+      {
+        "last": "Mei",
+        "first": "Hongyuan",
+        "initials": "H",
+        "formatted": "Mei H"
+      },
+      {
+        "last": "Tan",
+        "first": "Chenhao",
+        "initials": "C",
+        "formatted": "Tan C"
+      }
+    ],
+    "booktitle": "Proceedings of the 1st Workshop on NLP for Science (NLP4Science)",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.18653/v1/2024.nlp4science-1.10",
+    "citekey": "Zhou2024-ua",
+    "conference": "Proceedings of the 1st Workshop on NLP for Science (NLP4Science)",
+    "conference_location": "Miami, FL, USA",
+    "created": 1774302675.638,
+    "doi": "10.18653/v1/2024.nlp4science-1.10",
+    "dup_sha1": "f01cf61a55d957a7e872fbf7149dd473ffad3ca6",
+    "folders": [],
+    "id_list": [
+      "sha1:9049f13eeebd4fdde76baf441158ba5b7bc20514",
+      "dup_sha1:f01cf61a55d957a7e872fbf7149dd473ffad3ca6",
+      "doi:10.18653/v1/2024.nlp4science-1.10",
+      "url:http://dx.doi.org/10.18653/v1/2024.nlp4science-1.10",
+      "url:https://aclanthology.org/2024.nlp4science-1.10/",
+      "url:https://aclanthology.org/2024.nlp4science-1.10",
+      "url:https://aclanthology.org/2024.nlp4science-1.10.pdf"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "117-139",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2024",
+      "month": "11"
+    },
+    "publisher": "Association for Computational Linguistics",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "9049f13eeebd4fdde76baf441158ba5b7bc20514",
+    "title": "Hypothesis generation with large language models",
+    "url": [
+      "http://dx.doi.org/10.18653/v1/2024.nlp4science-1.10",
+      "https://aclanthology.org/2024.nlp4science-1.10/",
+      "https://aclanthology.org/2024.nlp4science-1.10",
+      "https://aclanthology.org/2024.nlp4science-1.10.pdf"
+    ]
+  },
+  {
+    "_id": "1aec45d7-364a-0b79-95f7-bb65344ff2b2",
+    "abstract": "Yuu Jinnai, Ukyo Honda, Tetsuro Morimura, Peinan Zhang. Findings of the Association for Computational Linguistics: ACL 2024. 2024.",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "address": "Stroudsburg, PA, USA",
+    "attachments": [
+      {
+        "_id": "a5e082de-9fcc-4ff7-bff7-444dfb983917",
+        "article_pdf": 1,
+        "created": 1774302549.675,
+        "filename": "All Papers/J/Jinnai et al. 2024 - Generating diverse and high-quality texts by minimum Bayes risk decoding.pdf",
+        "filesize": 1349881,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "1aec45d7-364a-0b79-95f7-bb65344ff2b2",
+        "source_filename": "2024.findings-acl.503.pdf",
+        "xor_hash": [
+          "u1b8M3Cq++XCNmNemwPcZD+iZvs="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Jinnai",
+        "first": "Yuu",
+        "initials": "Y",
+        "formatted": "Jinnai Y"
+      },
+      {
+        "last": "Honda",
+        "first": "Ukyo",
+        "initials": "U",
+        "formatted": "Honda U"
+      },
+      {
+        "last": "Morimura",
+        "first": "Tetsuro",
+        "initials": "T",
+        "formatted": "Morimura T"
+      },
+      {
+        "last": "Zhang",
+        "first": "Peinan",
+        "initials": "P",
+        "formatted": "Zhang P"
+      }
+    ],
+    "booktitle": "Findings of the Association for Computational Linguistics ACL 2024",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.18653/v1/2024.findings-acl.503",
+    "citekey": "Jinnai2024-fu",
+    "conference": "Findings of the Association for Computational Linguistics ACL 2024",
+    "conference_location": "Bangkok, Thailand and virtual meeting",
+    "created": 1774302548.901,
+    "doi": "10.18653/v1/2024.findings-acl.503",
+    "dup_sha1": "d4f78224d5eb5faaa2b93e479162ed9e69bfefa6",
+    "folders": [],
+    "id_list": [
+      "sha1:af60f876f0c22e4fec78f589aad71c585f0db4c9",
+      "dup_sha1:d4f78224d5eb5faaa2b93e479162ed9e69bfefa6",
+      "doi:10.18653/v1/2024.findings-acl.503",
+      "url:http://dx.doi.org/10.18653/v1/2024.findings-acl.503",
+      "url:https://aclanthology.org/2024.findings-acl.503/",
+      "url:https://aclanthology.org/2024.findings-acl.503",
+      "url:https://aclanthology.org/2024.findings-acl.503.pdf"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "8494-8525",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2024"
+    },
+    "publisher": "Association for Computational Linguistics",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "af60f876f0c22e4fec78f589aad71c585f0db4c9",
+    "title": "Generating diverse and high-quality texts by minimum Bayes risk decoding",
+    "url": [
+      "http://dx.doi.org/10.18653/v1/2024.findings-acl.503",
+      "https://aclanthology.org/2024.findings-acl.503/",
+      "https://aclanthology.org/2024.findings-acl.503",
+      "https://aclanthology.org/2024.findings-acl.503.pdf"
+    ]
+  },
+  {
+    "_id": "7683a800-5547-06b8-b208-cfd4598ddb91",
+    "abstract": "Qingyun Wang, Doug Downey, Heng Ji, Tom Hope. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024.",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "address": "Stroudsburg, PA, USA",
+    "attachments": [
+      {
+        "_id": "ba1396c0-d8cc-41b5-93d1-7267a19a4193",
+        "article_pdf": 1,
+        "created": 1774302529.716,
+        "filename": "All Papers/W/Wang et al. 2024 - SciMON - Scientific inspiration machines optimized for novelty.pdf",
+        "filesize": 1689687,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "7683a800-5547-06b8-b208-cfd4598ddb91",
+        "source_filename": "2024.acl-long.18.pdf",
+        "xor_hash": [
+          "uhhuwFt+Fe+GdNR61PPx7qg3Fi4="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Wang",
+        "first": "Qingyun",
+        "initials": "Q",
+        "formatted": "Wang Q"
+      },
+      {
+        "last": "Downey",
+        "first": "Doug",
+        "initials": "D",
+        "formatted": "Downey D"
+      },
+      {
+        "last": "Ji",
+        "first": "Heng",
+        "initials": "H",
+        "formatted": "Ji H"
+      },
+      {
+        "last": "Hope",
+        "first": "Tom",
+        "initials": "T",
+        "formatted": "Hope T"
+      }
+    ],
+    "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.18653/v1/2024.acl-long.18",
+    "citekey": "Wang2024-fx",
+    "conference": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "conference_location": "Bangkok, Thailand",
+    "created": 1774302528.878,
+    "doi": "10.18653/v1/2024.acl-long.18",
+    "dup_sha1": "c2950da503d7d909989f275db5c045778356e494",
+    "folders": [],
+    "id_list": [
+      "sha1:631e2003197e9f9f97fc09b6364713d8ebb8a544",
+      "dup_sha1:c2950da503d7d909989f275db5c045778356e494",
+      "doi:10.18653/v1/2024.acl-long.18",
+      "url:http://dx.doi.org/10.18653/v1/2024.acl-long.18",
+      "url:https://aclanthology.org/2024.acl-long.18/",
+      "url:https://aclanthology.org/2024.acl-long.18",
+      "url:https://aclanthology.org/2024.acl-long.18.pdf"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "279-299",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2024"
+    },
+    "publisher": "Association for Computational Linguistics",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "631e2003197e9f9f97fc09b6364713d8ebb8a544",
+    "title": "SciMON: Scientific inspiration machines optimized for novelty",
+    "url": [
+      "http://dx.doi.org/10.18653/v1/2024.acl-long.18",
+      "https://aclanthology.org/2024.acl-long.18/",
+      "https://aclanthology.org/2024.acl-long.18",
+      "https://aclanthology.org/2024.acl-long.18.pdf"
+    ]
+  },
+  {
+    "_id": "06a71df6-96a7-02bc-8b3d-989598fd9c63",
+    "abstract": "Recent advancements in large language models (LLMs) demonstrate strong potential for generating novel research ideas, yet such ideas often struggle with feasibility and effectiveness. In this paper, we investigate whether augmenting LLMs with relevant data during the ideation process can improve idea quality. Our framework integrates data at two stages: (1) incorporating metadata during idea generation to guide models toward more feasible concepts, and (2) introducing an automated preliminary validation step during idea selection to assess the empirical plausibility of hypotheses within ideas. We evaluate our approach in the social science domain, with a specific focus on climate negotiation topics. Expert evaluation shows that metadata improves the feasibility of generated ideas by 20\\%, while automated validation improves the overall quality of selected ideas by 7\\%. Beyond assessing the quality of LLM-generated ideas, we conduct a human study to examine whether these ideas, augmented with related data and preliminary validation, can inspire researchers in their own ideation. Participants report that the LLM-generated ideas and validation are highly useful, and the ideas they propose with such support are proven to be of higher quality than those proposed without assistance. Our findings highlight the potential of data-augmented research ideation and underscore the practical value of LLM-assisted ideation in real-world academic settings.",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "attachments": [
+      {
+        "_id": "6aa8908a-e39f-4fab-9203-bec1120e23c0",
+        "article_pdf": 1,
+        "created": 1774302484.976,
+        "filename": "All Papers/L/Liu et al. 2025 - Augmenting Research Ideation with Data - An Empirical Investigation in Social Science.pdf",
+        "filesize": 4591142,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "06a71df6-96a7-02bc-8b3d-989598fd9c63",
+        "source_filename": "2505.21396v2.pdf",
+        "xor_hash": [
+          "gCAnzP33xwdX5rjOIETwZzpDxcY="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "first": "Xiao",
+        "last": "Liu",
+        "initials": "X",
+        "formatted": "Liu X"
+      },
+      {
+        "first": "Xinyi",
+        "last": "Dong",
+        "initials": "X",
+        "formatted": "Dong X"
+      },
+      {
+        "first": "Xinyang",
+        "last": "Gao",
+        "initials": "X",
+        "formatted": "Gao X"
+      },
+      {
+        "first": "Yansong",
+        "last": "Feng",
+        "initials": "Y",
+        "formatted": "Feng Y"
+      },
+      {
+        "first": "Xun",
+        "last": "Pang",
+        "initials": "X",
+        "formatted": "Pang X"
+      }
+    ],
+    "booktitle": "NeurIPS 2025 AI for Science Workshop",
+    "citekey": "Liu2025-so",
+    "created": 1774302484.3300002,
+    "dup_sha1": "c327027bdcdd31d780a00fb7198db9cb580a7cf9",
+    "folders": [],
+    "id_list": [
+      "sha1:4099e42b209217cbd3b775b542a4b651717fcdd1",
+      "dup_sha1:c327027bdcdd31d780a00fb7198db9cb580a7cf9",
+      "url:https://openreview.net/forum?id=eblvaoaXlg"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2025",
+      "month": "10",
+      "day": "15"
+    },
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "4099e42b209217cbd3b775b542a4b651717fcdd1",
+    "title": "Augmenting Research Ideation with Data: An Empirical Investigation in Social Science",
+    "url": [
+      "https://openreview.net/forum?id=eblvaoaXlg",
+      "https://openreview.net/pdf?id=eblvaoaXlg"
+    ]
+  },
+  {
+    "_id": "17835ba4-a2f5-03fd-91a3-7b669a5b3825",
+    "abstract": "Long Li, Weiwen Xu, Jiayan Guo, Ruochen Zhao, Xingxuan Li, Yuqian Yuan, Boqiang Zhang, Yuming Jiang, Yifei Xin, Ronghao Dang, Yu Rong, Deli Zhao, Tian Feng, Lidong Bing. Findings of the Association for Computational Linguistics: EMNLP 2025. 2025.",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "address": "Stroudsburg, PA, USA",
+    "attachments": [
+      {
+        "_id": "dc517d26-844c-41b1-a5f2-2d2f8ef5d978",
+        "article_pdf": 1,
+        "created": 1774302316.043,
+        "filename": "All Papers/L/Li et al. 2025 - Chain of ideas - Revolutionizing research via novel idea development with LLM agents.pdf",
+        "filesize": 1099792,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "17835ba4-a2f5-03fd-91a3-7b669a5b3825",
+        "source_filename": "2025.findings-emnlp.477.pdf",
+        "xor_hash": [
+          "pbZqwMz8Ai2ZJYf5wX6JRlM8qUI="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Li",
+        "first": "Long",
+        "initials": "L",
+        "formatted": "Li L"
+      },
+      {
+        "last": "Xu",
+        "first": "Weiwen",
+        "initials": "W",
+        "formatted": "Xu W"
+      },
+      {
+        "last": "Guo",
+        "first": "Jiayan",
+        "initials": "J",
+        "formatted": "Guo J"
+      },
+      {
+        "last": "Zhao",
+        "first": "Ruochen",
+        "initials": "R",
+        "formatted": "Zhao R"
+      },
+      {
+        "last": "Li",
+        "first": "Xingxuan",
+        "initials": "X",
+        "formatted": "Li X"
+      },
+      {
+        "last": "Yuan",
+        "first": "Yuqian",
+        "initials": "Y",
+        "formatted": "Yuan Y"
+      },
+      {
+        "last": "Zhang",
+        "first": "Boqiang",
+        "initials": "B",
+        "formatted": "Zhang B"
+      },
+      {
+        "last": "Jiang",
+        "first": "Yuming",
+        "initials": "Y",
+        "formatted": "Jiang Y"
+      },
+      {
+        "last": "Xin",
+        "first": "Yifei",
+        "initials": "Y",
+        "formatted": "Xin Y"
+      },
+      {
+        "last": "Dang",
+        "first": "Ronghao",
+        "initials": "R",
+        "formatted": "Dang R"
+      },
+      {
+        "last": "Rong",
+        "first": "Yu",
+        "initials": "Y",
+        "formatted": "Rong Y"
+      },
+      {
+        "last": "Zhao",
+        "first": "Deli",
+        "initials": "D",
+        "formatted": "Zhao D"
+      },
+      {
+        "last": "Feng",
+        "first": "Tian",
+        "initials": "T",
+        "formatted": "Feng T"
+      },
+      {
+        "last": "Bing",
+        "first": "Lidong",
+        "initials": "L",
+        "formatted": "Bing L"
+      }
+    ],
+    "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.18653/v1/2025.findings-emnlp.477",
+    "citekey": "Li2025-uk",
+    "conference": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    "conference_location": "Suzhou, China",
+    "created": 1774302315.288,
+    "doi": "10.18653/v1/2025.findings-emnlp.477",
+    "dup_sha1": "6366c127bd18d96c1165ef81a202ad406855d31f",
+    "folders": [],
+    "id_list": [
+      "sha1:67a3e245966752ec3e289907b66d69584fd72528",
+      "dup_sha1:6366c127bd18d96c1165ef81a202ad406855d31f",
+      "doi:10.18653/v1/2025.findings-emnlp.477",
+      "url:http://dx.doi.org/10.18653/v1/2025.findings-emnlp.477",
+      "url:https://aclanthology.org/2025.findings-emnlp.477/",
+      "url:https://aclanthology.org/2025.findings-emnlp.477",
+      "url:https://aclanthology.org/2025.findings-emnlp.477.pdf"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "8971-9004",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2025",
+      "month": "11"
+    },
+    "publisher": "Association for Computational Linguistics",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "67a3e245966752ec3e289907b66d69584fd72528",
+    "title": "Chain of ideas: Revolutionizing research via novel idea development with LLM agents",
+    "url": [
+      "http://dx.doi.org/10.18653/v1/2025.findings-emnlp.477",
+      "https://aclanthology.org/2025.findings-emnlp.477/",
+      "https://aclanthology.org/2025.findings-emnlp.477",
+      "https://aclanthology.org/2025.findings-emnlp.477.pdf"
+    ]
+  },
+  {
+    "_id": "da1c187c-520b-0d3b-bf35-5e14521cec2c",
+    "abstract": "Dominic Petrak, Thy Thy Tran, Iryna Gurevych. Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing. 2025.",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "address": "Stroudsburg, PA, USA",
+    "attachments": [
+      {
+        "_id": "6dbdc7da-9a67-4801-aba9-7d27d2c76bc2",
+        "article_pdf": 1,
+        "created": 1774302296.819,
+        "filename": "All Papers/P/Petrak et al. 2025 - Towards automated error discovery - A study in conversational AI.pdf",
+        "filesize": 1274476,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "da1c187c-520b-0d3b-bf35-5e14521cec2c",
+        "source_filename": "2025.emnlp-main.1.pdf",
+        "xor_hash": [
+          "K4aiHl9epHPE5jyzfAOIOi4UhYI="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Petrak",
+        "first": "Dominic",
+        "initials": "D",
+        "formatted": "Petrak D"
+      },
+      {
+        "last": "Tran",
+        "first": "Thy Thy",
+        "initials": "TT",
+        "formatted": "Tran TT"
+      },
+      {
+        "last": "Gurevych",
+        "first": "Iryna",
+        "initials": "I",
+        "formatted": "Gurevych I"
+      }
+    ],
+    "booktitle": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.18653/v1/2025.emnlp-main.1",
+    "citekey": "Petrak2025-bh",
+    "conference": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    "conference_location": "Suzhou, China",
+    "created": 1774302296.0310001,
+    "doi": "10.18653/v1/2025.emnlp-main.1",
+    "dup_sha1": "f1eb7937873e691c6ed9d34d8bbda7aa9eaed8b3",
+    "folders": [],
+    "id_list": [
+      "sha1:19359cdfec152456904329f7a163e032973667a3",
+      "dup_sha1:f1eb7937873e691c6ed9d34d8bbda7aa9eaed8b3",
+      "doi:10.18653/v1/2025.emnlp-main.1",
+      "url:http://dx.doi.org/10.18653/v1/2025.emnlp-main.1",
+      "url:https://aclanthology.org/2025.emnlp-main.1/",
+      "url:https://aclanthology.org/2025.emnlp-main.1",
+      "url:https://aclanthology.org/2025.emnlp-main.1.pdf"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "1-23",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2025",
+      "month": "11"
+    },
+    "publisher": "Association for Computational Linguistics",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "19359cdfec152456904329f7a163e032973667a3",
+    "title": "Towards automated error discovery: A study in conversational AI",
+    "url": [
+      "http://dx.doi.org/10.18653/v1/2025.emnlp-main.1",
+      "https://aclanthology.org/2025.emnlp-main.1/",
+      "https://aclanthology.org/2025.emnlp-main.1",
+      "https://aclanthology.org/2025.emnlp-main.1.pdf"
+    ]
+  },
+  {
+    "_id": "9f0e111c-e4e5-0886-921d-2a63f8ae5f50",
+    "abstract": "Haokun Liu, Yangqiaoyu Zhou, Mingxuan Li, Chenfei Yuan, Chenhao Tan. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "address": "Stroudsburg, PA, USA",
+    "attachments": [
+      {
+        "_id": "a453f574-3c99-4317-a8f6-592d00ded35b",
+        "article_pdf": 1,
+        "created": 1774302150.103,
+        "filename": "All Papers/L/Liu et al. 2025 - Literature meets data - A synergistic approach to hypothesis generation.pdf",
+        "filesize": 1855486,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "9f0e111c-e4e5-0886-921d-2a63f8ae5f50",
+        "source_filename": "2025.acl-long.12.pdf",
+        "xor_hash": [
+          "wtO3OVSszZlBuBwHPr3vYtFPMOM="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Liu",
+        "first": "Haokun",
+        "initials": "H",
+        "formatted": "Liu H"
+      },
+      {
+        "last": "Zhou",
+        "first": "Yangqiaoyu",
+        "initials": "Y",
+        "formatted": "Zhou Y"
+      },
+      {
+        "last": "Li",
+        "first": "Mingxuan",
+        "initials": "M",
+        "formatted": "Li M"
+      },
+      {
+        "last": "Yuan",
+        "first": "Chenfei",
+        "initials": "C",
+        "formatted": "Yuan C"
+      },
+      {
+        "last": "Tan",
+        "first": "Chenhao",
+        "initials": "C",
+        "formatted": "Tan C"
+      }
+    ],
+    "booktitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.18653/v1/2025.acl-long.12",
+    "citekey": "Liu2025-vq",
+    "conference": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "conference_location": "Vienna, Austria",
+    "created": 1774302149.1690001,
+    "doi": "10.18653/v1/2025.acl-long.12",
+    "dup_sha1": "39b2e97e4c710eaede53e3c368df121865af668c",
+    "folders": [],
+    "id_list": [
+      "sha1:dbc161b91834c85da8532467ddec0455899a6046",
+      "dup_sha1:39b2e97e4c710eaede53e3c368df121865af668c",
+      "doi:10.18653/v1/2025.acl-long.12",
+      "url:http://dx.doi.org/10.18653/v1/2025.acl-long.12",
+      "url:https://aclanthology.org/2025.acl-long.12/",
+      "url:https://aclanthology.org/2025.acl-long.12",
+      "url:https://aclanthology.org/2025.acl-long.12.pdf"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "245-281",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2025"
+    },
+    "publisher": "Association for Computational Linguistics",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "dbc161b91834c85da8532467ddec0455899a6046",
+    "title": "Literature meets data: A synergistic approach to hypothesis generation",
+    "url": [
+      "http://dx.doi.org/10.18653/v1/2025.acl-long.12",
+      "https://aclanthology.org/2025.acl-long.12/",
+      "https://aclanthology.org/2025.acl-long.12",
+      "https://aclanthology.org/2025.acl-long.12.pdf"
+    ]
+  },
+  {
+    "_id": "a1608b4f-9f78-0864-bf85-4e0e8434066d",
+    "abstract": "Qingyun Wang, Lifu Huang, Zhiying Jiang, Kevin Knight, Heng Ji, Mohit Bansal, Yi Luan. Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics. 2019.",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "23"
+    },
+    "address": "Stroudsburg, PA, USA",
+    "attachments": [
+      {
+        "_id": "74d554ed-ba5f-4548-bb96-e432345e9de4",
+        "article_pdf": 1,
+        "created": 1774301581.98,
+        "filename": "All Papers/W/Wang et al. 2019 - PaperRobot - Incremental draft generation of scientific ideas.pdf",
+        "filesize": 760330,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "a1608b4f-9f78-0864-bf85-4e0e8434066d",
+        "source_filename": "P19-1191.pdf",
+        "xor_hash": [
+          "4SmyPjng3is52dYgF997AG591tg="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Wang",
+        "first": "Qingyun",
+        "initials": "Q",
+        "formatted": "Wang Q"
+      },
+      {
+        "last": "Huang",
+        "first": "Lifu",
+        "initials": "L",
+        "formatted": "Huang L"
+      },
+      {
+        "last": "Jiang",
+        "first": "Zhiying",
+        "initials": "Z",
+        "formatted": "Jiang Z"
+      },
+      {
+        "last": "Knight",
+        "first": "Kevin",
+        "initials": "K",
+        "formatted": "Knight K"
+      },
+      {
+        "last": "Ji",
+        "first": "Heng",
+        "initials": "H",
+        "formatted": "Ji H"
+      },
+      {
+        "last": "Bansal",
+        "first": "Mohit",
+        "initials": "M",
+        "formatted": "Bansal M"
+      },
+      {
+        "last": "Luan",
+        "first": "Yi",
+        "initials": "Y",
+        "formatted": "Luan Y"
+      }
+    ],
+    "booktitle": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.18653/v1/p19-1191",
+    "citekey": "Wang2019-sf",
+    "conference": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    "conference_location": "Florence, Italy",
+    "created": 1774301581.329,
+    "doi": "10.18653/v1/p19-1191",
+    "dup_sha1": "049f6d4a0edc8839110cd1c02e07691cc0db6ba1",
+    "folders": [],
+    "id_list": [
+      "sha1:57d32a698c94ca7f19ea1cc2d287c337c8d7cbf6",
+      "dup_sha1:049f6d4a0edc8839110cd1c02e07691cc0db6ba1",
+      "doi:10.18653/v1/p19-1191",
+      "url:http://dx.doi.org/10.18653/v1/p19-1191",
+      "url:http://dx.doi.org/10.18653/v1/P19-1191",
+      "url:https://aclanthology.org/P19-1191/",
+      "url:https://aclanthology.org/P19-1191",
+      "url:https://aclanthology.org/P19-1191.pdf"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "1980-1991",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2019"
+    },
+    "publisher": "Association for Computational Linguistics",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "57d32a698c94ca7f19ea1cc2d287c337c8d7cbf6",
+    "title": "PaperRobot: Incremental draft generation of scientific ideas",
+    "url": [
+      "http://dx.doi.org/10.18653/v1/P19-1191",
+      "http://dx.doi.org/10.18653/v1/p19-1191",
+      "https://aclanthology.org/P19-1191/",
+      "https://aclanthology.org/P19-1191",
+      "https://aclanthology.org/P19-1191.pdf"
+    ]
+  },
+  {
+    "_id": "968d6c8d-c392-07f8-9dc9-8601b4cc31a2",
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "88eaa82a-df54-4417-b16b-de6071f8f921",
+        "article_pdf": 1,
+        "created": 1774299311.912,
+        "filename": "All Papers/S/Smith et al. 2025 - Fuzzy linkography - Automatic graphical summarization of creative activity traces.pdf",
+        "filesize": 4570239,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "968d6c8d-c392-07f8-9dc9-8601b4cc31a2",
+        "source_filename": "3698061.3726915.pdf",
+        "xor_hash": [
+          "FboItvBLQpXwwI1S5otkqzaXGqA="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Smith",
+        "first": "Amy",
+        "orcid": "0009-0009-3999-2354",
+        "initials": "A",
+        "formatted": "Smith A"
+      },
+      {
+        "last": "Anderson",
+        "first": "Barrett R",
+        "orcid": "0009-0003-1775-9291",
+        "initials": "BR",
+        "formatted": "Anderson BR"
+      },
+      {
+        "last": "Otto",
+        "first": "Jasmine Tan",
+        "orcid": "0000-0001-7348-1480",
+        "initials": "JT",
+        "formatted": "Otto JT"
+      },
+      {
+        "last": "Karth",
+        "first": "Isaac",
+        "orcid": "0000-0003-4060-6077",
+        "initials": "I",
+        "formatted": "Karth I"
+      },
+      {
+        "last": "Sun",
+        "first": "Yuqian",
+        "orcid": "0000-0002-4076-8140",
+        "initials": "Y",
+        "formatted": "Sun Y"
+      },
+      {
+        "last": "Joon Young Chung",
+        "first": "John",
+        "orcid": "0000-0002-8492-2525",
+        "initials": "J",
+        "formatted": "Joon Young Chung J"
+      },
+      {
+        "last": "Roemmele",
+        "first": "Melissa",
+        "orcid": "0009-0004-1938-3125",
+        "initials": "M",
+        "formatted": "Roemmele M"
+      },
+      {
+        "last": "Kreminski",
+        "first": "Max",
+        "orcid": "0009-0002-6268-4033",
+        "initials": "M",
+        "formatted": "Kreminski M"
+      }
+    ],
+    "booktitle": "Proceedings of the 2025 Conference on Creativity and Cognition",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3698061.3726915",
+    "citekey": "Smith2025-yv",
+    "conference": "C&C '25: Creativity and Cognition",
+    "conference_location": "Virtual United Kingdom",
+    "created": 1774299309.4259999,
+    "doi": "10.1145/3698061.3726915",
+    "dup_sha1": "4dbfde37aa9a5540a1d50dfd0a4a88acdbe7df8d",
+    "folders": [],
+    "id_list": [
+      "sha1:469d40b4ec77f0e539595a3f7818491045665b97",
+      "dup_sha1:4dbfde37aa9a5540a1d50dfd0a4a88acdbe7df8d",
+      "doi:10.1145/3698061.3726915",
+      "url:http://dx.doi.org/10.1145/3698061.3726915",
+      "url:https://dl.acm.org/doi/10.1145/3698061.3726915"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "637-650",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2025",
+      "month": "6",
+      "day": "23"
+    },
+    "publisher": "ACM",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "469d40b4ec77f0e539595a3f7818491045665b97",
+    "title": "Fuzzy linkography: Automatic graphical summarization of creative activity traces",
+    "url": [
+      "http://dx.doi.org/10.1145/3698061.3726915",
+      "https://dl.acm.org/doi/10.1145/3698061.3726915"
+    ]
+  },
+  {
+    "_id": "c5260a33-5756-0b46-85c4-e1594614298b",
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "c290f9ef-287b-4a28-8728-71edd36c01e3",
+        "article_pdf": 1,
+        "created": 1774298273.338,
+        "filename": "All Papers/I/Inie et al. 2022 - How researchers manage ideas.pdf",
+        "filesize": 790630,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "c5260a33-5756-0b46-85c4-e1594614298b",
+        "source_filename": "3527927.3532813.pdf",
+        "xor_hash": [
+          "NL/e1yMKaG9vOHCYTgLxnLT4m4s="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Inie",
+        "first": "Nanna",
+        "initials": "N",
+        "formatted": "Inie N"
+      },
+      {
+        "last": "Frich",
+        "first": "Jonas",
+        "initials": "J",
+        "formatted": "Frich J"
+      },
+      {
+        "last": "Dalsgaard",
+        "first": "Peter",
+        "initials": "P",
+        "formatted": "Dalsgaard P"
+      }
+    ],
+    "booktitle": "Creativity and Cognition",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3527927.3532813",
+    "citekey": "Inie2022-uj",
+    "conference": "C&C '22: Creativity and Cognition",
+    "conference_location": "Venice Italy",
+    "created": 1774298271.2120001,
+    "doi": "10.1145/3527927.3532813",
+    "dup_sha1": "17ef73f49c5c6a36aab157275019216e64f3ed70",
+    "folders": [],
+    "id_list": [
+      "sha1:7114f0a8693c2e2470ba0aef550c31e1b357cbf1",
+      "dup_sha1:17ef73f49c5c6a36aab157275019216e64f3ed70",
+      "doi:10.1145/3527927.3532813",
+      "url:http://dx.doi.org/10.1145/3527927.3532813",
+      "url:https://dl.acm.org/doi/10.1145/3527927.3532813"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2022",
+      "month": "6",
+      "day": "20"
+    },
+    "publisher": "ACM",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "7114f0a8693c2e2470ba0aef550c31e1b357cbf1",
+    "title": "How researchers manage ideas",
+    "url": [
+      "http://dx.doi.org/10.1145/3527927.3532813",
+      "https://dl.acm.org/doi/10.1145/3527927.3532813"
+    ]
+  },
+  {
+    "_id": "11450d98-a600-0b0d-990d-5e0080b7c459",
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "b7eeecf3-3612-4b10-9f77-bc088a2355c3",
+        "article_pdf": 1,
+        "created": 1774297487.963,
+        "filename": "All Papers/Z/Zhao et al. 2025 - Making the write connections - Linking writing support tools with writer needs.pdf",
+        "filesize": 5876401,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "11450d98-a600-0b0d-990d-5e0080b7c459",
+        "source_filename": "3706598.3713161.pdf",
+        "xor_hash": [
+          "/kgVdgKgW2c6NrSou5Sef3nfAAg="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Zhao",
+        "first": "Zixin",
+        "orcid": "0000-0002-8636-1987",
+        "initials": "Z",
+        "formatted": "Zhao Z"
+      },
+      {
+        "last": "Masson",
+        "first": "Damien",
+        "orcid": "0000-0002-9482-8639",
+        "initials": "D",
+        "formatted": "Masson D"
+      },
+      {
+        "last": "Kim",
+        "first": "Young-Ho",
+        "orcid": "0000-0002-2681-2774",
+        "initials": "YH",
+        "formatted": "Kim YH"
+      },
+      {
+        "last": "Penn",
+        "first": "Gerald",
+        "orcid": "0000-0003-3553-8305",
+        "initials": "G",
+        "formatted": "Penn G"
+      },
+      {
+        "last": "Chevalier",
+        "first": "Fanny",
+        "orcid": "0000-0002-5585-7971",
+        "initials": "F",
+        "formatted": "Chevalier F"
+      }
+    ],
+    "booktitle": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3706598.3713161",
+    "citekey": "Zhao2025-mi",
+    "conference": "CHI 2025: CHI Conference on Human Factors in Computing Systems",
+    "conference_location": "Yokohama Japan",
+    "copyright": "https://www.acm.org/publications/policies/copyright_policy#Background",
+    "created": 1774297483.443,
+    "doi": "10.1145/3706598.3713161",
+    "dup_sha1": "2840a34a13849e0a2ece84d7b14147f48beccc58",
+    "folders": [],
+    "id_list": [
+      "sha1:ad933d21f48366a70a3bf1d42f0959b86d74be1d",
+      "dup_sha1:2840a34a13849e0a2ece84d7b14147f48beccc58",
+      "doi:10.1145/3706598.3713161",
+      "url:http://dx.doi.org/10.1145/3706598.3713161",
+      "url:https://dl.acm.org/doi/10.1145/3706598.3713161"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "1-21",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2025",
+      "month": "4",
+      "day": "26"
+    },
+    "publisher": "ACM",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "ad933d21f48366a70a3bf1d42f0959b86d74be1d",
+    "title": "Making the write connections: Linking writing support tools with writer needs",
+    "url": [
+      "http://dx.doi.org/10.1145/3706598.3713161",
+      "https://dl.acm.org/doi/10.1145/3706598.3713161"
+    ]
+  },
+  {
+    "_id": "ecdfb2d0-7afd-041a-bc2f-1a42d5cb8e7e",
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "c7fcc81e-a771-40e3-84b0-ba3feca438d6",
+        "article_pdf": 1,
+        "created": 1774296850.668,
+        "filename": "All Papers/F/Ford and Bryan-Kinns 2023 - Towards a reflection in creative experience questionnaire.pdf",
+        "filesize": 2570832,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "ecdfb2d0-7afd-041a-bc2f-1a42d5cb8e7e",
+        "source_filename": "3544548.3581077.pdf",
+        "xor_hash": [
+          "PhcZxzTpXyzaEY++h2p3pIo6WFI="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Ford",
+        "first": "Corey",
+        "orcid": "0000-0002-6895-2441",
+        "initials": "C",
+        "formatted": "Ford C"
+      },
+      {
+        "last": "Bryan-Kinns",
+        "first": "Nick",
+        "orcid": "0000-0002-1382-2914",
+        "initials": "N",
+        "formatted": "Bryan-Kinns N"
+      }
+    ],
+    "booktitle": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3544548.3581077",
+    "citekey": "Ford2023-kb",
+    "conference": "CHI '23: CHI Conference on Human Factors in Computing Systems",
+    "conference_location": "Hamburg Germany",
+    "created": 1774296847.308,
+    "doi": "10.1145/3544548.3581077",
+    "dup_sha1": "4e661a9fc22c6e5f0512a952f06890ddf24c461c",
+    "folders": [],
+    "id_list": [
+      "sha1:d15b49c76878565fc474eda4845b591b485bffaf",
+      "dup_sha1:4e661a9fc22c6e5f0512a952f06890ddf24c461c",
+      "doi:10.1145/3544548.3581077",
+      "url:http://dx.doi.org/10.1145/3544548.3581077",
+      "url:https://dl.acm.org/doi/10.1145/3544548.3581077"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "1-16",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2023",
+      "month": "4",
+      "day": "19"
+    },
+    "publisher": "ACM",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "d15b49c76878565fc474eda4845b591b485bffaf",
+    "title": "Towards a reflection in creative experience questionnaire",
+    "url": [
+      "http://dx.doi.org/10.1145/3544548.3581077",
+      "https://dl.acm.org/doi/10.1145/3544548.3581077"
+    ],
+    "volume": "10"
+  },
+  {
+    "_id": "34d7ebd4-a51a-0d01-bd9b-66ea5c3c48b1",
+    "abstract": "Creative practitioners rely on tools to capture and manage ideas as a foundational aspect of their work. However, we have little knowledge about how idea management practices vary in different creative domains. Combining insights from qualitative surveys ( N \\(\\sim\\) 200) and follow-up in-depth interviews ( n \\(\\sim\\) 60) with creative professionals from four domains (interaction design, research, music, and graphics) of creative work, we report on (1) how ideas are externalized in practitioners’ archives, (2) what they consider important when choosing tools to capture ideas, and (3) how these tool collections resemble and differ from each other. Our cross-domain study demonstrates that participants’ tool use reflects idea capture characteristic needs as well as domain-specific views about the creative process. We conclude with a discussion about capturing as an externalizing activity, practitioners’ use of the term ideas , and four suggestions for directions in the design of creativity support tools.",
+    "attachments": [
+      {
+        "_id": "0268ae2d-a916-494e-9755-eb0efb81695e",
+        "article_pdf": 1,
+        "created": 1774294743.337,
+        "filename": "All Papers/R/Rosselli Del Turco et al. 2025 - How creative practitioners use tools to capture ideas - A cross-domain study.pdf",
+        "filesize": 28515109,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "34d7ebd4-a51a-0d01-bd9b-66ea5c3c48b1",
+        "source_filename": "3727979.pdf",
+        "xor_hash": [
+          "q2p15Vfd4Q0itdH7A5OyLMPbgGE="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Rosselli Del Turco",
+        "first": "Emilia",
+        "orcid": "0009-0005-7545-7886",
+        "initials": "E",
+        "formatted": "Rosselli Del Turco E"
+      },
+      {
+        "last": "Inie",
+        "first": "Nanna",
+        "orcid": "0000-0002-5375-9542",
+        "initials": "N",
+        "formatted": "Inie N"
+      },
+      {
+        "last": "Hollan",
+        "first": "James D",
+        "orcid": "0000-0001-9568-2646",
+        "initials": "JD",
+        "formatted": "Hollan JD"
+      },
+      {
+        "last": "Dalsgaard",
+        "first": "Peter",
+        "orcid": "0000-0001-9884-7178",
+        "initials": "P",
+        "formatted": "Dalsgaard P"
+      }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3727979",
+    "citekey": "Rosselli-Del-Turco2025-wn",
+    "created": 1774294738.573,
+    "doi": "10.1145/3727979",
+    "dup_sha1": "e4977bbe075155a4392a78e682355389d8743c64",
+    "folders": [],
+    "id_list": [
+      "sha1:9dfcb148f04dfa03ff65cda5ee95590236a5cbc8",
+      "dup_sha1:e4977bbe075155a4392a78e682355389d8743c64",
+      "doi:10.1145/3727979",
+      "url:http://dx.doi.org/10.1145/3727979",
+      "url:https://dl.acm.org/doi/10.1145/3727979"
+    ],
+    "incomplete": 0,
+    "issn": "1073-0516",
+    "issn_alt": "1557-7325",
+    "issue": "4",
+    "journal": "ACM Trans. Comput. Hum. Interact.",
+    "journalfull": "ACM Transactions on Computer-Human Interaction",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "language": "en",
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "1-38",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2025",
+      "month": "8",
+      "day": "31"
+    },
+    "publisher": "Association for Computing Machinery (ACM)",
+    "pubtype": "PP_ARTICLE",
+    "sha1": "9dfcb148f04dfa03ff65cda5ee95590236a5cbc8",
+    "title": "How creative practitioners use tools to capture ideas: A cross-domain study",
+    "url": [
+      "http://dx.doi.org/10.1145/3727979",
+      "https://dl.acm.org/doi/10.1145/3727979"
+    ],
+    "volume": "32"
+  },
+  {
+    "_id": "f23642d5-49e1-03dd-9ba3-c7f46abdd68b",
+    "abstract": "The advances of generative AI have posed a challenge for using open-ended questions to assess conceptual learning outcomes, as it is increasingly common for students to use tools like ChatGPT to generate long textual answers. However, teachers still have to spend substantial time reading the answers and inferring students' learning outcomes. We present TreeQuestion, a human-in-the-loop system designed to help teachers create a set of multiple-choice questions to assess students' conceptual learning outcomes. When a teacher seeks to assess students' comprehension of specific concepts, TreeQuestion taps into the wealth of knowledge embedded within large language models and generates a set of multiple-choice questions organized in a tree-like structure. We evaluated TreeQuestion with 96 students and 10 teachers. Results indicated that students achieved similar performance in multiple-choice questions generated by TreeQuestion and open-ended questions graded by teachers. Meanwhile, TreeQuestion could reduce teachers' efforts in creating and grading the multiple-choice questions in contrast to manually generated open-ended questions. We estimate that in a hypothetical class with 20 students, using multiple-choice questions from TreeQuestion may require only 4.6% of the time compared to open-ended questions for assessing learning outcomes.",
+    "attachments": [
+      {
+        "_id": "11382788-90b3-4bf0-9582-0a44d7ebfc42",
+        "article_pdf": 1,
+        "created": 1774293755.06,
+        "filename": "All Papers/C/Cheng et al. 2024 - TreeQuestion - Assessing conceptual learning outcomes with LLM-generated multiple-choice questions.pdf",
+        "filesize": 7301402,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "f23642d5-49e1-03dd-9ba3-c7f46abdd68b",
+        "source_filename": "3686970.pdf",
+        "xor_hash": [
+          "HSkWYH8uVGhid/0zdQxlQ5ozifA="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Cheng",
+        "first": "Zirui",
+        "orcid": "0000-0001-7087-8220",
+        "initials": "Z",
+        "formatted": "Cheng Z"
+      },
+      {
+        "last": "Xu",
+        "first": "Jingfei",
+        "orcid": "0009-0004-5945-9526",
+        "initials": "J",
+        "formatted": "Xu J"
+      },
+      {
+        "last": "Jin",
+        "first": "Haojian",
+        "orcid": "0000-0001-5212-2235",
+        "initials": "H",
+        "formatted": "Jin H"
+      }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3686970",
+    "citekey": "Cheng2024-eo",
+    "copyright": "https://creativecommons.org/licenses/by/4.0/",
+    "created": 1774293751.481,
+    "doi": "10.1145/3686970",
+    "dup_sha1": "329a9db5033d8eed64038b35d3284fa341932524",
+    "folders": [],
+    "id_list": [
+      "sha1:54a79a4a07a3f7b186ed00d96a7368cb1c6ed914",
+      "dup_sha1:329a9db5033d8eed64038b35d3284fa341932524",
+      "doi:10.1145/3686970",
+      "url:http://dx.doi.org/10.1145/3686970",
+      "url:https://dl.acm.org/doi/10.1145/3686970"
+    ],
+    "incomplete": 0,
+    "issn": "2573-0142",
+    "issue": "CSCW2",
+    "journal": "Proc. ACM Hum. Comput. Interact.",
+    "journalfull": "Proceedings of the ACM on Human-Computer Interaction",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "language": "en",
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "1-29",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2024",
+      "month": "11",
+      "day": "7"
+    },
+    "publisher": "Association for Computing Machinery (ACM)",
+    "pubtype": "PP_ARTICLE",
+    "sha1": "54a79a4a07a3f7b186ed00d96a7368cb1c6ed914",
+    "title": "TreeQuestion: Assessing conceptual learning outcomes with LLM-generated multiple-choice questions",
+    "url": [
+      "http://dx.doi.org/10.1145/3686970",
+      "https://dl.acm.org/doi/10.1145/3686970"
+    ],
+    "volume": "8"
+  },
+  {
+    "_id": "65c3187a-f681-0af3-bebe-77c8019e545a",
+    "accessed": {
+      "year": "2026",
+      "month": "3",
+      "day": "16"
+    },
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "214b497a-bae8-4d17-b1bd-ea814cf0a397",
+        "article_pdf": 1,
+        "created": 1773709175.572,
+        "filename": "All Papers/R/Rhys Cox et al. 2025 - Beyond productivity - Rethinking the impact of creativity support tools.pdf",
+        "filesize": 1567743,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "65c3187a-f681-0af3-bebe-77c8019e545a",
+        "source_filename": "2505.01601v1.pdf",
+        "xor_hash": [
+          "j/RASDdR0f7PMahctslZC6yaRok="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Rhys Cox",
+        "first": "Samuel",
+        "orcid": "0000-0002-4558-6610",
+        "initials": "S",
+        "formatted": "Rhys Cox S"
+      },
+      {
+        "last": "Bøjer Djernæs",
+        "first": "Helena",
+        "orcid": "0009-0003-9457-811X",
+        "initials": "H",
+        "formatted": "Bøjer Djernæs H"
+      },
+      {
+        "last": "van Berkel",
+        "first": "Niels",
+        "orcid": "0000-0001-5106-7692",
+        "initials": "N",
+        "formatted": "van Berkel N"
+      }
+    ],
+    "booktitle": "Proceedings of the 2025 Conference on Creativity and Cognition",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3698061.3726924",
+    "citekey": "Rhys-Cox2025-vg",
+    "conference": "C&C '25: Creativity and Cognition",
+    "conference_location": "Virtual United Kingdom",
+    "created": 1773709172.207,
+    "doi": "10.1145/3698061.3726924",
+    "dup_sha1": "1a68db2d2cb256c0c65a79e70ab2568b9e5281f9",
+    "folders": [
+      "b9e7796f-95c5-4934-8371-f4cb49db688b"
+    ],
+    "foldersNamed": [
+      "Research Ideation"
+    ],
+    "id_list": [
+      "sha1:905649b7d18fc1d5222af9e427a17bc3c403cde9",
+      "dup_sha1:1a68db2d2cb256c0c65a79e70ab2568b9e5281f9",
+      "doi:10.1145/3698061.3726924",
+      "url:http://dx.doi.org/10.1145/3698061.3726924",
+      "url:https://dl.acm.org/doi/10.1145/3698061.3726924"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "language": "en",
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "735-749",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2025",
+      "month": "6",
+      "day": "23"
+    },
+    "publisher": "ACM",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "905649b7d18fc1d5222af9e427a17bc3c403cde9",
+    "title": "Beyond productivity: Rethinking the impact of creativity support tools",
+    "url": [
+      "http://dx.doi.org/10.1145/3698061.3726924",
+      "https://dl.acm.org/doi/10.1145/3698061.3726924"
+    ]
+  },
+  {
+    "_id": "a5b79335-1244-090a-8f76-3b29c5642a99",
+    "abstract": "The rapid advancement in capabilities of large language models (LLMs) raises a pivotal question: How can LLMs accelerate scientific discovery? This work tackles the crucial first stage of research, generating novel hypotheses. While recent work on automated hypothesis generation focuses on multi-agent frameworks and extending test-time compute, none of the approaches effectively incorporate transparency and steerability through a synergistic Human-in-the-loop (HITL) approach. To address this gap, we introduce IRIS: Interactive Research Ideation System, an open-source platform designed for researchers to leverage LLM-assisted scientific ideation. IRIS incorporates innovative features to enhance ideation, including adaptive test-time compute expansion via Monte Carlo Tree Search (MCTS), fine-grained feedback mechanism, and query-based literature synthesis. Designed to empower researchers with greater control and insight throughout the ideation process. We additionally conduct a user study with researchers across diverse disciplines, validating the effectiveness of our system in enhancing ideation. We open-source our code at https://github.com/Anikethh/IRIS-Interactive-Research-Ideation-System",
+    "address": "Stroudsburg, PA, USA",
+    "archivePrefix": "",
+    "arxivid": "",
+    "attachments": [
+      {
+        "_id": "ac205cbc-d9ac-46fa-9ef3-b5a2028a24da",
+        "article_pdf": 1,
+        "created": 1770925817.167,
+        "filename": "All Papers/G/Garikaparthi et al. 2025 - IRIS - Interactive research ideation system for accelerating scientific discovery.pdf",
+        "filesize": 3778677,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "a5b79335-1244-090a-8f76-3b29c5642a99",
+        "source_filename": "2025.acl-demo.57.pdf",
+        "xor_hash": [
+          "FffCdlYIg997Loc1lpuA0tXaWI8="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Garikaparthi",
+        "first": "Aniketh",
+        "initials": "A",
+        "formatted": "Garikaparthi A"
+      },
+      {
+        "last": "Patwardhan",
+        "first": "Manasi",
+        "initials": "M",
+        "formatted": "Patwardhan M"
+      },
+      {
+        "last": "Vig",
+        "first": "Lovekesh",
+        "initials": "L",
+        "formatted": "Vig L"
+      },
+      {
+        "last": "Cohan",
+        "first": "Arman",
+        "initials": "A",
+        "formatted": "Cohan A"
+      }
+    ],
+    "booktitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.18653/v1/2025.acl-demo.57",
+    "citekey": "Garikaparthi2025-ir",
+    "conference": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+    "conference_location": "Vienna, Austria",
+    "copyright": "http://creativecommons.org/licenses/by/4.0/",
+    "created": 1770925816.299,
+    "doi": "10.18653/v1/2025.acl-demo.57",
+    "dup_sha1": "7f5ea66f0cc9ef672999fd401d44c99d1649248c",
+    "editor": [
+      {
+        "first": "Pushkar",
+        "last": "Mishra",
+        "initials": "P",
+        "formatted": "Mishra P"
+      },
+      {
+        "first": "Smaranda",
+        "last": "Muresan",
+        "initials": "S",
+        "formatted": "Muresan S"
+      },
+      {
+        "first": "Tao",
+        "last": "Yu",
+        "initials": "T",
+        "formatted": "Yu T"
+      }
+    ],
+    "eprint": "",
+    "folders": [],
+    "id_list": [
+      "sha1:c1b08a0bcbe6ec55f1fc3bc64efe11bbbff58431",
+      "dup_sha1:7f5ea66f0cc9ef672999fd401d44c99d1649248c",
+      "doi:10.18653/v1/2025.acl-demo.57",
+      "url:http://dx.doi.org/10.18653/v1/2025.acl-demo.57",
+      "url:https://aclanthology.org/2025.acl-demo.57/",
+      "url:https://aclanthology.org/2025.acl-demo.57",
+      "url:http://arxiv.org/abs/2504.16728",
+      "url:https://aclanthology.org/2025.acl-demo.57.pdf"
+    ],
+    "incomplete": 0,
+    "journal": "",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "needsParsing": 0,
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "592-603",
+    "pdf_restricted": 0,
+    "pdf_url": {
+      "publisher": [
+        "https://aclanthology.org/2025.acl-demo.57.pdf"
+      ],
+      "preprint": [
+        "https://aclanthology.org/2025.acl-demo.57.pdf"
+      ]
+    },
+    "primaryClass": "",
+    "published": {
+      "year": "2025",
+      "month": "4",
+      "day": "23"
+    },
+    "publisher": "Association for Computational Linguistics",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "c1b08a0bcbe6ec55f1fc3bc64efe11bbbff58431",
+    "title": "IRIS: Interactive research ideation system for accelerating scientific discovery",
+    "url": [
+      "https://aclanthology.org/2025.acl-demo.57/",
+      "https://aclanthology.org/2025.acl-demo.57",
+      "https://aclanthology.org/2025.acl-demo.57.pdf",
+      "http://dx.doi.org/10.18653/v1/2025.acl-demo.57",
+      "http://arxiv.org/abs/2504.16728"
+    ]
+  },
+  {
+    "_id": "d7e70a78-db40-00f5-98fd-2a158b234f6b",
+    "abstract": "Recent advances in multi-agent systems (MAS) enable tools for information search and ideation by assigning personas to agents. However, how users can effectively control, steer, and critically evaluate collaboration among multiple domain-expert agents remains underexplored. We present Perspectra, an interactive MAS that visualizes and structures deliberation among LLM agents via a forum-style interface, supporting @-mention to invite targeted agents, threading for parallel exploration, with a real-time mind map for visualizing arguments and rationales. In a within-subjects study with 18 participants, we compared Perspectra to a group-chat baseline as they developed research proposals. Our findings show that Perspectra significantly increased the frequency and depth of critical-thinking behaviors, elicited more interdisciplinary replies, and led to more frequent proposal revisions than the group chat condition. We discuss implications for designing multi-agent tools that scaffold critical thinking by supporting user control over multi-agent adversarial discourse.",
+    "archivePrefix": "arXiv",
+    "arxivid": "2509.20553",
+    "attachments": [
+      {
+        "_id": "7fa3dfc1-ff96-4b5b-abb0-cca2a9748e6a",
+        "article_pdf": 1,
+        "created": 1769623347.003,
+        "filename": "All Papers/L/Liu et al. 2025 - Perspectra - Choosing your experts enhances critical thinking in multi-agent research ideation.pdf",
+        "filesize": 10389996,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "d7e70a78-db40-00f5-98fd-2a158b234f6b",
+        "source_filename": "2509.20553v1.pdf",
+        "xor_hash": [
+          "Dzke/q/7Kl4YydjiWqQXbMar7p4="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Liu",
+        "first": "Yiren",
+        "initials": "Y",
+        "formatted": "Liu Y"
+      },
+      {
+        "last": "Shah",
+        "first": "Viraj",
+        "initials": "V",
+        "formatted": "Shah V"
+      },
+      {
+        "last": "Suh",
+        "first": "Sangho",
+        "initials": "S",
+        "formatted": "Suh S"
+      },
+      {
+        "last": "Siangliulue",
+        "first": "Pao",
+        "initials": "P",
+        "formatted": "Siangliulue P"
+      },
+      {
+        "last": "August",
+        "first": "Tal",
+        "initials": "T",
+        "formatted": "August T"
+      },
+      {
+        "last": "Huang",
+        "first": "Yun",
+        "initials": "Y",
+        "formatted": "Huang Y"
+      }
+    ],
+    "citekey": "Liu2025-vw",
+    "copyright": "http://creativecommons.org/licenses/by/4.0/",
+    "created": 1769623345.7640002,
+    "dup_sha1": "afeb780719d6a98dd546416319b00f33cd466549",
+    "eprint": "2509.20553",
+    "folders": [
+      "b9e7796f-95c5-4934-8371-f4cb49db688b"
+    ],
+    "foldersNamed": [
+      "Research Ideation"
+    ],
+    "id_list": [
+      "sha1:4ac3aca641f6c58d5ef52280713b06d23b824423",
+      "dup_sha1:afeb780719d6a98dd546416319b00f33cd466549",
+      "arxivid:2509.20553",
+      "url:http://arxiv.org/abs/2509.20553"
+    ],
+    "incomplete": 0,
+    "journal": "arXiv [cs.HC]",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 0,
+    "primaryClass": "cs.HC",
+    "published": {
+      "year": "2025",
+      "month": "9",
+      "day": "24"
+    },
+    "pubtype": "PP_PREPRINT",
+    "sha1": "4ac3aca641f6c58d5ef52280713b06d23b824423",
+    "title": "Perspectra: Choosing your experts enhances critical thinking in multi-agent research ideation",
+    "url": [
+      "http://arxiv.org/abs/2509.20553"
+    ]
+  },
+  {
+    "_id": "5cc1d7ca-7c48-08a9-b51c-fbea5f9f447f",
+    "abstract": "Haoyang Su, Renqi Chen, Shixiang Tang, Zhenfei Yin, Xinzhe Zheng, Jinzhe Li, Biqing Qi, Qi Wu, Hui Li, Wanli Ouyang, Philip Torr, Bowen Zhou, Nanqing Dong. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.",
+    "accessed": {
+      "year": "2026",
+      "month": "1",
+      "day": "23"
+    },
+    "address": "Stroudsburg, PA, USA",
+    "attachments": [
+      {
+        "_id": "280172c2-9e1c-4d2d-9944-1de4b4803a8d",
+        "article_pdf": 1,
+        "created": 1769190179.6859999,
+        "filename": "All Papers/S/Su et al. 2025 - Many heads are better than one - Improved scientific idea generation by A LLM-based multi-agent system.pdf",
+        "filesize": 1580089,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "5cc1d7ca-7c48-08a9-b51c-fbea5f9f447f",
+        "source_filename": "2025.acl-long.1368.pdf",
+        "xor_hash": [
+          "cN+rkRM1HYmmE8yWL7KrHQqVR2w=",
+          "ix71n3CQ8h4Ha3NaVw6trVysY3A="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Su",
+        "first": "Haoyang",
+        "initials": "H",
+        "formatted": "Su H"
+      },
+      {
+        "last": "Chen",
+        "first": "Renqi",
+        "initials": "R",
+        "formatted": "Chen R"
+      },
+      {
+        "last": "Tang",
+        "first": "Shixiang",
+        "initials": "S",
+        "formatted": "Tang S"
+      },
+      {
+        "last": "Yin",
+        "first": "Zhenfei",
+        "initials": "Z",
+        "formatted": "Yin Z"
+      },
+      {
+        "last": "Zheng",
+        "first": "Xinzhe",
+        "initials": "X",
+        "formatted": "Zheng X"
+      },
+      {
+        "last": "Li",
+        "first": "Jinzhe",
+        "initials": "J",
+        "formatted": "Li J"
+      },
+      {
+        "last": "Qi",
+        "first": "Biqing",
+        "initials": "B",
+        "formatted": "Qi B"
+      },
+      {
+        "last": "Wu",
+        "first": "Qi",
+        "initials": "Q",
+        "formatted": "Wu Q"
+      },
+      {
+        "last": "Li",
+        "first": "Hui",
+        "initials": "H",
+        "formatted": "Li H"
+      },
+      {
+        "last": "Ouyang",
+        "first": "Wanli",
+        "initials": "W",
+        "formatted": "Ouyang W"
+      },
+      {
+        "last": "Torr",
+        "first": "Philip",
+        "initials": "P",
+        "formatted": "Torr P"
+      },
+      {
+        "last": "Zhou",
+        "first": "Bowen",
+        "initials": "B",
+        "formatted": "Zhou B"
+      },
+      {
+        "last": "Dong",
+        "first": "Nanqing",
+        "initials": "N",
+        "formatted": "Dong N"
+      }
+    ],
+    "booktitle": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.18653/v1/2025.acl-long.1368",
+    "citekey": "Su2025-wr",
+    "conference": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "conference_location": "Vienna, Austria",
+    "created": 1769190179.02,
+    "doi": "10.18653/v1/2025.acl-long.1368",
+    "dup_sha1": "732f96efd6dd0b70a287ed59e7c40ce003f6b870",
+    "folders": [],
+    "id_list": [
+      "sha1:8ecbbcd35d803b0ab35a2a84fc36a116a8deeeb4",
+      "dup_sha1:732f96efd6dd0b70a287ed59e7c40ce003f6b870",
+      "doi:10.18653/v1/2025.acl-long.1368",
+      "url:http://dx.doi.org/10.18653/v1/2025.acl-long.1368",
+      "url:https://aclanthology.org/2025.acl-long.1368/",
+      "url:https://aclanthology.org/2025.acl-long.1368",
+      "url:https://aclanthology.org/2025.acl-long.1368.pdf"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "28201-28240",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2025"
+    },
+    "publisher": "Association for Computational Linguistics",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "8ecbbcd35d803b0ab35a2a84fc36a116a8deeeb4",
+    "title": "Many heads are better than one: Improved scientific idea generation by A LLM-based multi-agent system",
+    "url": [
+      "http://dx.doi.org/10.18653/v1/2025.acl-long.1368",
+      "https://aclanthology.org/2025.acl-long.1368/",
+      "https://aclanthology.org/2025.acl-long.1368",
+      "https://aclanthology.org/2025.acl-long.1368.pdf"
+    ]
+  },
+  {
+    "_id": "122052f6-cfcf-0639-a73d-b9e5e0204471",
+    "accessed": {
+      "year": "2026",
+      "month": "1",
+      "day": "15"
+    },
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "3e779db5-bc2f-46a7-afba-cf4878555592",
+        "article_pdf": 1,
+        "created": 1768508277.5159998,
+        "filename": "All Papers/B/Bae et al. 2020 - Spinneret - Aiding creative ideation through non-obvious concept associations.pdf",
+        "filesize": 6436472,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "122052f6-cfcf-0639-a73d-b9e5e0204471",
+        "source_filename": "3313831.3376746.pdf",
+        "xor_hash": [
+          "XxDb0zNropappIK+/pJR98vE45o="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Bae",
+        "first": "Suyun Sandra",
+        "initials": "SS",
+        "formatted": "Bae SS"
+      },
+      {
+        "last": "Kwon",
+        "first": "Oh-Hyun",
+        "initials": "OH",
+        "formatted": "Kwon OH"
+      },
+      {
+        "last": "Chandrasegaran",
+        "first": "Senthil",
+        "initials": "S",
+        "formatted": "Chandrasegaran S"
+      },
+      {
+        "last": "Ma",
+        "first": "Kwan-Liu",
+        "initials": "KL",
+        "formatted": "Ma KL"
+      }
+    ],
+    "booktitle": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3313831.3376746",
+    "citekey": "Bae2020-nw",
+    "conference": "CHI '20: CHI Conference on Human Factors in Computing Systems",
+    "conference_location": "Honolulu HI USA",
+    "created": 1768508274.668,
+    "doi": "10.1145/3313831.3376746",
+    "dup_sha1": "f4b190ca722b9b4a9b6b05f37f2d5a21d3700aff",
+    "folders": [],
+    "id_list": [
+      "sha1:d25fa3649679e54f4d3952b6d88485216b36a9bb",
+      "dup_sha1:f4b190ca722b9b4a9b6b05f37f2d5a21d3700aff",
+      "doi:10.1145/3313831.3376746",
+      "url:http://dx.doi.org/10.1145/3313831.3376746",
+      "url:https://dl.acm.org/doi/10.1145/3313831.3376746",
+      "url:https://dl.acm.org/doi/abs/10.1145/3313831.3376746"
+    ],
+    "incomplete": 0,
+    "isbn": "9781450367080",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "language": "en",
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2020",
+      "month": "4",
+      "day": "21"
+    },
+    "publisher": "ACM",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "d25fa3649679e54f4d3952b6d88485216b36a9bb",
+    "title": "Spinneret: Aiding creative ideation through non-obvious concept associations",
+    "url": [
+      "http://dx.doi.org/10.1145/3313831.3376746",
+      "https://dl.acm.org/doi/10.1145/3313831.3376746",
+      "https://dl.acm.org/doi/abs/10.1145/3313831.3376746"
+    ]
+  },
+  {
+    "_id": "f9fe10cc-c277-0b55-a0bb-f0556fa6391a",
+    "abstract": "Jinheon Baek, Sujay Kumar Jauhar, Silviu Cucerzan, Sung Ju Hwang. Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 2025.",
+    "accessed": {
+      "month": "11",
+      "day": "17",
+      "year": "2025"
+    },
+    "address": "Stroudsburg, PA, USA",
+    "attachments": [
+      {
+        "_id": "fb79a54d-b22f-405f-809b-5eaea1388db4",
+        "article_pdf": 1,
+        "created": 1763408372.646,
+        "filename": "All Papers/B/Baek et al. 2025 - ResearchAgent - Iterative research idea generation over scientific literature with large language models.pdf",
+        "filesize": 679497,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "f9fe10cc-c277-0b55-a0bb-f0556fa6391a",
+        "source_filename": "2025.naacl-long.342.pdf",
+        "xor_hash": [
+          "oj3hjHcYkCNjg26uYAZfRi8ICM4="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "initials": "J",
+        "first": "Jinheon",
+        "formatted": "Baek J",
+        "last": "Baek"
+      },
+      {
+        "initials": "SK",
+        "first": "Sujay Kumar",
+        "formatted": "Jauhar SK",
+        "last": "Jauhar"
+      },
+      {
+        "initials": "S",
+        "first": "Silviu",
+        "formatted": "Cucerzan S",
+        "last": "Cucerzan"
+      },
+      {
+        "initials": "SJ",
+        "first": "Sung Ju",
+        "formatted": "Hwang SJ",
+        "last": "Hwang"
+      }
+    ],
+    "booktitle": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.18653/v1/2025.naacl-long.342",
+    "citekey": "Baek2025-ew",
+    "conference": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "conference_location": "Albuquerque, New Mexico",
+    "created": 1763408371.859,
+    "doi": "10.18653/v1/2025.naacl-long.342",
+    "dup_sha1": "a8a90db738291e00f1b3c0983930e7877f275677",
+    "folders": [
+      "b9e7796f-95c5-4934-8371-f4cb49db688b"
+    ],
+    "foldersNamed": [
+      "Research Ideation"
+    ],
+    "id_list": [
+      "sha1:4ceb789c94213a3c54f5ceb4688e912e345fee66",
+      "dup_sha1:a8a90db738291e00f1b3c0983930e7877f275677",
+      "doi:10.18653/v1/2025.naacl-long.342",
+      "url:http://dx.doi.org/10.18653/v1/2025.naacl-long.342",
+      "url:https://aclanthology.org/2025.naacl-long.342/",
+      "url:https://aclanthology.org/2025.naacl-long.342",
+      "url:https://aclanthology.org/2025.naacl-long.342.pdf"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "6709-6738",
+    "pdf_restricted": 0,
+    "published": {
+      "year": "2025"
+    },
+    "publisher": "Association for Computational Linguistics",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "4ceb789c94213a3c54f5ceb4688e912e345fee66",
+    "title": "ResearchAgent: Iterative research idea generation over scientific literature with large language models",
+    "url": [
+      "http://dx.doi.org/10.18653/v1/2025.naacl-long.342",
+      "https://aclanthology.org/2025.naacl-long.342/",
+      "https://aclanthology.org/2025.naacl-long.342",
+      "https://aclanthology.org/2025.naacl-long.342.pdf"
+    ]
+  },
+  {
+    "_id": "0ad12287-b824-0798-bf84-52dd1bb7ecbc",
+    "accessed": {
+      "month": "9",
+      "day": "6",
+      "year": "2025"
+    },
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "3ae51539-18da-49ac-a526-4ec1c9c70df5",
+        "article_pdf": 1,
+        "created": 1757213666.651,
+        "filename": "All Papers/L/Liu et al. 2025 - PersonaFlow - Designing LLM-simulated expert perspectives for enhanced research ideation.pdf",
+        "filesize": 7644404,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "0ad12287-b824-0798-bf84-52dd1bb7ecbc",
+        "source_filename": "3715336.3735789.pdf"
+      }
+    ],
+    "author": [
+      {
+        "initials": "Y",
+        "first": "Yiren",
+        "formatted": "Liu Y",
+        "orcid": "0000-0003-1507-0303",
+        "last": "Liu"
+      },
+      {
+        "initials": "P",
+        "first": "Pranav",
+        "formatted": "Sharma P",
+        "orcid": "0009-0004-9714-332X",
+        "last": "Sharma"
+      },
+      {
+        "initials": "M",
+        "first": "Mehul",
+        "formatted": "Oswal M",
+        "orcid": "0009-0003-3412-9013",
+        "last": "Oswal"
+      },
+      {
+        "initials": "H",
+        "first": "Haijun",
+        "formatted": "Xia H",
+        "orcid": "0000-0002-9425-0881",
+        "last": "Xia"
+      },
+      {
+        "initials": "Y",
+        "first": "Yun",
+        "formatted": "Huang Y",
+        "orcid": "0000-0003-0399-8032",
+        "last": "Huang"
+      }
+    ],
+    "booktitle": "Proceedings of the 2025 ACM Designing Interactive Systems Conference",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3715336.3735789",
+    "citekey": "Liu2025-vx",
+    "conference": "DIS '25: Designing Interactive Systems Conference",
+    "conference_location": "Madeira Portugal",
+    "copyright": "http://www.acm.org/publications/policies/copyright_policy#Background",
+    "created": 1757213664.9220002,
+    "doi": "10.1145/3715336.3735789",
+    "dup_sha1": "c37f1a5887fc098d87e69ae817f43b860c96f9cb",
+    "folders": [],
+    "id_list": [
+      "sha1:3743aa8a11d98823b09442ce15667d88a3c4e5db",
+      "dup_sha1:c37f1a5887fc098d87e69ae817f43b860c96f9cb",
+      "doi:10.1145/3715336.3735789",
+      "url:http://dx.doi.org/10.1145/3715336.3735789",
+      "url:https://dl.acm.org/doi/full/10.1145/3715336.3735789",
+      "url:https://dl.acm.org/doi/10.1145/3715336.3735789"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "language": "en",
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "506-534",
+    "pdf_restricted": 0,
+    "published": {
+      "month": "7",
+      "day": "5",
+      "year": "2025"
+    },
+    "publisher": "ACM",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "3743aa8a11d98823b09442ce15667d88a3c4e5db",
+    "title": "PersonaFlow: Designing LLM-simulated expert perspectives for enhanced research ideation",
+    "url": [
+      "http://dx.doi.org/10.1145/3715336.3735789",
+      "https://dl.acm.org/doi/10.1145/3715336.3735789",
+      "https://dl.acm.org/doi/full/10.1145/3715336.3735789"
+    ]
+  },
+  {
+    "_id": "24106535-460e-0684-8df8-3a9b841f446c",
+    "abstract": "Generative artificial intelligence (GenAI) can rapidly produce large and diverse volumes of content. This lends to it a quality of creativity which can be empowering in the early stages of design. In seeking to understand how creative ways to address practical issues can be conceived between humans and GenAI, we conducted a rapid ideation workshop with 21 participants where they used a large language model (LLM) to brainstorm potential solutions and evaluate them. We found that the LLM produced a greater variety of ideas that were of high quality, though not necessarily of higher quality than human-generated ideas. Participants typically prompted in a straightforward manner with concise instructions. We also observed two collaborative dynamics with the LLM fulfilling a consulting role or an assisting role depending on the goals of the users. Notably, we observed an atypical anti-collaboration dynamic where participants used an antagonistic approach to prompt the LLM.",
+    "archivePrefix": "arXiv",
+    "arxivid": "2403.12928",
+    "attachments": [
+      {
+        "_id": "3ab0aeb2-ff86-4915-b40e-39e8a3d71c61",
+        "article_pdf": 1,
+        "created": 1756241343.978,
+        "filename": "All Papers/L/Lim and Perrault 2024 - Rapid AIdeation - Generating ideas with the self and in collaboration with large language models.pdf",
+        "filesize": 1234398,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "24106535-460e-0684-8df8-3a9b841f446c",
+        "source_filename": "2403.12928v1.pdf"
+      }
+    ],
+    "author": [
+      {
+        "initials": "G",
+        "first": "Gionnieve",
+        "formatted": "Lim G",
+        "last": "Lim"
+      },
+      {
+        "initials": "ST",
+        "first": "Simon T",
+        "formatted": "Perrault ST",
+        "last": "Perrault"
+      }
+    ],
+    "citekey": "Lim2024-ei",
+    "copyright": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "created": 1756241343.607,
+    "dup_sha1": "19c8117d50830615717788ba1b502441ea1b4ac4",
+    "eprint": "2403.12928",
+    "folders": [],
+    "id_list": [
+      "sha1:d1748a5b650de35b7ccebe48dfa7763b6af5cb36",
+      "dup_sha1:19c8117d50830615717788ba1b502441ea1b4ac4",
+      "arxivid:2403.12928",
+      "url:http://arxiv.org/abs/2403.12928"
+    ],
+    "incomplete": 0,
+    "journal": "arXiv [cs.HC]",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 0,
+    "primaryClass": "cs.HC",
+    "published": {
+      "month": "3",
+      "day": "19",
+      "year": "2024"
+    },
+    "pubtype": "PP_PREPRINT",
+    "sha1": "d1748a5b650de35b7ccebe48dfa7763b6af5cb36",
+    "title": "Rapid AIdeation: Generating ideas with the self and in collaboration with large language models",
+    "url": [
+      "http://arxiv.org/abs/2403.12928"
+    ]
+  },
+  {
+    "_id": "7964f96a-f9d2-0365-b11b-f8314f553c9e",
+    "accessed": {
+      "month": "5",
+      "day": "19",
+      "year": "2025"
+    },
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "3305e333-7273-4167-877f-bc45083d78a5",
+        "article_pdf": 1,
+        "created": 1747682181.5519998,
+        "filename": "All Papers/K/Kumar et al. 2025 - Human creativity in the age of LLMs - Randomized experiments on divergent and convergent thinking.pdf",
+        "filesize": 5195670,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "7964f96a-f9d2-0365-b11b-f8314f553c9e",
+        "source_filename": "3706598.3714198.pdf"
+      }
+    ],
+    "author": [
+      {
+        "initials": "H",
+        "first": "Harsh",
+        "formatted": "Kumar H",
+        "orcid": "0000-0003-2878-3986",
+        "last": "Kumar"
+      },
+      {
+        "initials": "J",
+        "first": "Jonathan",
+        "formatted": "Vincentius J",
+        "orcid": "0009-0007-2443-1576",
+        "last": "Vincentius"
+      },
+      {
+        "initials": "E",
+        "first": "Ewan",
+        "formatted": "Jordan E",
+        "orcid": "0009-0001-3176-5036",
+        "last": "Jordan"
+      },
+      {
+        "initials": "A",
+        "first": "Ashton",
+        "formatted": "Anderson A",
+        "orcid": "0000-0003-3089-6883",
+        "last": "Anderson"
+      }
+    ],
+    "booktitle": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3706598.3714198",
+    "citekey": "Kumar2025-og",
+    "conference": "CHI 2025: CHI Conference on Human Factors in Computing Systems",
+    "conference_location": "Yokohama Japan",
+    "created": 1747682180.6139998,
+    "doi": "10.1145/3706598.3714198",
+    "dup_sha1": "196b5ac9a68c1d536030490b2c9a8fa468ed45cf",
+    "folders": [],
+    "id_list": [
+      "sha1:c7b3bb8d4c3e6803d517a1b4d8c7148b61bb8389",
+      "dup_sha1:196b5ac9a68c1d536030490b2c9a8fa468ed45cf",
+      "doi:10.1145/3706598.3714198",
+      "url:http://dx.doi.org/10.1145/3706598.3714198",
+      "url:https://dl.acm.org/doi/full/10.1145/3706598.3714198",
+      "url:https://dl.acm.org/doi/10.1145/3706598.3714198"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "language": "en",
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "1-18",
+    "pdf_restricted": 0,
+    "published": {
+      "month": "4",
+      "day": "26",
+      "year": "2025"
+    },
+    "publisher": "ACM",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "c7b3bb8d4c3e6803d517a1b4d8c7148b61bb8389",
+    "title": "Human creativity in the age of LLMs: Randomized experiments on divergent and convergent thinking",
+    "url": [
+      "https://dl.acm.org/doi/10.1145/3706598.3714198",
+      "http://dx.doi.org/10.1145/3706598.3714198",
+      "https://dl.acm.org/doi/full/10.1145/3706598.3714198"
+    ]
+  },
+  {
+    "_id": "61c5ea92-b5c4-0876-b17b-217f5a64613a",
+    "abstract": "Large language models are increasingly applied in real-world scenarios, including research and education. These models, however, come with well-known ethical issues, which may manifest in unexpected ways in human-computer interaction research due to the ...",
+    "accessed": {
+      "month": "5",
+      "day": "10",
+      "year": "2025"
+    },
+    "author": [
+      {
+        "formatted": "KapaniaShivani",
+        "collective": "KapaniaShivani"
+      },
+      {
+        "formatted": "WangRuiyi",
+        "collective": "WangRuiyi"
+      },
+      {
+        "initials": "L",
+        "first": "Litoby",
+        "formatted": "Jia-Jun L",
+        "last": "Jia-Jun"
+      },
+      {
+        "formatted": "LiTianshi",
+        "collective": "LiTianshi"
+      },
+      {
+        "formatted": "ShenHong",
+        "collective": "ShenHong"
+      }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3711000",
+    "citekey": "KapaniaShivani2025-wu",
+    "created": 1746907030.394,
+    "doi": "10.1145/3711000",
+    "dup_sha1": "ac351e272b37572d9d2e791a5e4c04b99df5509a",
+    "folders": [],
+    "id_list": [
+      "sha1:e0aad5467c37a56e30ddc597fffd2c802260781b",
+      "dup_sha1:ac351e272b37572d9d2e791a5e4c04b99df5509a",
+      "doi:10.1145/3711000",
+      "url:http://dx.doi.org/10.1145/3711000",
+      "url:https://dl.acm.org/doi/10.1145/3711000"
+    ],
+    "incomplete": 0,
+    "issn": "2573-0142",
+    "journal": "Proc. ACM Hum. Comput. Interact.",
+    "journalfull": "Proceedings of the ACM on human-computer interaction",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "language": "en",
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 1,
+    "published": {
+      "month": "5",
+      "day": "2",
+      "year": "2025"
+    },
+    "publisher": "ACMPUB27New York, NY, USA",
+    "pubtype": "PP_ARTICLE",
+    "sha1": "e0aad5467c37a56e30ddc597fffd2c802260781b",
+    "title": "'I'm categorizing LLM as a productivity tool': Examining ethics of LLM use in HCI research practices",
+    "url": [
+      "https://dl.acm.org/doi/10.1145/3711000",
+      "http://dx.doi.org/10.1145/3711000"
+    ]
+  },
+  {
+    "_id": "f929e5cb-b332-02d7-9dd7-47f95b1d1328",
+    "abstract": "Generative AI (GenAI) tools are radically expanding the scope and capability of automation in knowledge work such as academic research. While promising for augmenting cognition and streamlining processes, AI-assisted research tools may also increase automation bias and hinder critical thinking. To examine recent developments, we surveyed publications from leading HCI venues over the past three years, closely analyzing thirteen tools to better understand the novel capabilities of these AI-assisted systems and the design spaces they enable: seven employing traditional AI or customized transformer-based approaches, and six integrating open-access large language models (LLMs). Our analysis characterizes the emerging design space, distinguishes between tools focused on workflow mimicry versus generative exploration, and yields four critical design recommendations to guide the development of future systems that foster meaningful cognitive engagement: providing user agency and control, differentiating divergent/convergent thinking support, ensuring adaptability, and prioritizing transparency/accuracy. This work discusses how these insights signal a shift from mere workflow replication towards generative co-creation, presenting new opportunities for the community to craft intuitive, AI-driven research interfaces and interactions.",
+    "archivePrefix": "arXiv",
+    "arxivid": "2502.16291",
+    "attachments": [
+      {
+        "_id": "0708bdd8-8a13-45bc-998b-b9797dd4b0e2",
+        "article_pdf": 1,
+        "created": 1740768122.313,
+        "filename": "All Papers/Y/Ye et al. 2025 - The design space of recent AI-assisted research tools for ideation, sensemaking, and scientific creativity.pdf",
+        "filesize": 156917,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "f929e5cb-b332-02d7-9dd7-47f95b1d1328",
+        "source_filename": "2502.16291v1.pdf"
+      }
+    ],
+    "author": [
+      {
+        "last": "Ye",
+        "first": "Runlong",
+        "initials": "R",
+        "formatted": "Ye R"
+      },
+      {
+        "last": "Varona",
+        "first": "Matthew",
+        "initials": "M",
+        "formatted": "Varona M"
+      },
+      {
+        "last": "Huang",
+        "first": "Oliver",
+        "initials": "O",
+        "formatted": "Huang O"
+      },
+      {
+        "last": "Lee",
+        "first": "Patrick Yung Kang",
+        "initials": "PY",
+        "formatted": "Lee PY"
+      },
+      {
+        "last": "Liut",
+        "first": "Michael",
+        "initials": "M",
+        "formatted": "Liut M"
+      },
+      {
+        "last": "Nobre",
+        "first": "Carolina",
+        "initials": "C",
+        "formatted": "Nobre C"
+      }
+    ],
+    "citekey": "Ye2025-us",
+    "copyright": "http://creativecommons.org/licenses/by/4.0/",
+    "created": 1740768121.843,
+    "dup_sha1": "347e409ee8f4c60a98bd6aa8393f75123bf6e421",
+    "eprint": "2502.16291",
+    "folders": [],
+    "id_list": [
+      "sha1:06abfb6708bf2a8104f7f191b0e43488c281e50f",
+      "dup_sha1:347e409ee8f4c60a98bd6aa8393f75123bf6e421",
+      "arxivid:2502.16291",
+      "url:http://arxiv.org/abs/2502.16291"
+    ],
+    "incomplete": 0,
+    "journal": "arXiv [cs.HC]",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 0,
+    "pdf_url": {
+      "publisher": [
+        "https://arxiv.org/pdf/2502.16291.pdf"
+      ],
+      "preprint": []
+    },
+    "primaryClass": "cs.HC",
+    "published": {
+      "year": "2025",
+      "month": "2",
+      "day": "22"
+    },
+    "pubtype": "PP_PREPRINT",
+    "sha1": "06abfb6708bf2a8104f7f191b0e43488c281e50f",
+    "title": "The design space of recent AI-assisted research tools for ideation, sensemaking, and scientific creativity",
+    "url": [
+      "http://arxiv.org/abs/2502.16291"
+    ]
+  },
+  {
+    "_id": "e4a0345e-b90d-06a3-be7e-e7752ce198b9",
+    "abstract": "The scientific ideation process often involves blending salient aspects of existing papers to create new ideas - a framework known as facet-based ideation. We contribute Scideator, the first human-LLM system for facet-based scientific ideation. Starting from a user-provided set of scientific papers, Scideator extracts key facets -- purposes, mechanisms, and evaluations -- from these and related papers, allowing users to explore the idea space by interactively recombining facets to synthesize inventive ideas. Scideator is driven by three design choices: (1) human-in-the-loop facet recombination, in which users select facets from retrieved papers and the system generates ideas by finding analogies across them via the Faceted Idea Generator module; (2) distance-controlled retrieval via the Analogous Paper Facet Finder module, which surfaces papers from the same topic to entirely different subareas to provide a spectrum of creative directions; and (3) facet-based novelty verification via the Idea Novelty Checker module, a retrieve-then-rerank pipeline that evaluates idea originality using facets. In a user study with computer science researchers, Scideator provided significantly more creativity support than a baseline using the same backbone LLM without our facet-based modules, particularly in idea exploration and expressiveness. Participants' favorite ideas more often included facets selected by themselves rather than the LLM, and participants used fewer free-text instructions with Scideator, indicating a preference for facet-level steering over prompting. Finally, re-ranking papers by facet matching rather than general relevance improved novelty classification accuracy from 13.79% to 89.66%.",
+    "archivePrefix": "arXiv",
+    "arxivid": "2409.14634",
+    "attachments": [
+      {
+        "_id": "e1f2706a-7ac9-477a-80e9-cb1fe976b72e",
+        "article_pdf": 1,
+        "created": 1746473938.3869998,
+        "filename": "All Papers/R/Radensky et al. 2026 - Human-LLM compound system for scientific ideation through facet recombination and novelty evaluation.pdf",
+        "filesize": 7763435,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "e4a0345e-b90d-06a3-be7e-e7752ce198b9",
+        "source_filename": "2409.14634v4.pdf",
+        "xor_hash": [
+          "mpOsr5UdOtLJVA2eHmgr+PixJFY=",
+          "NNpki6yCTBgNvRCh23USL3Q7hIg=",
+          "PFTGKYseiNFfXMUeilSWa187KAk=",
+          "vi8O0UXoclfNLZ+7fRwrJDpBzi4=",
+          "hSM33ffbVzZxQyShdXeS1mnMERY=",
+          "p88nVA5dSDJwFIuU5NGVePGqZ1c="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "last": "Radensky",
+        "first": "Marissa",
+        "initials": "M",
+        "formatted": "Radensky M"
+      },
+      {
+        "last": "Shahid",
+        "first": "Simra",
+        "initials": "S",
+        "formatted": "Shahid S"
+      },
+      {
+        "last": "Fok",
+        "first": "Raymond",
+        "initials": "R",
+        "formatted": "Fok R"
+      },
+      {
+        "last": "Siangliulue",
+        "first": "Pao",
+        "initials": "P",
+        "formatted": "Siangliulue P"
+      },
+      {
+        "last": "Hope",
+        "first": "Tom",
+        "initials": "T",
+        "formatted": "Hope T"
+      },
+      {
+        "last": "Weld",
+        "first": "Daniel S",
+        "initials": "DS",
+        "formatted": "Weld DS"
+      }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.48550/arXiv.2409.14634",
+    "citekey": "Radensky2026-mi",
+    "copyright": "http://creativecommons.org/licenses/by/4.0/",
+    "created": 1738088302.5100002,
+    "doi": "10.48550/arXiv.2409.14634",
+    "dup_sha1": "93153ccb45385f7670435d16c3f84cb5026516d0",
+    "eprint": "2409.14634",
+    "folders": [
+      "3257cd9d-b359-4bf1-8230-64b91f95a11e",
+      "b9e7796f-95c5-4934-8371-f4cb49db688b"
+    ],
+    "foldersNamed": [
+      "[Project] Research ideation",
+      "Research Ideation"
+    ],
+    "id_list": [
+      "sha1:6986713fc7b5940907d611a6f8be972a48920068",
+      "dup_sha1:93153ccb45385f7670435d16c3f84cb5026516d0",
+      "arxivid:2409.14634",
+      "doi:10.48550/arXiv.2409.14634",
+      "url:http://dx.doi.org/10.48550/arXiv.2409.14634",
+      "url:http://arxiv.org/abs/2409.14634"
+    ],
+    "incomplete": 0,
+    "journal": "arXiv [cs.HC]",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 0,
+    "pdf_url": {
+      "publisher": [
+        "https://arxiv.org/pdf/2409.14634.pdf"
+      ],
+      "preprint": []
+    },
+    "primaryClass": "cs.HC",
+    "published": {
+      "year": "2026",
+      "month": "3",
+      "day": "2"
+    },
+    "pubtype": "PP_PREPRINT",
+    "sha1": "6986713fc7b5940907d611a6f8be972a48920068",
+    "title": "Human-LLM compound system for scientific ideation through facet recombination and novelty evaluation",
+    "url": [
+      "http://arxiv.org/abs/2409.14634",
+      "http://dx.doi.org/10.48550/arXiv.2409.14634"
+    ]
+  },
+  {
+    "_id": "1fec193e-d653-039a-bb3d-bdb63d7759d4",
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "4fdce634-0c80-4a78-b5cf-4b3cc225dea1",
+        "article_pdf": 1,
+        "created": 1737654169.36,
+        "filename": "All Papers/L/Lee et al. 2024 - PaperWeaver - Enriching topical paper alerts by contextualizing recommended papers with user-collected papers.pdf",
+        "filesize": 3803891,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "1fec193e-d653-039a-bb3d-bdb63d7759d4",
+        "source_filename": "3613904.3642196.pdf"
+      }
+    ],
+    "author": [
+      {
+        "initials": "Y",
+        "first": "Yoonjoo",
+        "orcid": "0000-0001-7491-986X",
+        "formatted": "Lee Y",
+        "last": "Lee"
+      },
+      {
+        "initials": "HB",
+        "first": "Hyeonsu B",
+        "orcid": "0000-0002-1990-2050",
+        "formatted": "Kang HB",
+        "last": "Kang"
+      },
+      {
+        "initials": "M",
+        "first": "Matt",
+        "orcid": "0000-0002-9984-1277",
+        "formatted": "Latzke M",
+        "last": "Latzke"
+      },
+      {
+        "initials": "J",
+        "first": "Juho",
+        "orcid": "0000-0001-6348-4127",
+        "formatted": "Kim J",
+        "last": "Kim"
+      },
+      {
+        "initials": "J",
+        "first": "Jonathan",
+        "orcid": "0000-0001-5460-9047",
+        "formatted": "Bragg J",
+        "last": "Bragg"
+      },
+      {
+        "initials": "JC",
+        "first": "Joseph Chee",
+        "orcid": "0000-0002-0798-4351",
+        "formatted": "Chang JC",
+        "last": "Chang"
+      },
+      {
+        "initials": "P",
+        "first": "Pao",
+        "orcid": "0009-0006-8042-885X",
+        "formatted": "Siangliulue P",
+        "last": "Siangliulue"
+      }
+    ],
+    "booktitle": "Proceedings of the CHI Conference on Human Factors in Computing Systems",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3613904.3642196",
+    "citekey": "Lee2024-bb",
+    "conference": "CHI '24: CHI Conference on Human Factors in Computing Systems",
+    "conference_location": "Honolulu HI USA",
+    "created": 1737654168.6269999,
+    "doi": "10.1145/3613904.3642196",
+    "dup_sha1": "2e1171e19f11054608abc79f09189aab4469c763",
+    "folders": [
+      "3257cd9d-b359-4bf1-8230-64b91f95a11e"
+    ],
+    "foldersNamed": [
+      "[Project] Research ideation"
+    ],
+    "id_list": [
+      "sha1:4b236715786a35a4888e884b604fcd071e8584d5",
+      "dup_sha1:2e1171e19f11054608abc79f09189aab4469c763",
+      "doi:10.1145/3613904.3642196",
+      "url:http://dx.doi.org/10.1145/3613904.3642196",
+      "url:https://dl.acm.org/doi/10.1145/3613904.3642196",
+      "url:https://dl.acm.org/doi/pdf/10.1145/3613904.3642196"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "1-19",
+    "pdf_restricted": 0,
+    "published": {
+      "month": "5",
+      "day": "11",
+      "year": "2024"
+    },
+    "publisher": "ACM",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "4b236715786a35a4888e884b604fcd071e8584d5",
+    "title": "PaperWeaver: Enriching topical paper alerts by contextualizing recommended papers with user-collected papers",
+    "url": [
+      "https://dl.acm.org/doi/pdf/10.1145/3613904.3642196",
+      "https://dl.acm.org/doi/10.1145/3613904.3642196",
+      "http://dx.doi.org/10.1145/3613904.3642196"
+    ]
+  },
+  {
+    "_id": "7135f783-dfe7-0bcb-8062-f670469c956b",
+    "abstract": "Analogies have been central to creative problem-solving throughout the history of science and technology. As the number of scientific articles continues to increase exponentially, there is a growing opportunity for finding diverse solutions to existing problems. However, realizing this potential requires the development of a means for searching through a large corpus that goes beyond surface matches and simple keywords. Here we contribute the first end-to-end system for analogical search on scientific articles and evaluate its effectiveness with scientists’ own problems. Using a human-in-the-loop AI system as a probe we find that our system facilitates creative ideation, and that ideation success is mediated by an intermediate level of matching on the problem abstraction (i.e., high versus low). We also demonstrate a fully automated AI search engine that achieves a similar accuracy with the human-in-the-loop system. We conclude with design implications for enabling automated analogical inspiration engines to accelerate scientific innovation.",
+    "attachments": [
+      {
+        "_id": "6d2082f7-3c0c-415c-af75-eb022b6fc3df",
+        "article_pdf": 1,
+        "created": 1737652121.4989998,
+        "filename": "All Papers/K/Kang et al. 2022 - Augmenting scientific creativity with an analogical search engine.pdf",
+        "filesize": 5136497,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "7135f783-dfe7-0bcb-8062-f670469c956b",
+        "source_filename": "3530013.pdf"
+      }
+    ],
+    "author": [
+      {
+        "last": "Kang",
+        "first": "Hyeonsu B",
+        "orcid": "0000-0002-1990-2050",
+        "initials": "HB",
+        "formatted": "Kang HB"
+      },
+      {
+        "last": "Qian",
+        "first": "Xin",
+        "orcid": "0000-0001-6436-2690",
+        "initials": "X",
+        "formatted": "Qian X"
+      },
+      {
+        "last": "Hope",
+        "first": "Tom",
+        "orcid": "0000-0003-1232-3635",
+        "initials": "T",
+        "formatted": "Hope T"
+      },
+      {
+        "last": "Shahaf",
+        "first": "Dafna",
+        "orcid": "0000-0003-3261-0818",
+        "initials": "D",
+        "formatted": "Shahaf D"
+      },
+      {
+        "last": "Chan",
+        "first": "Joel",
+        "orcid": "0000-0003-3000-4160",
+        "initials": "J",
+        "formatted": "Chan J"
+      },
+      {
+        "last": "Kittur",
+        "first": "Aniket",
+        "orcid": "0000-0003-4192-9302",
+        "initials": "A",
+        "formatted": "Kittur A"
+      }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3530013",
+    "citekey": "Kang2022-fs",
+    "created": 1737652120.3639998,
+    "doi": "10.1145/3530013",
+    "dup_sha1": "d19f0e84bc451ed0db9f3730dded05306b5fe6b3",
+    "folders": [
+      "b9e7796f-95c5-4934-8371-f4cb49db688b"
+    ],
+    "foldersNamed": [
+      "Research Ideation"
+    ],
+    "id_list": [
+      "sha1:af239638d7152f6d07dcd6d48257de66e77fddfe",
+      "dup_sha1:d19f0e84bc451ed0db9f3730dded05306b5fe6b3",
+      "doi:10.1145/3530013",
+      "url:http://dx.doi.org/10.1145/3530013",
+      "url:https://dl.acm.org/doi/10.1145/3530013",
+      "url:https://dl.acm.org/doi/pdf/10.1145/3530013"
+    ],
+    "incomplete": 0,
+    "issn": "1073-0516",
+    "issn_alt": "1557-7325",
+    "issue": "6",
+    "journal": "ACM Trans. Comput. Hum. Interact.",
+    "journalfull": "ACM Transactions on Computer-Human Interaction",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "language": "en",
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "1-36",
+    "pdf_restricted": 0,
+    "pdf_url": {
+      "publisher": [
+        "https://dl.acm.org/doi/pdf/10.1145/3530013",
+        "https://dl.acm.org/doi/pdf/10.1145/3530013"
+      ],
+      "preprint": [
+        "https://arxiv.org/pdf/2205.15476",
+        "http://arxiv.org/pdf/2205.15476"
+      ]
+    },
+    "published": {
+      "year": "2022",
+      "month": "12",
+      "day": "31"
+    },
+    "publisher": "Association for Computing Machinery (ACM)",
+    "pubtype": "PP_ARTICLE",
+    "sha1": "af239638d7152f6d07dcd6d48257de66e77fddfe",
+    "title": "Augmenting scientific creativity with an analogical search engine",
+    "url": [
+      "https://dl.acm.org/doi/pdf/10.1145/3530013",
+      "https://dl.acm.org/doi/10.1145/3530013",
+      "http://dx.doi.org/10.1145/3530013"
+    ],
+    "volume": "29"
+  },
+  {
+    "_id": "69356c81-6204-005d-852a-49f060382380",
+    "abstract": "As AI agents take on increasingly long-running tasks involving sophisticated planning and execution, there is a corresponding need for novel interaction designs that enable deeper human-agent collaboration. However, most prior works leverage human interaction to fix \"autonomous\" workflows that have yet to become fully autonomous or rigidly treat planning and execution as separate stages. Based on a formative study with 9 researchers using AI to support their work, we propose a design that affords greater flexibility in collaboration, so that users can 1) delegate agency to the user or agent via a collaborative plan where individual steps can be assigned; and 2) interleave planning and execution so that plans can adjust after partial execution. We introduce Cocoa, a system that takes design inspiration from computational notebooks to support complex research tasks. A lab study (n=16) found that Cocoa enabled steerability without sacrificing ease-of-use, and a week-long field deployment (n=7) showed how researchers collaborated with Cocoa to accomplish real-world tasks.",
+    "accessed": {
+      "month": "12",
+      "day": "19",
+      "year": "2024"
+    },
+    "archivePrefix": "arXiv",
+    "arxivid": "2412.10999",
+    "attachments": [
+      {
+        "_id": "e1a2853f-25ef-4472-94a9-56a961c243d1",
+        "article_pdf": 1,
+        "created": 1734569301.21,
+        "filename": "All Papers/F/Feng et al. 2026 - Cocoa - Co-planning and co-execution with AI agents.pdf",
+        "filesize": 10005960,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "69356c81-6204-005d-852a-49f060382380",
+        "source_filename": "2412.10999v1.pdf"
+      }
+    ],
+    "author": [
+      {
+        "last": "Feng",
+        "first": "K J Kevin",
+        "initials": "KJ",
+        "formatted": "Feng KJ"
+      },
+      {
+        "last": "Pu",
+        "first": "Kevin",
+        "initials": "K",
+        "formatted": "Pu K"
+      },
+      {
+        "last": "Latzke",
+        "first": "Matt",
+        "initials": "M",
+        "formatted": "Latzke M"
+      },
+      {
+        "last": "August",
+        "first": "Tal",
+        "initials": "T",
+        "formatted": "August T"
+      },
+      {
+        "last": "Siangliulue",
+        "first": "Pao",
+        "initials": "P",
+        "formatted": "Siangliulue P"
+      },
+      {
+        "last": "Bragg",
+        "first": "Jonathan",
+        "initials": "J",
+        "formatted": "Bragg J"
+      },
+      {
+        "last": "Weld",
+        "first": "Daniel S",
+        "initials": "DS",
+        "formatted": "Weld DS"
+      },
+      {
+        "last": "Zhang",
+        "first": "Amy X",
+        "initials": "AX",
+        "formatted": "Zhang AX"
+      },
+      {
+        "last": "Chang",
+        "first": "Joseph Chee",
+        "initials": "JC",
+        "formatted": "Chang JC"
+      }
+    ],
+    "autoCleaned": 1,
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.48550/arXiv.2412.10999",
+    "citekey": "Feng2026-eb",
+    "copyright": "http://creativecommons.org/licenses/by/4.0/",
+    "created": 1734569298.139,
+    "doi": "10.48550/arXiv.2412.10999",
+    "dup_sha1": "19463b5a74b6df7810de198f6ed4c20c23a5dc7b",
+    "eprint": "2412.10999",
+    "folders": [
+      "3257cd9d-b359-4bf1-8230-64b91f95a11e"
+    ],
+    "foldersNamed": [
+      "[Project] Research ideation"
+    ],
+    "id_list": [
+      "sha1:6c2ef2ea05020d452574203e02afb398e181afc3",
+      "dup_sha1:19463b5a74b6df7810de198f6ed4c20c23a5dc7b",
+      "arxivid:2412.10999",
+      "doi:10.48550/arXiv.2412.10999",
+      "url:http://dx.doi.org/10.48550/arXiv.2412.10999",
+      "url:http://arxiv.org/abs/2412.10999"
+    ],
+    "incomplete": 0,
+    "journal": "arXiv [cs.HC]",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pdf_restricted": 0,
+    "pdf_url": {
+      "publisher": [
+        "https://arxiv.org/pdf/2412.10999.pdf"
+      ],
+      "preprint": []
+    },
+    "primaryClass": "cs.HC",
+    "published": {
+      "year": "2026",
+      "month": "2",
+      "day": "18"
+    },
+    "pubtype": "PP_PREPRINT",
+    "sha1": "6c2ef2ea05020d452574203e02afb398e181afc3",
+    "subfolders": [
+      "All Papers/F"
+    ],
+    "title": "Cocoa: Co-planning and co-execution with AI agents",
+    "url": [
+      "http://arxiv.org/abs/2412.10999",
+      "http://dx.doi.org/10.48550/arXiv.2412.10999"
+    ]
+  },
+  {
+    "_id": "5753de5a-5a76-0d36-b74a-33b549f24229",
+    "abstract": "Prewriting is the process of discovering and developing ideas before writing a first draft, which requires divergent thinking and often implies unstructured strategies such as diagramming, outlining, free-writing, etc. Although large language models (LLMs) have been demonstrated to be useful for a variety of tasks including creative writing, little is known about how users would collaborate with LLMs to support prewriting. The preferred collaborative role and initiative of LLMs during such a creative process is also unclear. To investigate human-LLM collaboration patterns and dynamics during prewriting, we conducted a three-session qualitative study with 15 participants in two creative tasks: story writing and slogan writing. The findings indicated that during collaborative prewriting, there appears to be a three-stage iterative Human-AI Co-creativity process that includes Ideation, Illumination, and Implementation stages. This collaborative process champions the human in a dominant role, in addition to mixed and shifting levels of initiative that exist between humans and LLMs. This research also reports on collaboration breakdowns that occur during this process, user perceptions of using existing LLMs during Human-AI Co-creativity, and discusses design implications to support this co-creativity process.",
+    "attachments": [
+      {
+        "_id": "da88f5d0-d500-486d-81a5-e5ff73f97219",
+        "article_pdf": 1,
+        "created": 1729196968.478,
+        "filename": "All Papers/W/Wan et al. 2024 - 'it felt like having a second mind' - Investigating human-AI co-creativity in prewriting with large language models.pdf",
+        "filesize": 1417554,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "5753de5a-5a76-0d36-b74a-33b549f24229",
+        "source_filename": "3637361.pdf"
+      }
+    ],
+    "author": [
+      {
+        "initials": "Q",
+        "first": "Qian",
+        "orcid": "0000-0002-4250-8780",
+        "formatted": "Wan Q",
+        "last": "Wan"
+      },
+      {
+        "initials": "S",
+        "first": "Siying",
+        "orcid": "0000-0002-3824-2801",
+        "formatted": "Hu S",
+        "last": "Hu"
+      },
+      {
+        "initials": "Y",
+        "first": "Yu",
+        "orcid": "0000-0002-8574-111X",
+        "formatted": "Zhang Y",
+        "last": "Zhang"
+      },
+      {
+        "initials": "P",
+        "first": "Piaohong",
+        "orcid": "0009-0008-8393-7101",
+        "formatted": "Wang P",
+        "last": "Wang"
+      },
+      {
+        "initials": "B",
+        "first": "Bo",
+        "orcid": "0000-0003-2287-473X",
+        "formatted": "Wen B",
+        "last": "Wen"
+      },
+      {
+        "initials": "Z",
+        "first": "Zhicong",
+        "orcid": "0000-0002-7761-6351",
+        "formatted": "Lu Z",
+        "last": "Lu"
+      }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3637361",
+    "citekey": "Wan2024-yc",
+    "created": 1729196967.924,
+    "doi": "10.1145/3637361",
+    "dup_sha1": "eb887437c4b102ec32990e85262af8270674db50",
+    "folders": [
+      "3257cd9d-b359-4bf1-8230-64b91f95a11e"
+    ],
+    "foldersNamed": [
+      "[Project] Research ideation"
+    ],
+    "id_list": [
+      "sha1:ecce767b46331977ce47a4c792227763b332ed73",
+      "dup_sha1:eb887437c4b102ec32990e85262af8270674db50",
+      "doi:10.1145/3637361",
+      "url:http://dx.doi.org/10.1145/3637361",
+      "url:https://dl.acm.org/doi/10.1145/3637361",
+      "url:https://dl.acm.org/doi/pdf/10.1145/3637361"
+    ],
+    "incomplete": 0,
+    "issn": "2573-0142",
+    "issue": "CSCW1",
+    "journal": "Proc. ACM Hum. Comput. Interact.",
+    "journalfull": "Proceedings of the ACM on human-computer interaction",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "language": "en",
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "1-26",
+    "pdf_restricted": 0,
+    "published": {
+      "month": "4",
+      "day": "17",
+      "year": "2024"
+    },
+    "publisher": "Association for Computing Machinery (ACM)",
+    "pubtype": "PP_ARTICLE",
+    "sha1": "ecce767b46331977ce47a4c792227763b332ed73",
+    "title": "\"it felt like having a second mind\": Investigating human-AI co-creativity in prewriting with large language models",
+    "url": [
+      "https://dl.acm.org/doi/pdf/10.1145/3637361",
+      "https://dl.acm.org/doi/10.1145/3637361",
+      "http://dx.doi.org/10.1145/3637361"
+    ],
+    "volume": "8"
+  },
+  {
+    "_id": "a16a3b59-fc67-0324-8489-ac37a1feeae0",
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "4dab4657-8099-408b-af74-3690f23fb5b2",
+        "article_pdf": 1,
+        "created": 1729196705.6759999,
+        "filename": "All Papers/C/Chakrabarty et al. 2024 - Art or artifice - Large language models and the false promise of creativity.pdf",
+        "filesize": 3369671,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "a16a3b59-fc67-0324-8489-ac37a1feeae0",
+        "source_filename": "3613904.3642731.pdf"
+      }
+    ],
+    "author": [
+      {
+        "initials": "T",
+        "first": "Tuhin",
+        "orcid": "0009-0003-9120-4526",
+        "formatted": "Chakrabarty T",
+        "last": "Chakrabarty"
+      },
+      {
+        "initials": "P",
+        "first": "Philippe",
+        "orcid": "0000-0001-9685-3961",
+        "formatted": "Laban P",
+        "last": "Laban"
+      },
+      {
+        "initials": "D",
+        "first": "Divyansh",
+        "orcid": "0000-0002-7091-8701",
+        "formatted": "Agarwal D",
+        "last": "Agarwal"
+      },
+      {
+        "initials": "S",
+        "first": "Smaranda",
+        "orcid": "0000-0003-4532-0182",
+        "formatted": "Muresan S",
+        "last": "Muresan"
+      },
+      {
+        "initials": "CS",
+        "first": "Chien-Sheng",
+        "orcid": "0000-0002-5598-5324",
+        "formatted": "Wu CS",
+        "last": "Wu"
+      }
+    ],
+    "booktitle": "Proceedings of the CHI Conference on Human Factors in Computing Systems",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3613904.3642731",
+    "citekey": "Chakrabarty2024-vx",
+    "conference": "CHI '24: CHI Conference on Human Factors in Computing Systems",
+    "conference_location": "Honolulu HI USA",
+    "created": 1729196704.9850001,
+    "doi": "10.1145/3613904.3642731",
+    "dup_sha1": "82a50605dbb90dea0c4253dcc570865f7eb8c47f",
+    "folders": [
+      "3257cd9d-b359-4bf1-8230-64b91f95a11e"
+    ],
+    "foldersNamed": [
+      "[Project] Research ideation"
+    ],
+    "id_list": [
+      "sha1:8f9780495504abb7bf2945a9cb2daab9c2ee93be",
+      "dup_sha1:82a50605dbb90dea0c4253dcc570865f7eb8c47f",
+      "doi:10.1145/3613904.3642731",
+      "url:http://dx.doi.org/10.1145/3613904.3642731",
+      "url:https://dl.acm.org/doi/10.1145/3613904.3642731",
+      "url:https://dl.acm.org/doi/pdf/10.1145/3613904.3642731"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "1-34",
+    "pdf_restricted": 0,
+    "published": {
+      "month": "5",
+      "day": "11",
+      "year": "2024"
+    },
+    "publisher": "ACM",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "8f9780495504abb7bf2945a9cb2daab9c2ee93be",
+    "title": "Art or artifice? Large language models and the false promise of creativity",
+    "url": [
+      "https://dl.acm.org/doi/pdf/10.1145/3613904.3642731",
+      "https://dl.acm.org/doi/10.1145/3613904.3642731",
+      "http://dx.doi.org/10.1145/3613904.3642731"
+    ],
+    "volume": "70"
+  },
+  {
+    "_id": "9f272148-0358-0c00-b32b-99f8a2a208b5",
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "a8916d7f-e9ee-4c13-91e9-6727d4455720",
+        "article_pdf": 1,
+        "created": 1729194722.445,
+        "filename": "All Papers/L/Liu et al. 2024 - How AI processing delays foster creativity - Exploring research question co-creation with an LLM-based agent.pdf",
+        "filesize": 6255970,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "9f272148-0358-0c00-b32b-99f8a2a208b5",
+        "source_filename": "3613904.3642698.pdf",
+        "xor_hash": [
+          "AcqTrdab7vMQsMAYgH25GHGa4Ig=",
+          "e7r/qaPGw+QRGQYezI1REvr5Mgk=",
+          "QmFr4tIDOLbv/mM0InPFLCW/5zI=",
+          "eg9Gbp7QqTY0aAikMew9YHhtniw=",
+          "iQNbfoq8Rnui+ZBZ/JT2D9sX4/I=",
+          "EfMaEBM8oEiNZPMe3nMQFDncZU8=",
+          "DUHlURvg/c6uUayHSaVjPChuRx0="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "initials": "Y",
+        "first": "Yiren",
+        "formatted": "Liu Y",
+        "orcid": "0000-0003-1507-0303",
+        "last": "Liu"
+      },
+      {
+        "initials": "S",
+        "first": "Si",
+        "formatted": "Chen S",
+        "orcid": "0000-0002-0640-6883",
+        "last": "Chen"
+      },
+      {
+        "initials": "H",
+        "first": "Haocong",
+        "formatted": "Cheng H",
+        "orcid": "0000-0002-1535-1714",
+        "last": "Cheng"
+      },
+      {
+        "initials": "M",
+        "first": "Mengxia",
+        "formatted": "Yu M",
+        "orcid": "0000-0002-6627-2709",
+        "last": "Yu"
+      },
+      {
+        "initials": "X",
+        "first": "Xiao",
+        "formatted": "Ran X",
+        "orcid": "0009-0004-8548-6165",
+        "last": "Ran"
+      },
+      {
+        "initials": "A",
+        "first": "Andrew",
+        "formatted": "Mo A",
+        "orcid": "0009-0008-2908-1891",
+        "last": "Mo"
+      },
+      {
+        "initials": "Y",
+        "first": "Yiliu",
+        "formatted": "Tang Y",
+        "orcid": "0000-0002-8683-4668",
+        "last": "Tang"
+      },
+      {
+        "initials": "Y",
+        "first": "Yun",
+        "formatted": "Huang Y",
+        "orcid": "0000-0003-0399-8032",
+        "last": "Huang"
+      }
+    ],
+    "booktitle": "Proceedings of the CHI Conference on Human Factors in Computing Systems",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3613904.3642698",
+    "citekey": "Liu2024-he",
+    "conference": "CHI '24: CHI Conference on Human Factors in Computing Systems",
+    "conference_location": "Honolulu HI USA",
+    "copied_to": [],
+    "created": 1729194720.365,
+    "doi": "10.1145/3613904.3642698",
+    "dup_sha1": "caa2c5959a9d89589a5b584401c8377660af2385",
+    "folders": [
+      "3257cd9d-b359-4bf1-8230-64b91f95a11e"
+    ],
+    "foldersNamed": [
+      "[Project] Research ideation"
+    ],
+    "id_list": [
+      "sha1:f1a023002a0252daa8644aa9247ab9d55456f6aa",
+      "dup_sha1:caa2c5959a9d89589a5b584401c8377660af2385",
+      "doi:10.1145/3613904.3642698",
+      "url:http://dx.doi.org/10.1145/3613904.3642698",
+      "url:https://dl.acm.org/doi/10.1145/3613904.3642698",
+      "url:https://dl.acm.org/doi/pdf/10.1145/3613904.3642698"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "linked_to": [],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "1-25",
+    "pdf_restricted": 0,
+    "pdf_url": {
+      "preprint": [],
+      "publisher": [
+        "https://dl.acm.org/doi/pdf/10.1145/3613904.3642698"
+      ]
+    },
+    "published": {
+      "month": "5",
+      "day": "11",
+      "year": "2024"
+    },
+    "publisher": "ACM",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "f1a023002a0252daa8644aa9247ab9d55456f6aa",
+    "title": "How AI processing delays foster creativity: Exploring research question co-creation with an LLM-based agent",
+    "url": [
+      "https://dl.acm.org/doi/pdf/10.1145/3613904.3642698",
+      "https://dl.acm.org/doi/10.1145/3613904.3642698",
+      "http://dx.doi.org/10.1145/3613904.3642698"
+    ],
+    "volume": "46"
+  },
+  {
+    "_id": "84c5d4b7-9270-06f8-988f-6a13b55c6918",
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "a43ec6b6-6dbf-4d55-accc-c783e64d2349",
+        "article_pdf": 1,
+        "created": 1729194394.544,
+        "filename": "All Papers/H/Hsueh et al. 2024 - What counts as ‘creative’ work - Articulating four epistemic positions in creativity-oriented HCI research.pdf",
+        "filesize": 682292,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "84c5d4b7-9270-06f8-988f-6a13b55c6918",
+        "source_filename": "3613904.3642854.pdf",
+        "xor_hash": [
+          "I7xyAy607V0kQvkmURgzfArkXfA=",
+          "tqcspbG5cJdC//Zo2ldiD45c5LM=",
+          "HWUpZugvlKem7uW8cBKT/3lXQQ8="
+        ]
+      }
+    ],
+    "author": [
+      {
+        "initials": "S",
+        "first": "Stacy",
+        "orcid": "0009-0003-8570-7215",
+        "formatted": "Hsueh S",
+        "last": "Hsueh"
+      },
+      {
+        "initials": "M",
+        "first": "Marianela",
+        "orcid": "0000-0003-2154-6945",
+        "formatted": "Ciolfi Felice M",
+        "last": "Ciolfi Felice"
+      },
+      {
+        "initials": "SF",
+        "first": "Sarah Fdili",
+        "orcid": "0000-0003-1775-213X",
+        "formatted": "Alaoui SF",
+        "last": "Alaoui"
+      },
+      {
+        "initials": "WE",
+        "first": "Wendy E",
+        "orcid": "0000-0001-8261-2382",
+        "formatted": "Mackay WE",
+        "last": "Mackay"
+      }
+    ],
+    "booktitle": "Proceedings of the CHI Conference on Human Factors in Computing Systems",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3613904.3642854",
+    "citekey": "Hsueh2024-vv",
+    "conference": "CHI '24: CHI Conference on Human Factors in Computing Systems",
+    "conference_location": "Honolulu HI USA",
+    "created": 1729194392.936,
+    "doi": "10.1145/3613904.3642854",
+    "dup_sha1": "1e38fb4e9ece7b722b3a2b196ba4eca75c547823",
+    "folders": [
+      "3257cd9d-b359-4bf1-8230-64b91f95a11e",
+      "b9e7796f-95c5-4934-8371-f4cb49db688b"
+    ],
+    "foldersNamed": [
+      "[Project] Research ideation",
+      "Research Ideation"
+    ],
+    "id_list": [
+      "sha1:e5225b3f0c2e03e42b0c52400ef66e0f435bc945",
+      "dup_sha1:1e38fb4e9ece7b722b3a2b196ba4eca75c547823",
+      "doi:10.1145/3613904.3642854",
+      "url:http://dx.doi.org/10.1145/3613904.3642854",
+      "url:https://dl.acm.org/doi/10.1145/3613904.3642854",
+      "url:https://dl.acm.org/doi/pdf/10.1145/3613904.3642854"
+    ],
+    "incomplete": 0,
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "1-15",
+    "pdf_restricted": 0,
+    "published": {
+      "month": "5",
+      "day": "11",
+      "year": "2024"
+    },
+    "publisher": "ACM",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "sha1": "e5225b3f0c2e03e42b0c52400ef66e0f435bc945",
+    "title": "What counts as ‘creative’ work? Articulating four epistemic positions in creativity-oriented HCI research",
+    "url": [
+      "https://dl.acm.org/doi/pdf/10.1145/3613904.3642854",
+      "https://dl.acm.org/doi/10.1145/3613904.3642854",
+      "http://dx.doi.org/10.1145/3613904.3642854"
+    ],
+    "volume": "464"
+  },
+  {
+    "_id": "8d44487f-ec66-0b9c-9d23-0065b2ac007e",
+    "abstract": "Efficiently reviewing scholarly literature and synthesizing prior art are crucial for scientific progress. Yet, the growing scale of publications and the burden of knowledge make synthesis of research threads more challenging than ever.While significant research has been devoted to helping scholars interact with individual papers, building research threads scattered across multiple papers remains a challenge.Most top-down synthesis (and LLMs) make it difficult to personalize and iterate on the output, while bottom-up synthesis is costly in time and effort.Here, we explore a new design space of mixed-initiative workflows.In doing so we develop a novel computational pipeline, Synergi, that ties together user input of relevant seed threads with citation graphs and LLMs, to expand and structure them, respectively.Synergiallows scholars to start with an entire threads-and-subthreads structure generated from papers relevant to their interests, and to iterate and customize on it as they wish. In our evaluation, we find that Synergi helps scholars efficiently make sense of relevant threads, broaden their perspectives, and increases their curiosity. We discuss future design implications for thread-based, mixed-initiative scholarly synthesis support tools.",
+    "accessed": {
+      "month": "2",
+      "day": "23",
+      "year": "2024"
+    },
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "4fe6cad8-54a7-0526-b84a-20d2033c9137",
+        "article_pdf": 1,
+        "created": 1708720012.367014,
+        "filename": "All Papers/K/Kang et al. 2023 - Synergi - A mixed-initiative system for scholarly synthesis and sensemaking.pdf",
+        "filesize": 4371342,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "8d44487f-ec66-0b9c-9d23-0065b2ac007e",
+        "source_filename": "[article_pdf].pdf"
+      }
+    ],
+    "author": [
+      {
+        "initials": "HB",
+        "first": "Hyeonsu B",
+        "formatted": "Kang HB",
+        "orcid": "0000-0002-1990-2050",
+        "last": "Kang"
+      },
+      {
+        "initials": "T",
+        "first": "Tongshuang",
+        "formatted": "Wu T",
+        "orcid": "0000-0003-1630-0588",
+        "last": "Wu"
+      },
+      {
+        "initials": "JC",
+        "first": "Joseph Chee",
+        "formatted": "Chang JC",
+        "orcid": "0000-0002-0798-4351",
+        "last": "Chang"
+      },
+      {
+        "initials": "A",
+        "first": "Aniket",
+        "formatted": "Kittur A",
+        "orcid": "0000-0003-4192-9302",
+        "last": "Kittur"
+      }
+    ],
+    "booktitle": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3586183.3606759",
+    "citekey": "Kang2023-yh",
+    "conference": "UIST '23: The 36th Annual ACM Symposium on User Interface Software and Technology",
+    "conference_location": "San Francisco CA USA",
+    "crawl_urls": [
+      "https://doi.org/10.1145/3586183.3606759",
+      "https://doi.org/10.1145/3586183.3606759?locatt=mode:legacy",
+      "https://dl.acm.org/doi/10.1145/3586183.3606759",
+      "https://dl.acm.org/doi/pdf/10.1145/3586183.3606759"
+    ],
+    "created": 1708720011.424528,
+    "doi": "10.1145/3586183.3606759",
+    "dup_sha1": "d3847ded9376db580777a2036f0341aafff8fcdd",
+    "folders": [],
+    "id_list": [
+      "sha1:bbb32eefe5980b9ecfc1f385dc3152af90d46ff2",
+      "dup_sha1:d3847ded9376db580777a2036f0341aafff8fcdd",
+      "doi:10.1145/3586183.3606759",
+      "url:http://dx.doi.org/10.1145/3586183.3606759",
+      "url:https://doi.org/10.1145/3586183.3606759",
+      "url:https://dl.acm.org/doi/10.1145/3586183.3606759",
+      "url:https://dl.acm.org/doi/pdf/10.1145/3586183.3606759",
+      "url:https://doi.org/10.1145/3586183.3606759?locatt=mode:legacy"
+    ],
+    "incomplete": 0,
+    "isbn": "9798400701320",
+    "labels": [
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "CSTs for research ideation"
+    ],
+    "number": "Article 43",
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "1-19",
+    "pdf_restricted": 0,
+    "pdf_url": {
+      "preprint": [
+        "https://arxiv.org/pdf/2308.07517"
+      ],
+      "publisher": [
+        "https://dl.acm.org/doi/pdf/10.1145/3586183.3606759",
+        "https://dl.acm.org/doi/pdf/10.1145/3586183.3606759"
+      ]
+    },
+    "published": {
+      "month": "10",
+      "day": "29",
+      "year": "2023"
+    },
+    "publisher": "ACM",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "series": "UIST '23",
+    "series_number": "43",
+    "sha1": "bbb32eefe5980b9ecfc1f385dc3152af90d46ff2",
+    "title": "Synergi: A mixed-initiative system for scholarly synthesis and sensemaking",
+    "url": [
+      "https://doi.org/10.1145/3586183.3606759",
+      "http://dx.doi.org/10.1145/3586183.3606759",
+      "https://dl.acm.org/doi/pdf/10.1145/3586183.3606759",
+      "https://dl.acm.org/doi/10.1145/3586183.3606759"
+    ]
+  },
+  {
+    "_id": "84c7322b-0b55-0a85-b711-8722162408ff",
+    "abstract": "Users searching for information in academic contexts often need to compare different perspectives, organize search results, and synthesize topics. To support people’s creative thinking processes while searching for academic information, we developed SearchIdea, a Web-based online tool, that enables users to actively interact with search results beyond evaluation and selection. Through its three primary features–search-results, SearchMapper, and IdeaMapper–SearchIdea allows users to add saved search results to SearchMapper for comparison, prioritization, and rearrangement. Using IdeaMapper, users can elicit keywords from search results, brainstorm, and organize ideas while identifying relationships among ideas. We also developed a baseline tool, IdeaPad, which provides users with a simple pad for writing and editing text. We then conducted an evaluation study with 58 students at a university in the United States. The study subjects were assigned to either SearchIdea or IdeaPad and performed two search tasks: (1) generating as many ideas as possible, and (2) selecting the best idea after generating multiple ideas. The results showed that subjects using SearchIdea entered more unique search terms, generated longer queries, and engaged with search results more actively than those who used IdeaPad. The SearchIdea users reported higher ratings for idea generation in terms of synthesizing and organizing ideas than did the IdeaPad users. The findings of our study provide insights into how an idea generation tool can connect search activities with creative thinking processes in order to generate more and better ideas.",
+    "accessed": {
+      "month": "8",
+      "day": "10",
+      "year": "2023"
+    },
+    "address": "New York, NY, USA",
+    "attachments": [
+      {
+        "_id": "3c41fa77-c409-0ae2-b283-db7fdcfc536c",
+        "article_pdf": 1,
+        "created": 1691736267.860862,
+        "filename": "All Papers/C/Chavula et al. 2023 - SearchIdea - An Idea Generation Tool to Support Creativity in Academic Search.pdf",
+        "filesize": 1858582,
+        "mimeType": "application/pdf",
+        "owner": "4DCDD698DAB111EC90957630FB271251",
+        "pub_id": "84c7322b-0b55-0a85-b711-8722162408ff",
+        "source_filename": "[article_pdf].pdf"
+      }
+    ],
+    "author": [
+      {
+        "initials": "C",
+        "first": "Catherine",
+        "formatted": "Chavula C",
+        "last": "Chavula"
+      },
+      {
+        "initials": "Y",
+        "first": "Yujin",
+        "formatted": "Choi Y",
+        "last": "Choi"
+      },
+      {
+        "initials": "SY",
+        "first": "Soo Young",
+        "formatted": "Rieh SY",
+        "last": "Rieh"
+      }
+    ],
+    "booktitle": "Proceedings of the 2023 Conference on Human Information Interaction and Retrieval",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1145/3576840.3578294",
+    "citekey": "Chavula2023-vc",
+    "conference_location": "Austin, TX, USA",
+    "crawl_urls": [
+      "https://doi.org/10.1145/3576840.3578294",
+      "https://doi.org/10.1145/3576840.3578294?locatt=mode:legacy",
+      "https://dl.acm.org/doi/10.1145/3576840.3578294",
+      "https://dl.acm.org/doi/pdf/10.1145/3576840.3578294"
+    ],
+    "created": 1691736266.536805,
+    "doi": "10.1145/3576840.3578294",
+    "dup_sha1": "cb46a630a2b9bdd8b126fb8d0e9e20a289884252",
+    "folders": [
+      "be11fcaa-d444-058c-b44c-c5d92ea0f7bb",
+      "b9e7796f-95c5-4934-8371-f4cb49db688b"
+    ],
+    "foldersNamed": [
+      "[Project] Browse what to check",
+      "Research Ideation"
+    ],
+    "id_list": [
+      "sha1:1e1f2c27474d634009562fe94c37839988f0910a",
+      "dup_sha1:cb46a630a2b9bdd8b126fb8d0e9e20a289884252",
+      "doi:10.1145/3576840.3578294",
+      "url:http://dx.doi.org/10.1145/3576840.3578294",
+      "url:https://doi.org/10.1145/3576840.3578294",
+      "url:https://dl.acm.org/doi/pdf/10.1145/3576840.3578294",
+      "url:https://doi.org/10.1145/3576840.3578294?locatt=mode:legacy",
+      "url:https://dl.acm.org/doi/10.1145/3576840.3578294"
+    ],
+    "incomplete": 0,
+    "isbn": "9798400700354",
+    "keywords": "Creativity Support Tools, Creativity, Searching for Idea Generation",
+    "labels": [
+      "688e9c83-e5de-0ff2-8e9e-61b648fd75b1",
+      "f461c5c8-5430-4562-ab5e-efe003a4087b"
+    ],
+    "labelsNamed": [
+      "Information search",
+      "CSTs for research ideation"
+    ],
+    "owner": "4DCDD698DAB111EC90957630FB271251",
+    "pages": "161-171",
+    "pdf_restricted": 0,
+    "published": {
+      "month": "3",
+      "day": "20",
+      "year": "2023"
+    },
+    "publisher": "Association for Computing Machinery",
+    "pubtype": "PP_CONFERENCE_PAPER",
+    "series": "CHIIR '23",
+    "sha1": "1e1f2c27474d634009562fe94c37839988f0910a",
+    "title": "SearchIdea: An Idea Generation Tool to Support Creativity in Academic Search",
+    "trashed": 0,
+    "url": [
+      "https://doi.org/10.1145/3576840.3578294",
+      "http://dx.doi.org/10.1145/3576840.3578294",
+      "https://dl.acm.org/doi/pdf/10.1145/3576840.3578294"
+    ]
+  }
+]
