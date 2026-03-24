@@ -1,6 +1,8 @@
 import React, { useMemo, useState, useRef, useEffect } from 'react';
 import rawMarkdown from '../data/literature_review.md?raw';
 import { filteredData as allData } from '../data/data_filtered';
+import HighlightLayer from './HighlightLayer';
+import { useAuth } from '../context/AuthContext';
 
 // ── Color palette (mirrors Dashboard) ────────────────────────────────────────
 const TYPE_COLORS = {
@@ -227,6 +229,7 @@ function Prose({ body }) {
 
 // ── Main Component ────────────────────────────────────────────────────────────
 export default function LiteratureReview({ onFilterAndSwitch }) {
+  const { user, signInWithGithub, signOut } = useAuth();
   const sections = useMemo(() => parseSections(rawMarkdown), []);
   const [activeId, setActiveId] = useState(sections[0]?.id ?? '');
   const sectionRefs = useRef({});
@@ -258,7 +261,7 @@ export default function LiteratureReview({ onFilterAndSwitch }) {
     sectionRefs.current[id]?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
-  return (
+  const content = (
     <div style={{ display: 'flex', gap: '1.75rem', alignItems: 'flex-start' }}>
 
       {/* ── TOC sidebar ── */}
@@ -300,13 +303,37 @@ export default function LiteratureReview({ onFilterAndSwitch }) {
       <main style={{ flex: 1, minWidth: 0, paddingBottom: '5rem' }}>
 
         {/* Review title / intro */}
-        <div style={{ marginBottom: '2rem', paddingBottom: '1.25rem', borderBottom: '2px solid #e2e8f0' }}>
-          <h1 style={{ fontSize: '1.6rem', fontWeight: 800, color: '#0f172a', margin: '0 0 0.25rem 0', letterSpacing: '-0.02em' }}>
-            AI-Assisted Research Ideation Tools
-          </h1>
-          <p style={{ color: '#64748b', margin: 0, fontSize: '0.9rem' }}>
-            Literature review · {allData.length} papers · {sections.length} sections
-          </p>
+        <div style={{ marginBottom: '2rem', paddingBottom: '1.25rem', borderBottom: '2px solid #e2e8f0', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', gap: '1rem' }}>
+          <div>
+            <h1 style={{ fontSize: '1.6rem', fontWeight: 800, color: '#0f172a', margin: '0 0 0.25rem 0', letterSpacing: '-0.02em' }}>
+              AI-Assisted Research Ideation Tools
+            </h1>
+            <p style={{ color: '#64748b', margin: 0, fontSize: '0.9rem' }}>
+              Literature review · {allData.length} papers · {sections.length} sections
+              <span style={{ marginLeft: '0.75rem', color: '#94a3b8' }}>· Select any text to comment</span>
+            </p>
+          </div>
+          {/* GitHub auth chip */}
+          {user ? (
+            <button onClick={signOut} title="Sign out" style={{
+              display: 'flex', alignItems: 'center', gap: '6px',
+              background: '#f8fafc', border: '1px solid #e2e8f0',
+              borderRadius: '20px', padding: '4px 12px 4px 6px',
+              cursor: 'pointer', fontSize: '0.75rem', fontWeight: 600, color: '#334155',
+            }}>
+              <img src={user.photoURL} alt="" style={{ width: 22, height: 22, borderRadius: '50%' }} />
+              {user.displayName}
+            </button>
+          ) : (
+            <button onClick={signInWithGithub} style={{
+              background: '#0f172a', color: '#fff',
+              border: 'none', borderRadius: '8px',
+              padding: '6px 14px', fontSize: '0.78rem', fontWeight: 700,
+              cursor: 'pointer', whiteSpace: 'nowrap',
+            }}>
+              Sign in with GitHub to comment
+            </button>
+          )}
         </div>
 
         {sections.map(({ id, heading, body }) => {
@@ -349,7 +376,7 @@ export default function LiteratureReview({ onFilterAndSwitch }) {
               </div>
 
               {/* Prose */}
-              <div style={{ background: '#fafafa', borderRadius: '10px', padding: '1.25rem 1.5rem', border: '1px solid #f1f5f9' }}>
+              <div className="prose-content" style={{ background: '#fafafa', borderRadius: '10px', padding: '1.25rem 1.5rem', border: '1px solid #f1f5f9' }}>
                 <Prose body={body} />
               </div>
 
@@ -375,4 +402,6 @@ export default function LiteratureReview({ onFilterAndSwitch }) {
       </main>
     </div>
   );
+
+  return <HighlightLayer sectionRefs={sectionRefs}>{content}</HighlightLayer>;
 }
