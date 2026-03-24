@@ -745,6 +745,104 @@ export const filteredData = [
     creative_thinking_types: ["Divergent"],
     wallas_stages: ["Preparation", "Incubation"],
     bodens_types: []
+  },
+
+  // ── ADDED: March 2026 ────────────────────────────────────────────────────
+
+  // ── ENTRY 47 ──────────────────────────────────────────────────────────────
+  {
+    id: "f47",
+    title: "IdeaSynth: Iterative Research Idea Development Through Evolving and Composing Idea Facets with Literature-Grounded Feedback",
+    authors: ["Pu, K.", "Feng, K.J.K.", "Grossman, T.", "Hope, T.", "Dalvi Mishra, B.", "Latzke, M.", "Bragg, J.", "Chang, J.C.", "Siangliulue, P."],
+    year: 2025,
+    venue: "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
+    url: "https://doi.org/10.1145/3706598.3714057",
+    core_contributions: "IdeaSynth is a research idea development system that scaffolds iterative refinement by representing idea facets (problem, solution, evaluation, contributions) as nodes on a canvas, providing literature-grounded LLM feedback so researchers can iteratively expand, explore variations, and compose their own ideas into a coherent research brief.",
+    tool_types: ["Type 1"],
+    research_stages: ["Problem Framing", "Analysis & Sensemaking"],
+    creative_thinking_types: ["Divergent", "Convergent"],
+    wallas_stages: ["Preparation", "Illumination"],
+    bodens_types: []
+  },
+
+  // ── ENTRY 48 ──────────────────────────────────────────────────────────────
+  {
+    id: "f48",
+    title: "Sparking Scientific Creativity via LLM-Driven Interdisciplinary Inspiration",
+    authors: ["Kargupta, P.", "Jansen, P.", "Mishra, B.D.", "Garg, N.", "Carenini, G.", "Chang, J.C."],
+    year: 2026,
+    venue: "arXiv [cs.CL]",
+    url: "https://doi.org/10.48550/arXiv.2603.12226",
+    core_contributions: "Idea-Catalyst is a metacognition-driven framework that systematically generates interdisciplinary idea fragments by analyzing a target domain's challenges and strategically retrieving insights from external scientific disciplines, surfacing cross-domain conceptual connections to spark human creative reasoning at early-stage ideation.",
+    tool_types: ["Type 2"],
+    research_stages: ["Problem Framing", "Information Foraging"],
+    creative_thinking_types: ["Divergent"],
+    wallas_stages: ["Incubation", "Illumination"],
+    bodens_types: ["Combinational"]
+  },
+
+  // ── ENTRY 49 ──────────────────────────────────────────────────────────────
+  {
+    id: "f49",
+    title: "Evaluating LLMs' Divergent Thinking Capabilities for Scientific Idea Generation with Minimal Context",
+    authors: ["Ruan, K.", "Wang, X.", "Hong, J.", "Wang, P.", "Liu, Y.", "Sun, H."],
+    year: 2026,
+    venue: "Nature Communications",
+    url: "https://doi.org/10.1038/s41467-026-70245-1",
+    core_contributions: "LiveIdeaBench is a continuously updated benchmark that evaluates LLMs' scientific creativity through divergent thinking tasks using single-keyword minimal-context prompts, assessing ideas across originality, feasibility, fluency, flexibility, and clarity dimensions grounded in Guilford's creativity theory.",
+    tool_types: ["Survey / Theory"],
+    research_stages: [],
+    creative_thinking_types: ["Divergent"],
+    wallas_stages: ["Preparation", "Illumination"],
+    bodens_types: []
+  },
+
+  // ── ENTRY 50 ──────────────────────────────────────────────────────────────
+  {
+    id: "f50",
+    title: "Divergent creativity in humans and large language models",
+    authors: ["Bellemare-Pepin, A.", "Lespinasse, F.", "Thölke, P.", "Harel, Y.", "Mathewson, K.", "Olson, J.A.", "Bengio, Y.", "Jerbi, K."],
+    year: 2026,
+    venue: "Scientific Reports (Nature Portfolio)",
+    url: "https://doi.org/10.1038/s41598-025-25157-3",
+    core_contributions: "Large-scale empirical comparison of LLMs' divergent creativity against 100,000+ human participants using the Divergent Association Task, finding that advanced LLMs (e.g., GPT-4) exceed average human scores while the most creative humans still maintain a consistent advantage over AI.",
+    tool_types: ["Empirical Study"],
+    research_stages: [],
+    creative_thinking_types: ["Divergent"],
+    wallas_stages: ["Preparation"],
+    bodens_types: []
+  },
+
+  // ── ENTRY 51 ──────────────────────────────────────────────────────────────
+  {
+    id: "f51",
+    title: "Towards an AI co-scientist",
+    authors: ["Gottweis, J.", "Weng, W.-H.", "Daryin, A.", "Tu, T.", "Palepu, A.", "Sirkovic, P.", "Natarajan, V."],
+    year: 2025,
+    venue: "arXiv [cs.AI]",
+    url: "https://doi.org/10.48550/arXiv.2502.18864",
+    core_contributions: "The AI co-scientist is a multi-agent system built on Gemini 2.0 that autonomously generates, debates, and evolves novel scientific hypotheses and research proposals through specialized agents (Generation, Reflection, Ranking, Evolution) operating in a tournament-style framework, validated through real-world biomedical discovery tasks.",
+    tool_types: ["Type 2"],
+    research_stages: ["Problem Framing"],
+    creative_thinking_types: ["Divergent", "Convergent"],
+    wallas_stages: ["Preparation", "Illumination", "Verification"],
+    bodens_types: ["Exploratory"]
+  },
+
+  // ── ENTRY 52 ──────────────────────────────────────────────────────────────
+  {
+    id: "f52",
+    title: "Who Owns Creativity and Who Does the Work? Trade-offs in LLM-Supported Research Ideation",
+    authors: ["Liu, H.", "Choi, Y.", "Gautam, S.", "Jaffe, G.", "Rieh, S.Y.", "Lease, M."],
+    year: 2026,
+    venue: "arXiv [cs.HC]",
+    url: "https://doi.org/10.48550/arXiv.2601.12152",
+    core_contributions: "Mixed-methods study with 54 researchers using an agentic ideation probe (Ideator, Writer, Evaluator roles) across three LLM control levels, finding that creativity support is non-linear with control level, human effort shifts from generating ideas to verifying them as AI takes more control, and perceived ownership of research ideas is a negotiated outcome rather than straightforwardly attributed to either human or AI.",
+    tool_types: ["Empirical Study"],
+    research_stages: [],
+    creative_thinking_types: ["Divergent", "Convergent"],
+    wallas_stages: ["Preparation", "Illumination", "Verification"],
+    bodens_types: []
   }
 
 ];

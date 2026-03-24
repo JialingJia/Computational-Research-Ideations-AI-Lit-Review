@@ -337,7 +337,7 @@ const Dashboard = ({ activeFilters, setActiveFilters }) => {
           </span>
           <br />
           <span style={{ fontSize: '0.8rem', opacity: 0.75 }}>
-            <em>Dashboard UI co-designed with <strong>Antigravity (Google DeepMind AI)</strong>. Categorization not yet fully verified.</em>
+            <em>The review will be automatically updated on the first day of each month. Automated pipeline is built using <strong>Claude</strong>. Dashboard UI co-designed with <strong>Antigravity (Google DeepMind AI)</strong>. Note that the categorization is not yet fully verified.</em>
           </span>
         </div>
       </header>

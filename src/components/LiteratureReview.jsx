@@ -49,8 +49,10 @@ function findPaper(citationInner) {
 const CITE_RE_FULL = /\[([^\]]*\d{4}[a-d]?[^\]]*)\]/g;
 // Format B: Author et al. [Year]  — only year in brackets
 const CITE_RE_SPLIT = /([A-Z][A-Za-zé'\-]+(?: and [A-Z][A-Za-zé'\-]+)?(?:\s+et al\.)?) \[(\d{4}[a-d]?)\]/g;
-// Regex to validate a single citation segment looks like a real citation
-const SINGLE_CITE_RE = /^[A-Z][A-Za-zé'\-]+(?: and [A-Z][A-Za-zé'\-]+)?(?:\s+et al\.)?\s+\d{4}[a-d]?$/;
+// Validates a single citation segment — supports:
+//   "Author et al. Year"           standard format
+//   "Author et al., Venue Year"    Recent Additions format (comma + venue before year)
+const SINGLE_CITE_RE = /^[A-Z][A-Za-zé'\-]+(?: and [A-Z][A-Za-zé'\-]+)?(?:\s+et al\.)?(?:,?[^\d]*)\d{4}[a-d]?$/;
 
 // Collect all citation matches from both formats, sorted by position
 function collectMatches(text) {

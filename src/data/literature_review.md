@@ -41,9 +41,15 @@ aspirational. This distinction matters for evaluation: surveys of hypothesis gen
 have noted that many benchmarks measure novelty in a superficial sense (distance from training
 data) rather than the deeper scientific significance that practitioners care about [Alkan et al.
 2025]. IdeaBench [Guo et al. 2025] represents a systematic attempt to address this gap by
-providing a standardized evaluation framework for comparing LLM-based idea generation systems,
-and Ye et al. [2025] have further mapped the design space of recent AI research tools across
-ideation, sensemaking, and creativity dimensions. Cox et al. [2025] push back on the field's
+providing a standardized evaluation framework for comparing LLM-based idea generation systems.
+Complementing this benchmarking tradition, LiveIdeaBench [Ruan et al. 2026] takes a
+distinctly divergent-thinking-oriented approach, evaluating LLMs' scientific creativity
+through single-keyword minimal-context prompts grounded in Guilford's theory of divergent
+production; a key finding is that a model's performance on these idea generation tasks is
+only weakly correlated with its scores on general intelligence benchmarks — suggesting that
+scientific creativity may benefit from distinct training objectives emphasizing conceptual
+breadth over convergent accuracy. Ye et al. [2025] have further mapped the design space of
+recent AI research tools across ideation, sensemaking, and creativity dimensions. Cox et al. [2025] push back on the field's
 tendency to equate creativity support with productivity gain, arguing for evaluation frameworks
 that center human creative growth rather than output volume.
 
@@ -76,10 +82,25 @@ prewriting — a cognitive partner that simultaneously scaffolds and risks displ
 human ideation depending on the writer's engagement mode. Kumar et al. [2025] add nuance through
 randomized controlled experiments showing that LLM assistance has asymmetric effects on divergent
 versus convergent thinking: it can expand the range of ideas generated while potentially
-narrowing the depth of independent engagement. Alongside these cognitive accounts, Kapania et
-al. [2025] surface the ethical tensions that HCI researchers navigate when using LLMs in their
+narrowing the depth of independent engagement. The most comprehensive benchmark comparison to
+date comes from Bellemare-Pepin et al. [2026], who evaluated leading LLMs against over 100,000
+human participants on the Divergent Association Task. Their findings sketch a nuanced competitive
+landscape: advanced models such as GPT-4 exceed average human performance on this measure of
+verbal divergent creativity, yet the most creative human participants maintain a consistent and
+statistically significant advantage — suggesting that LLMs have become broadly competent at
+associatively diverse output while still falling short of the upper end of human creative
+capacity. Alongside these cognitive accounts, Kapania et al. [2025] surface the ethical tensions that HCI researchers navigate when using LLMs in their
 own work — tensions between efficiency gains and concerns about intellectual integrity, credit,
-and the meaning of authorship in an AI-assisted process.
+and the meaning of authorship in an AI-assisted process. Liu et al. [2026] probe these tensions
+directly through a mixed-methods study in which 54 researchers used an agentic ideation system —
+comprising Ideator, Writer, and Evaluator agents — at three levels of LLM control. Their findings
+complicate a simple "more control = more creativity" assumption: creativity support is non-linear
+across control levels, with Low- and Intensive-control conditions fostering qualitatively different
+kinds of creative engagement. Critically, as AI assumes more generative control, human effort does
+not disappear but redirects — shifting from idea generation toward idea verification and quality
+assessment. Ownership of the resulting proposals emerged as a negotiated outcome in which
+participants drew on both idea originality and execution effort to apportion credit, rather than
+applying a simple human-or-AI binary.
 
 ---
 
@@ -103,8 +124,20 @@ separate downstream step.
 The sensemaking dimension is extended further by Synergi [Kang et al. 2023], a mixed-initiative
 tool that helps scholars build thematic threads across multiple papers. Synergi exemplifies a
 principle common to Type 1 designs: the system surfaces connections and structural patterns, but
-the meaning-making remains with the researcher. Reflection-oriented tools work at an even more
-meta level. Ford and Bryan-Kinns [2023] developed a validated questionnaire instrument for
+the meaning-making remains with the researcher.
+
+IdeaSynth [Pu et al. 2025] extends this scaffolding philosophy into the research idea
+development stage itself. Rather than structuring literature search or post-hoc synthesis,
+IdeaSynth provides a canvas on which researchers decompose their nascent ideas into modular
+facets — research problem, proposed solution, evaluation approach, and expected contribution —
+and receive literature-grounded LLM feedback at both the node level and across the canvas as a
+whole. The system does not propose ideas on the researcher's behalf; it surfaces how proposed
+idea facets relate to existing work and prompts iterative reflection and elaboration. User
+evaluations showed that IdeaSynth helped participants articulate more specific and grounded
+research briefs while maintaining a stronger sense of authorship than systems that generate
+suggestions for them to select.
+
+Reflection-oriented tools work at an even more meta level. Ford and Bryan-Kinns [2023] developed a validated questionnaire instrument for
 measuring reflective experience during creative activity — a scaffold for self-assessment that
 helps researchers understand their own process rather than outsourcing any part of it. Fuzzy
 Linkography [Smith et al. 2025] takes an automated approach to the same goal, generating
@@ -146,7 +179,15 @@ criteria directly into the generation pipeline, so that produced hypotheses are 
 but empirically actionable. The analogical search engine developed by Kang et al. [2022] takes a
 structurally different approach: instead of generating hypotheses directly, it retrieves
 structurally similar solutions from distant scientific domains, enabling researchers to adapt
-analogical insights from fields they would not otherwise consult.
+analogical insights from fields they would not otherwise consult. Idea-Catalyst [Kargupta et al.
+2026] revisits this cross-domain inspiration approach through a metacognition-driven framing:
+rather than directly retrieving papers from adjacent domains, the system first analyzes the
+target field to identify persistent unresolved challenges, reframes those challenges as
+domain-agnostic conceptual problems, and only then retrieves insights from external disciplines
+whose prior solutions could transfer. This structured metacognitive scaffolding — decompose,
+abstract, search — mirrors the deliberate analogical reasoning that researchers report in
+retrospective accounts of interdisciplinary breakthroughs, and experimental results showed
+significant gains in novelty and insightfulness over direct retrieval baselines.
 
 Multi-agent architectures have extended these capabilities by replacing the single-model ideation
 bottleneck with a deliberative ensemble. Su et al. [2025] demonstrated that a system of
@@ -154,8 +195,18 @@ specialized LLM agents — scientist, critic, reviewer — generates higher-qual
 single agent through productive disagreement, with diverse agent perspectives driving combinational
 creativity. ResearchAgent [Baek et al. 2025] iteratively generates, refines, and critiques ideas
 in a continuous loop over the scientific literature, functioning as an autonomous ideation engine
-that escalates through cycles of self-improvement. Chain-of-Ideas [Li et al. 2025] further
-grounds this iteration in literature trajectories, constructing progressive chains of ideas
+that escalates through cycles of self-improvement. The most ambitious expression of this
+trajectory is the AI co-scientist [Gottweis et al. 2025], a multi-agent system built on Gemini
+2.0 that deploys specialized agents — Generation, Reflection, Ranking, and Evolution — in a
+tournament-style framework where hypothesis quality improves through iterated self-play debate.
+Unlike systems that deliver a fixed output set for human review, the AI co-scientist evolves its
+proposals recursively across many rounds of critique and revision, converging toward hypotheses
+that domain experts rate significantly higher in novelty than those produced by single-pass
+methods. Validated against real-world biomedical discovery tasks — including drug repurposing for
+acute myeloid leukemia and hypothesis generation for antimicrobial resistance — it represents a
+qualitative step toward fully autonomous research ideation while positioning the scientist as the
+supervisor who sets the goal and adjudicates outcomes. Chain-of-Ideas [Li et al. 2025] further
+grounds iterative generation in literature trajectories, constructing progressive chains of ideas
 grounded in how a field has evolved rather than treating the literature as a flat knowledge base.
 
 ---
@@ -215,7 +266,7 @@ expands ideation when used collaboratively can narrow independent thinking when 
 [Kumar et al. 2025; Wan et al. 2024]. How to design for productive engagement without fostering
 over-reliance remains an open design problem. The third tension is ethical. As LLM-based
 ideation tools mature, the boundaries of intellectual contribution, credit, and originality in
-research become harder to draw [Kapania et al. 2025]. A tool that generates a hypothesis the
+research become harder to draw [Kapania et al. 2025; Liu et al. 2026]. A tool that generates a hypothesis the
 researcher refines into a publishable finding occupies a fundamentally ambiguous position in the
 scholarly economy — one that existing norms have not yet caught up with. Together these tensions
 suggest that the most important next contributions to AI-assisted research ideation may be not
@@ -226,3 +277,44 @@ technical but evaluative, social, and ethical.
 *Note: Citations use [Author et al. Year] format throughout. Where multiple authors from the same
 group appear (e.g., Liu et al. 2025a/b/c/d), the suffixes distinguish papers by year; these
 should be resolved to specific venues in the final manuscript.*
+
+---
+
+## Recent Additions (March 2026)
+
+The following papers were added to the corpus in the March 2026 pipeline update. Brief notes
+on how each fits into the existing review structure are provided for the benefit of future
+revision passes.
+
+[Pu et al., CHI 2025] — A Type 1 scaffolding tool for iterative research idea
+development that represents idea facets as nodes on a canvas and provides literature-grounded
+LLM feedback to support refinement while keeping the researcher as the primary generator.
+Integrated into the *Scaffolding Human Cognition* section.
+
+[Kargupta et al., arXiv 2026] — A Type 2 Combinational system that generates
+interdisciplinary idea fragments through metacognition-driven cross-domain retrieval: it analyzes
+target-domain challenges, abstracts them, and retrieves insights from external disciplines to
+spark creative reasoning. Integrated into the *Computational Ideation at Scale* section alongside
+the analogical search engine literature.
+
+[Ruan et al., Nature Communications 2026] — A continuously updating benchmark
+that evaluates LLMs' divergent scientific creativity via minimal-context (single-keyword) prompts,
+grounded in Guilford's divergent production theory. Integrated into the *Theoretical Grounding*
+section alongside IdeaBench.
+
+[Bellemare-Pepin et al., Scientific
+Reports 2026] — A large-scale empirical study comparing LLMs against 100,000+ human participants
+on the Divergent Association Task, establishing a nuanced baseline: current frontier models
+exceed average human performance but trail the most creative individuals. Integrated into the
+*Empirical Foundations* section.
+
+[Gottweis et al., arXiv 2025] — A multi-agent Type 2 system
+(Google / Gemini 2.0) that autonomously generates and evolves scientific hypotheses through
+tournament-style agent debate, validated on real-world biomedical discovery tasks. Integrated
+into the *Computational Ideation at Scale* section's multi-agent subsection.
+
+[Liu et al., arXiv cs.HC 2026] — Mixed-methods
+empirical study (n=54) examining creativity, effort, and ownership trade-offs across three LLM
+control levels in a three-role agentic ideation probe. Key finding: creativity support is
+non-linear with control, and human effort shifts from generating to verifying ideas as AI takes
+more control. Integrated into the *Empirical Foundations* section and *Open Tensions*.
