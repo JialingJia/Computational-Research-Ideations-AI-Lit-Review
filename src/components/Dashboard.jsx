@@ -162,13 +162,28 @@ const Dashboard = ({ activeFilters, setActiveFilters }) => {
       field: 'title',
       headerName: 'Title',
       flex: 2.5,
-      minWidth: 150,
+      minWidth: 180,
       filter: true,
-      cellRenderer: params => (
-        <span style={{ fontWeight: 500, color: '#0f172a', lineHeight: '1.4' }}>
-          {params.value}
-        </span>
-      ),
+      cellRenderer: params => {
+        const content = params.value;
+        return params.data.url ? (
+          <a
+            href={params.data.url}
+            target="_blank"
+            rel="noreferrer"
+            onClick={e => e.stopPropagation()}
+            style={{ fontWeight: 500, color: '#2563eb', textDecoration: 'none', lineHeight: '1.4' }}
+            onMouseEnter={(e) => { e.currentTarget.style.textDecoration = 'underline'; }}
+            onMouseLeave={(e) => { e.currentTarget.style.textDecoration = 'none'; }}
+          >
+            {content}
+          </a>
+        ) : (
+          <span style={{ fontWeight: 500, color: '#0f172a', lineHeight: '1.4' }}>
+            {content}
+          </span>
+        );
+      },
     },
     {
       field: 'authors',
@@ -271,23 +286,6 @@ const Dashboard = ({ activeFilters, setActiveFilters }) => {
       valueGetter: params => (params.data.bodens_types || []).join(', '),
       cellRenderer: TagCellRenderer,
       cellRendererParams: { onTagClick: handleTagClick },
-    },
-    {
-      field: 'url',
-      headerName: 'Link',
-      width: 60,
-      filter: false,
-      cellRenderer: params => (
-        <a
-          href={params.value}
-          onClick={e => e.stopPropagation()}
-          target="_blank"
-          rel="noreferrer"
-          style={{ color: '#2563eb', fontWeight: 600, fontSize: '0.8rem' }}
-        >
-          View
-        </a>
-      ),
     },
   ], [handleTagClick]);
 
