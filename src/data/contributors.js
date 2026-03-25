@@ -25,11 +25,6 @@ export const contributors = [
         month: "March 2026",
         items: [
           "Added *Deep Ideation* (Zhao et al. 2024) → §Computational Ideation at Scale",
-        ],
-      },
-      {
-        month: "April 2026",
-        items: [
           "Added *EvoScientist* (Lyu et al. 2026) → §Computational Ideation at Scale",
           "Added *Scientific Creativity* (Getzels & Csikszentmihalyi 1967) → §Theoretical Grounding",
         ],
@@ -48,7 +43,7 @@ export const contributors = [
     isAI: false,
     contributions: [
       {
-        month: "April 2026",
+        month: "March 2026",
         items: [
           "Recommended *Scientific Creativity* (Getzels & Csikszentmihalyi 1967) → §Theoretical Grounding",
         ],
