@@ -122,9 +122,9 @@ export default function ContributorsPanel() {
             Human-AI Collaborative Review
           </div>
           <p style={{ fontSize: '0.72rem', color: '#475569', lineHeight: 1.5, margin: 0 }}>
-            Readers can highlight text and leave paper recommendations. 
-            Every month, an AI pipeline (Claude) processes these suggestions, 
-            discovers the corresponding papers, synthesizes them into the prose, 
+            Readers can highlight text and leave paper recommendations.
+            Every month, an AI pipeline (Claude) processes these suggestions,
+            discovers the corresponding papers, synthesizes them into the prose,
             and updates this dashboard. Contributors are automatically credited here.
           </p>
         </div>
@@ -139,7 +139,7 @@ export default function ContributorsPanel() {
           borderRadius: '10px',
           padding: '12px 14px',
           animation: 'detailIn 0.18s ease-out',
-          maxWidth: '480px',
+          maxWidth: '1200px',
         }}>
           {/* Header */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '10px' }}>

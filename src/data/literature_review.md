@@ -60,7 +60,15 @@ production; a key finding is that a model's performance on these idea generation
 only weakly correlated with its scores on general intelligence benchmarks — suggesting that
 scientific creativity may benefit from distinct training objectives emphasizing conceptual
 breadth over convergent accuracy. Ye et al. [2025] have further mapped the design space of
-recent AI research tools across ideation, sensemaking, and creativity dimensions. Cox et al. [2025] push back on the field's
+recent AI research tools across ideation, sensemaking, and creativity dimensions. A complementary
+contribution by Shahhosseini et al. [2025] approaches the same landscape from a creativity-theoretic
+vantage point, organizing LLM-based scientific idea generation methods into five families — external
+knowledge augmentation, prompt-based distributional steering, inference-time scaling, multi-agent
+collaboration, and parameter-level adaptation — and analyzing each through both Boden's taxonomy and
+the 4Ps framework. The synthesis reveals a persistent gap: methods that demonstrate combinational
+novelty often fail to achieve the exploratory or transformational novelty that would constitute
+genuine conceptual breakthroughs, and current evaluation metrics are poorly calibrated to detect this
+difference. Cox et al. [2025] push back on the field's
 tendency to equate creativity support with productivity gain, arguing for evaluation frameworks
 that center human creative growth rather than output volume.
 
@@ -136,17 +144,6 @@ The sensemaking dimension is extended further by Synergi [Kang et al. 2023], a m
 tool that helps scholars build thematic threads across multiple papers. Synergi exemplifies a
 principle common to Type 1 designs: the system surfaces connections and structural patterns, but
 the meaning-making remains with the researcher.
-
-IdeaSynth [Pu et al. 2025] extends this scaffolding philosophy into the research idea
-development stage itself. Rather than structuring literature search or post-hoc synthesis,
-IdeaSynth provides a canvas on which researchers decompose their nascent ideas into modular
-facets — research problem, proposed solution, evaluation approach, and expected contribution —
-and receive literature-grounded LLM feedback at both the node level and across the canvas as a
-whole. The system does not propose ideas on the researcher's behalf; it surfaces how proposed
-idea facets relate to existing work and prompts iterative reflection and elaboration. User
-evaluations showed that IdeaSynth helped participants articulate more specific and grounded
-research briefs while maintaining a stronger sense of authorship than systems that generate
-suggestions for them to select.
 
 Reflection-oriented tools work at an even more meta level. Ford and Bryan-Kinns [2023] developed a validated questionnaire instrument for
 measuring reflective experience during creative activity — a scaffold for self-assessment that
@@ -250,6 +247,20 @@ outputs. The key design choice in both systems is that the human decides which p
 activate and how to integrate them — the system expands the researcher's conceptual reach without
 prescribing where to go.
 
+IdeaSynth [Pu et al. 2025] exemplifies a different model of hybridity: rather than simulating
+external perspectives, it distributes authorship across the development of a single research
+idea. Researchers decompose their nascent ideas into modular facets — distinct components of the
+research plan such as problem statement, study design, and expected contributions — and receive
+literature-grounded LLM feedback at each node and across the canvas as a whole. The researcher
+authors all facets, but the LLM's feedback substantively shapes what gets written next:
+redirecting problem framing, surfacing tensions with prior work, and prompting elaboration that
+the researcher would not have reached alone. This distribution of intellectual labor — researcher
+as structural author, AI as content shaper — places IdeaSynth at the hybrid boundary between
+Type 1 scaffolding and Type 2 co-generation. User evaluations found that the system helped
+participants articulate more specific and grounded research briefs; the study assessed perceived
+specificity and groundedness but did not include a direct measure of authorship attribution for
+the co-created content.
+
 Scideator [Radensky et al. 2026] takes a facet-based approach: it extracts structured
 components (purposes, mechanisms, evaluations) from seed papers the researcher provides, then
 recombines them systematically to generate novel research ideas and evaluate their novelty against
@@ -279,7 +290,7 @@ several fundamental tensions remain unresolved and will shape the next phase of 
 space.
 
 The first concerns evaluation. Despite the proliferation of benchmarks [Guo et al. 2025] and
-surveys [Alkan et al. 2025; Ye et al. 2025], there is no consensus on what makes a research idea
+surveys [Alkan et al. 2025; Ye et al. 2025; Gridach et al. 2025], there is no consensus on what makes a research idea
 good. Novelty, feasibility, significance, and testability point in different directions and are
 routinely conflated. Cox et al. [2025] argue that the field has been measuring outputs when it
 should be measuring creative development — a harder but more meaningful target. The second
@@ -360,3 +371,7 @@ persistent cross-run memory (ideation and experimentation memory modules) manage
 Evolution Manager Agent, enabling the autonomous pipeline to avoid repeating failed directions
 across independent runs. Integrated into the *Computational Ideation at Scale* section's
 multi-agent subsection, positioned between AI co-scientist and Chain-of-Ideas.
+
+[Gridach et al., arXiv cs.CL 2025] — Comprehensive survey of agentic AI systems across the full scientific discovery pipeline (literature review, hypothesis generation, experiment design, data analysis, paper writing). Added as a citation to the surveys list in *Open Tensions and the Design Frontier*, broadening the meta-survey coverage of the evaluation challenge.
+
+[Shahhosseini et al., arXiv cs.AI 2025] — Creativity-centered survey organizing LLM-based scientific idea generation methods into five families, analyzed through Boden's taxonomy and Rhodes' 4Ps framework. Highlights that combinational novelty is more easily achieved than exploratory or transformational novelty, and that evaluation metrics are poorly calibrated to capture this distinction. Integrated into the *Theoretical Grounding* section after the design-space mapping literature.

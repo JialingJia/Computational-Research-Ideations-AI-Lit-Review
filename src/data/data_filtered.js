@@ -757,12 +757,12 @@ export const filteredData = [
     year: 2025,
     venue: "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems",
     url: "https://doi.org/10.1145/3706598.3714057",
-    core_contributions: "IdeaSynth is a research idea development system that scaffolds iterative refinement by representing idea facets (problem, solution, evaluation, contributions) as nodes on a canvas, providing literature-grounded LLM feedback so researchers can iteratively expand, explore variations, and compose their own ideas into a coherent research brief.",
-    tool_types: ["Type 1"],
+    core_contributions: "IdeaSynth is a hybrid research idea development system that distributes authorship across the development of a single research idea. Researchers decompose their nascent ideas into modular facets — distinct components of the research plan such as problem statement, study design, and expected contributions — as nodes on a canvas, while literature-grounded LLM feedback at each node and canvas level substantively shapes what gets elaborated next. The researcher structures and authors the facets (Type 1); the LLM's literature synthesis redirects framing and surfaces directions the researcher would not have reached alone (Type 2). User evaluations found participants articulated more specific, grounded research briefs; the study assessed perceived specificity and groundedness but did not directly measure authorship attribution for co-created content.",
+    tool_types: ["Type 1", "Type 2"],
     research_stages: ["Problem Framing", "Analysis & Sensemaking"],
     creative_thinking_types: ["Divergent", "Convergent"],
     wallas_stages: ["Preparation", "Illumination"],
-    bodens_types: []
+    bodens_types: ["Exploratory"]
   },
 
   // ── ENTRY 48 ──────────────────────────────────────────────────────────────
@@ -890,6 +890,38 @@ export const filteredData = [
     research_stages: [],
     creative_thinking_types: ["Divergent"],
     wallas_stages: ["Incubation"],
+    bodens_types: []
+  },
+
+  // ── ENTRY 56 ─────────────────────────── (pipeline addition: March 2026) ──
+  {
+    id: "f56",
+    title: "Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions",
+    authors: ["Gridach, M.", "Nanavati, J.", "Zine El Abidine, K.", "Mendes, L.", "Mack, C."],
+    year: 2025,
+    venue: "arXiv [cs.CL]",
+    url: "https://arxiv.org/abs/2503.08979",
+    core_contributions: "Comprehensive survey of agentic AI systems for scientific discovery, covering the full research pipeline from literature review and hypothesis generation through experiment design, data analysis, and paper writing. Categorizes existing systems and tools, reviews evaluation metrics and commonly used datasets, and addresses critical challenges including literature automation, system reliability, and ethical concerns — with a forward-looking emphasis on human-AI collaboration.",
+    tool_types: ["Survey / Theory"],
+    research_stages: [],
+    creative_thinking_types: ["Divergent", "Convergent"],
+    wallas_stages: ["Preparation", "Illumination", "Verification"],
+    bodens_types: []
+  },
+
+  // ── ENTRY 57 ─────────────────────────── (pipeline addition: March 2026) ──
+  {
+    id: "f57",
+    title: "Large Language Models for Scientific Idea Generation: A Creativity-Centered Survey",
+    authors: ["Shahhosseini, F.", "Marioriyad, A.", "Momen, A.", "Soleymani Baghshah, M.", "Rohban, M.H.", "Haghjooy Javanmard, S."],
+    year: 2025,
+    venue: "arXiv [cs.AI]",
+    url: "https://arxiv.org/abs/2511.07448",
+    core_contributions: "Creativity-centered survey organizing LLM-based scientific idea generation methods into five families — external knowledge augmentation, prompt-based distributional steering, inference-time scaling, multi-agent collaboration, and parameter-level adaptation — analyzed through two complementary creativity frameworks: Boden's taxonomy (combinational, exploratory, transformational) and Rhodes' 4Ps (product, process, person, press). Highlights that scientific ideation is inherently open-ended and multi-objective, distinct from standard reasoning or general creative generation, and argues that current evaluation methods inadequately capture the creativity dimensions that matter most.",
+    tool_types: ["Survey / Theory"],
+    research_stages: [],
+    creative_thinking_types: ["Divergent"],
+    wallas_stages: ["Illumination"],
     bodens_types: []
   }
 
