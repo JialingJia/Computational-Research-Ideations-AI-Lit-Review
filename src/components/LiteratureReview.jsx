@@ -5,13 +5,26 @@ import HighlightLayer from './HighlightLayer';
 import ContributorsPanel from './ContributorsPanel';
 import { useAuth } from '../context/AuthContext';
 
+// ── Responsive hook ───────────────────────────────────────────────────────────
+function useWindowWidth() {
+  const [width, setWidth] = useState(() =>
+    typeof window !== 'undefined' ? window.innerWidth : 1200
+  );
+  useEffect(() => {
+    const handler = () => setWidth(window.innerWidth);
+    window.addEventListener('resize', handler);
+    return () => window.removeEventListener('resize', handler);
+  }, []);
+  return width;
+}
+
 // ── Color palette (mirrors Dashboard) ────────────────────────────────────────
 const TYPE_COLORS = {
-  'Type 1':          { bg: '#ecfdf5', text: '#065f46', border: '#6ee7b7' },
-  'Type 2':          { bg: '#eff6ff', text: '#1e40af', border: '#93c5fd' },
+  'Type 1': { bg: '#ecfdf5', text: '#065f46', border: '#6ee7b7' },
+  'Type 2': { bg: '#eff6ff', text: '#1e40af', border: '#93c5fd' },
   'Survey / Theory': { bg: '#faf5ff', text: '#6b21a8', border: '#d8b4fe' },
   'Empirical Study': { bg: '#fff7ed', text: '#9a3412', border: '#fdba74' },
-  _default:          { bg: '#f1f5f9', text: '#334155', border: '#cbd5e1' },
+  _default: { bg: '#f1f5f9', text: '#334155', border: '#cbd5e1' },
 };
 function typeColor(toolTypes) {
   return TYPE_COLORS[toolTypes?.[0]] ?? TYPE_COLORS._default;
@@ -121,13 +134,13 @@ function parseSections(raw) {
 // Section heading → tool_types filter preset
 function sectionFilterPreset(heading) {
   const h = heading.toLowerCase();
-  if (h.includes('ai automation'))   return { tool_types: ['Type 2'] };
+  if (h.includes('ai automation')) return { tool_types: ['Type 2'] };
   if (h.includes('mixed-initiative')) return { tool_types: ['Type 1'] };
-  if (h.includes('scaffolding'))      return { tool_types: ['Type 1'] };
-  if (h.includes('computational'))    return { tool_types: ['Type 2'] };
-  if (h.includes('hybrid'))           return { tool_types: ['Type 1', 'Type 2'] };
-  if (h.includes('empirical'))        return { tool_types: ['Empirical Study'] };
-  if (h.includes('theoretical'))      return { tool_types: ['Survey / Theory'] };
+  if (h.includes('scaffolding')) return { tool_types: ['Type 1'] };
+  if (h.includes('computational')) return { tool_types: ['Type 2'] };
+  if (h.includes('hybrid')) return { tool_types: ['Type 1', 'Type 2'] };
+  if (h.includes('empirical')) return { tool_types: ['Empirical Study'] };
+  if (h.includes('theoretical')) return { tool_types: ['Survey / Theory'] };
   return null;
 }
 
@@ -328,6 +341,9 @@ export default function LiteratureReview({ onFilterAndSwitch }) {
   const sections = useMemo(() => parseSections(rawMarkdown), []);
   const [activeId, setActiveId] = useState(sections[0]?.id ?? '');
   const sectionRefs = useRef({});
+  const windowWidth = useWindowWidth();
+  const isMobile = windowWidth <= 768;
+  const [tocOpen, setTocOpen] = useState(false);
 
   // Cited papers per section (for count badges)
   const sectionCited = useMemo(() => {
@@ -356,59 +372,162 @@ export default function LiteratureReview({ onFilterAndSwitch }) {
     sectionRefs.current[id]?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
+  // Measure the actual bottom of the sticky tab bar so the TOC bar aligns perfectly
+  const [tabBarBottom, setTabBarBottom] = useState(50);
+  useEffect(() => {
+    const nav = document.getElementById('app-nav-bar');
+    if (!nav) return;
+    const measure = () => {
+      const rect = nav.getBoundingClientRect();
+      setTabBarBottom(rect.bottom);
+    };
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(nav);
+    return () => ro.disconnect();
+  }, []);
+
+  // Height of the fixed mobile TOC bar itself
+  const MOBILE_TOC_HEIGHT = 44;
+
   const content = (
+    <>
+      {/* ── Fixed mobile TOC bar ── */}
+      {isMobile && (
+        <div style={{
+          position: 'fixed',
+          top: tabBarBottom,
+          left: 0,
+          right: 0,
+          zIndex: 500,
+          background: 'rgba(248, 250, 252, 0.92)',
+          backdropFilter: 'blur(10px)',
+          WebkitBackdropFilter: 'blur(10px)',
+          borderBottom: tocOpen ? 'none' : '1px solid #e2e8f0',
+          boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
+        }}>
+          {/* Toggle button */}
+          <button
+            onClick={() => setTocOpen(v => !v)}
+            style={{
+              width: '100%', background: 'none', border: 'none',
+              display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+              padding: '0 1rem',
+              height: `${MOBILE_TOC_HEIGHT}px`,
+              cursor: 'pointer',
+              fontSize: '0.82rem', fontWeight: 700, color: '#334155',
+            }}
+          >
+            <span style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <span>📑</span>
+              <span style={{ color: '#64748b', fontWeight: 400, fontSize: '0.75rem' }}>Jump to:</span>
+              <span style={{ color: '#1e40af', fontWeight: 700, maxWidth: '55vw', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                {sections.find(s => s.id === activeId)?.heading ?? 'Section'}
+              </span>
+            </span>
+            <span style={{ color: '#94a3b8', fontSize: '1rem', transform: tocOpen ? 'rotate(180deg)' : 'rotate(0)', transition: 'transform 0.2s' }}>▾</span>
+          </button>
+
+          {/* Dropdown */}
+          {tocOpen && (
+            <nav style={{
+              borderTop: '1px solid #e2e8f0',
+              borderBottom: '1px solid #e2e8f0',
+              background: 'rgba(255,255,255,0.97)',
+              maxHeight: '60vh',
+              overflowY: 'auto',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '1px',
+              padding: '0.35rem 0',
+            }}>
+              {sections.map(({ id, heading }) => {
+                const active = activeId === id;
+                return (
+                  <button key={id} onClick={() => { scrollTo(id); setTocOpen(false); }} style={{
+                    background: active ? '#eff6ff' : 'transparent',
+                    border: 'none',
+                    borderLeft: `3px solid ${active ? '#2563eb' : 'transparent'}`,
+                    padding: '0.5rem 1rem',
+                    textAlign: 'left',
+                    fontSize: '0.85rem',
+                    fontWeight: active ? 700 : 400,
+                    color: active ? '#1e40af' : '#334155',
+                    cursor: 'pointer',
+                    lineHeight: 1.4,
+                    width: '100%',
+                  }}>
+                    {heading}
+                  </button>
+                );
+              })}
+            </nav>
+          )}
+        </div>
+      )}
+
     <div style={{ display: 'flex', gap: '1.75rem', alignItems: 'flex-start' }}>
 
-      {/* ── TOC sidebar ── */}
-      <aside style={{ width: '196px', flexShrink: 0, position: 'sticky', top: '1rem', alignSelf: 'flex-start' }}>
-        <div style={{ fontSize: '0.68rem', fontWeight: 700, color: '#94a3b8', textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: '0.6rem' }}>
-          Contents
-        </div>
-        <nav style={{ display: 'flex', flexDirection: 'column', gap: '1px' }}>
-          {sections.map(({ id, heading }) => {
-            const active = activeId === id;
-            return (
-              <button key={id} onClick={() => scrollTo(id)} style={{
-                background: active ? '#eff6ff' : 'transparent',
-                border: 'none',
-                borderLeft: `2px solid ${active ? '#2563eb' : 'transparent'}`,
-                padding: '0.32rem 0.6rem',
-                textAlign: 'left',
-                fontSize: '0.77rem',
-                fontWeight: active ? 700 : 400,
-                color: active ? '#1e40af' : '#64748b',
-                cursor: 'pointer',
-                borderRadius: '0 4px 4px 0',
-                transition: 'all 0.15s',
-                lineHeight: 1.35,
-              }}>
-                {heading}
-              </button>
-            );
-          })}
-        </nav>
+      {/* ── TOC sidebar (desktop only) ── */}
+      {!isMobile && (
+        <aside style={{ width: '196px', flexShrink: 0, position: 'sticky', top: '1rem', alignSelf: 'flex-start' }}>
+          <div style={{ fontSize: '0.68rem', fontWeight: 700, color: '#94a3b8', textTransform: 'uppercase', letterSpacing: '0.07em', marginBottom: '0.6rem' }}>
+            Contents
+          </div>
+          <nav style={{ display: 'flex', flexDirection: 'column', gap: '1px' }}>
+            {sections.map(({ id, heading }) => {
+              const active = activeId === id;
+              return (
+                <button key={id} onClick={() => scrollTo(id)} style={{
+                  background: active ? '#eff6ff' : 'transparent',
+                  border: 'none',
+                  borderLeft: `2px solid ${active ? '#2563eb' : 'transparent'}`,
+                  padding: '0.32rem 0.6rem',
+                  textAlign: 'left',
+                  fontSize: '0.77rem',
+                  fontWeight: active ? 700 : 400,
+                  color: active ? '#1e40af' : '#64748b',
+                  cursor: 'pointer',
+                  borderRadius: '0 4px 4px 0',
+                  transition: 'all 0.15s',
+                  lineHeight: 1.35,
+                }}>
+                  {heading}
+                </button>
+              );
+            })}
+          </nav>
 
-        <div style={{ marginTop: '1.5rem', padding: '0.75rem', background: '#f8fafc', borderRadius: '8px', fontSize: '0.7rem', color: '#64748b', lineHeight: 1.5 }}>
-          <div style={{ fontWeight: 700, marginBottom: '0.3rem', color: '#334155' }}>Citation chips</div>
-          Hover any <span style={{ background: '#eff6ff', color: '#1e40af', border: '1px solid #93c5fd', padding: '0 5px', borderRadius: '6px', fontWeight: 700, fontSize: '0.65rem' }}>Author Year</span> chip to see the paper details.
-        </div>
-      </aside>
+          <div style={{ marginTop: '1.5rem', padding: '0.75rem', background: '#f8fafc', borderRadius: '8px', fontSize: '0.7rem', color: '#64748b', lineHeight: 1.5 }}>
+            <div style={{ fontWeight: 700, marginBottom: '0.3rem', color: '#334155' }}>Citation chips</div>
+            Hover any <span style={{ background: '#eff6ff', color: '#1e40af', border: '1px solid #93c5fd', padding: '0 5px', borderRadius: '6px', fontWeight: 700, fontSize: '0.65rem' }}>Author Year</span> chip to see the paper details.
+          </div>
+        </aside>
+      )}
 
       {/* ── Main reading area ── */}
-      <main style={{ flex: 1, minWidth: 0, paddingBottom: '5rem' }}>
+      <main style={{ flex: 1, minWidth: 0, paddingBottom: '5rem', paddingTop: isMobile ? `${tabBarBottom + MOBILE_TOC_HEIGHT + 8}px` : 0 }}>
 
         {/* ── Contributors Panel ── */}
         <ContributorsPanel />
 
         {/* Review title / intro */}
-        <div style={{ marginBottom: '2rem', paddingBottom: '1.25rem', borderBottom: '2px solid #e2e8f0', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', gap: '1rem' }}>
+        <div style={{
+          marginBottom: '2rem', paddingBottom: '1.25rem',
+          borderBottom: '2px solid #e2e8f0',
+          display: 'flex',
+          flexDirection: isMobile ? 'column' : 'row',
+          alignItems: isMobile ? 'flex-start' : 'flex-end',
+          justifyContent: 'space-between',
+          gap: '0.75rem',
+        }}>
           <div>
-            <h1 style={{ fontSize: '1.6rem', fontWeight: 800, color: '#0f172a', margin: '0 0 0.25rem 0', letterSpacing: '-0.02em' }}>
-              AI-Assisted Research Ideation Tools
+            <h1 style={{ fontSize: isMobile ? '1.25rem' : '1.6rem', fontWeight: 800, color: '#0f172a', margin: '0 0 0.25rem 0', letterSpacing: '-0.02em' }}>
+              Computational Research Ideation
             </h1>
             <p style={{ color: '#64748b', margin: 0, fontSize: '0.9rem' }}>
               Literature review · {allData.length} papers · {sections.length} sections
-              <span style={{ marginLeft: '0.75rem', color: '#94a3b8' }}>· Select any text to comment</span>
+              {!isMobile && <span style={{ marginLeft: '0.75rem', color: '#94a3b8' }}>· Select any text to comment</span>}
             </p>
           </div>
           {/* GitHub auth chip */}
@@ -418,6 +537,7 @@ export default function LiteratureReview({ onFilterAndSwitch }) {
               background: '#f8fafc', border: '1px solid #e2e8f0',
               borderRadius: '20px', padding: '4px 12px 4px 6px',
               cursor: 'pointer', fontSize: '0.75rem', fontWeight: 600, color: '#334155',
+              alignSelf: isMobile ? 'flex-start' : 'auto',
             }}>
               <img src={user.photoURL} alt="" style={{ width: 22, height: 22, borderRadius: '50%' }} />
               {user.displayName}
@@ -428,6 +548,7 @@ export default function LiteratureReview({ onFilterAndSwitch }) {
               border: 'none', borderRadius: '8px',
               padding: '6px 14px', fontSize: '0.78rem', fontWeight: 700,
               cursor: 'pointer', whiteSpace: 'nowrap',
+              alignSelf: isMobile ? 'flex-start' : 'auto',
             }}>
               Sign in with GitHub to comment
             </button>
@@ -445,9 +566,15 @@ export default function LiteratureReview({ onFilterAndSwitch }) {
               style={{ marginBottom: '3rem', scrollMarginTop: '1rem' }}
             >
               {/* Section header */}
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem', gap: '1rem' }}>
+              <div style={{
+                display: 'flex',
+                flexDirection: isMobile ? 'column' : 'row',
+                justifyContent: 'space-between',
+                alignItems: isMobile ? 'flex-start' : 'flex-start',
+                marginBottom: '1rem', gap: '0.6rem',
+              }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
-                  <h2 style={{ fontSize: '1.15rem', fontWeight: 800, color: '#0f172a', margin: 0, letterSpacing: '-0.015em' }}>
+                  <h2 style={{ fontSize: isMobile ? '1rem' : '1.15rem', fontWeight: 800, color: '#0f172a', margin: 0, letterSpacing: '-0.015em' }}>
                     {heading}
                   </h2>
                   {cited.length > 0 && (
@@ -464,6 +591,7 @@ export default function LiteratureReview({ onFilterAndSwitch }) {
                       padding: '4px 12px', borderRadius: '8px', fontSize: '0.75rem',
                       fontWeight: 700, cursor: 'pointer', whiteSpace: 'nowrap',
                       transition: 'all 0.15s', flexShrink: 0,
+                      alignSelf: isMobile ? 'flex-start' : 'auto',
                     }}
                     onMouseEnter={e => { e.currentTarget.style.background = '#eff6ff'; }}
                     onMouseLeave={e => { e.currentTarget.style.background = '#fff'; }}
@@ -474,7 +602,7 @@ export default function LiteratureReview({ onFilterAndSwitch }) {
               </div>
 
               {/* Prose */}
-              <div className="prose-content" style={{ background: '#fafafa', borderRadius: '10px', padding: '1.25rem 1.5rem', border: '1px solid #f1f5f9' }}>
+              <div className="prose-content" style={{ background: '#fafafa', borderRadius: '10px', padding: isMobile ? '0.85rem 1rem' : '1.25rem 1.5rem', border: '1px solid #f1f5f9' }}>
                 <Prose body={body} />
               </div>
 
@@ -499,6 +627,7 @@ export default function LiteratureReview({ onFilterAndSwitch }) {
         })}
       </main>
     </div>
+    </>
   );
 
   return <HighlightLayer sectionRefs={sectionRefs}>{content}</HighlightLayer>;

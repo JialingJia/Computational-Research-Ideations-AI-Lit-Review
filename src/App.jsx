@@ -27,10 +27,21 @@ function App() {
 
   return (
     <div className="app-container">
-      {/* Tab bar */}
-      <nav style={{
-        display: 'flex', gap: '4px', marginBottom: '1.75rem',
+      {/* Tab bar — sticky so it stays visible while scrolling */}
+      <nav id="app-nav-bar" style={{
+        display: 'flex', flexWrap: 'wrap', gap: '4px', marginBottom: '1.75rem',
         borderBottom: '2px solid #e2e8f0', paddingBottom: '0',
+        position: 'sticky',
+        top: 0,
+        zIndex: 600,
+        background: '#f8fafc',
+        /* pull it flush to container edges so the bg covers full width */
+        marginLeft: 'calc(-1 * var(--app-px, 2rem))',
+        marginRight: 'calc(-1 * var(--app-px, 2rem))',
+        paddingLeft: 'var(--app-px, 2rem)',
+        paddingRight: 'var(--app-px, 2rem)',
+        marginTop: 'calc(-1 * var(--app-py, 2rem))',
+        paddingTop: 'var(--app-py, 2rem)',
       }}>
         {TABS.map(tab => {
           const active = activeTab === tab.id;
@@ -40,14 +51,15 @@ function App() {
               onClick={() => setActiveTab(tab.id)}
               style={{
                 background: 'none', border: 'none',
-                padding: '0.55rem 1.2rem',
-                fontSize: '0.92rem',
+                padding: 'clamp(0.4rem, 1.5vw, 0.55rem) clamp(0.6rem, 2.5vw, 1.2rem)',
+                fontSize: 'clamp(0.8rem, 2.2vw, 0.92rem)',
                 fontWeight: active ? 700 : 500,
                 color: active ? '#0f172a' : '#64748b',
                 cursor: 'pointer',
                 borderBottom: `2px solid ${active ? '#2563eb' : 'transparent'}`,
                 marginBottom: '-2px',
                 transition: 'color 0.15s',
+                whiteSpace: 'nowrap',
               }}
             >
               {tab.label}

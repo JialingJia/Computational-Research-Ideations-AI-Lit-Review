@@ -306,13 +306,20 @@ const Dashboard = ({ activeFilters, setActiveFilters }) => {
 
       {/* Header */}
       <header style={{ marginBottom: '1.5rem' }}>
-        <h1 style={{ fontSize: '2rem', fontWeight: 800, color: '#0f172a', letterSpacing: '-0.025em', margin: '0 0 0.4rem 0' }}>
+        <h1 style={{
+          fontSize: 'clamp(1.25rem, 4vw, 2rem)',
+          fontWeight: 800,
+          color: '#0f172a',
+          letterSpacing: '-0.025em',
+          margin: '0 0 0.4rem 0',
+          lineHeight: 1.2,
+        }}>
           Computational Research Ideations (Literature Review)
         </h1>
-        <p style={{ color: '#64748b', fontSize: '1rem', margin: '0 0 1rem 0' }}>
+        <p style={{ color: '#64748b', fontSize: 'clamp(0.85rem, 2vw, 1rem)', margin: '0 0 1rem 0' }}>
           Interactive literature review for Research Ideation Tools/Systems.
         </p>
-        <div style={{ background: '#f0fdf4', padding: '0.85rem 1.25rem', borderRadius: '8px', borderLeft: '4px solid #22c55e', color: '#166534', fontSize: '0.9rem', lineHeight: '1.6' }}>
+        <div style={{ background: '#f0fdf4', padding: 'clamp(0.65rem, 2vw, 0.85rem) clamp(0.85rem, 2.5vw, 1.25rem)', borderRadius: '8px', borderLeft: '4px solid #22c55e', color: '#166534', fontSize: 'clamp(0.8rem, 1.8vw, 0.9rem)', lineHeight: '1.6' }}>
           <strong>Welcome to the Research Ideation Tools/Systems Literature Review.</strong> This interactive literature review maps the landscape of
           compuational research ideation across two primary paradigms: <em>AI Automation</em> — systems that autonomously conduct literature review,
           hypothesis generation, and experimental planning — and <em>Mixed-Initiative</em> tools that keep the researcher
@@ -323,15 +330,15 @@ const Dashboard = ({ activeFilters, setActiveFilters }) => {
           <br />
           <br />
           <span style={{ fontWeight: 600, fontSize: '0.82rem', display: 'block', marginBottom: '0.4rem' }}>Tool Type Legend:</span>
-          <span style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', alignItems: 'center' }}>
+          <span style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', alignItems: 'flex-start' }}>
             {[
               { label: 'Type 1', desc: 'Mixed-Initiative · researcher as primary creative agent (preparatory scaffolding or generative support)', bg: '#ecfdf5', text: '#065f46', border: '#6ee7b7' },
               { label: 'Type 2', desc: 'AI Automation · system autonomously generates ideas; researcher evaluates outputs', bg: '#eff6ff', text: '#1e40af', border: '#93c5fd' },
               { label: 'Survey / Theory', desc: 'Survey, taxonomy, or conceptual/theoretical paper (no tool artifact)', bg: '#faf5ff', text: '#6b21a8', border: '#d8b4fe' },
               { label: 'Empirical Study', desc: 'User study, experiment, or field study (no tool artifact)', bg: '#fff7ed', text: '#9a3412', border: '#fdba74' },
             ].map(({ label, desc, bg, text, border }) => (
-              <span key={label} style={{ display: 'inline-flex', alignItems: 'center', gap: '5px', fontSize: '0.78rem' }}>
-                <span style={{ background: bg, color: text, border: `1px solid ${border}`, padding: '1px 8px', borderRadius: '10px', fontWeight: 600, whiteSpace: 'nowrap' }}>{label}</span>
+              <span key={label} style={{ display: 'inline-flex', alignItems: 'flex-start', gap: '5px', fontSize: '0.78rem', lineHeight: '1.5' }}>
+                <span style={{ background: bg, color: text, border: `1px solid ${border}`, padding: '1px 8px', borderRadius: '10px', fontWeight: 600, whiteSpace: 'nowrap', flexShrink: 0, marginTop: '2px' }}>{label}</span>
                 <span style={{ color: '#4b7a5a' }}>{desc}</span>
               </span>
             ))}
@@ -351,33 +358,35 @@ const Dashboard = ({ activeFilters, setActiveFilters }) => {
           onClick={() => setFilterOpen(v => !v)}
           style={{
             display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-            padding: '0.85rem 1.25rem', cursor: 'pointer',
+            padding: 'clamp(0.6rem, 2vw, 0.85rem) clamp(0.75rem, 2.5vw, 1.25rem)',
+            cursor: 'pointer',
             background: filterOpen ? '#f8fafc' : '#f1f5f9',
             borderBottom: filterOpen ? '1px solid #e2e8f0' : 'none',
             userSelect: 'none',
+            gap: '0.5rem',
           }}
         >
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            <h3 style={{ margin: 0, fontSize: '1rem', fontWeight: 700, color: '#334155' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap', flex: 1, minWidth: 0 }}>
+            <h3 style={{ margin: 0, fontSize: 'clamp(0.85rem, 2vw, 1rem)', fontWeight: 700, color: '#334155', whiteSpace: 'nowrap' }}>
               🔍 Filter by Tags
             </h3>
             {hasActiveFilters && (
               <span style={{
                 background: '#2563eb', color: '#fff', borderRadius: '12px',
-                padding: '1px 9px', fontSize: '0.72rem', fontWeight: 700,
+                padding: '1px 9px', fontSize: '0.72rem', fontWeight: 700, whiteSpace: 'nowrap',
               }}>
                 {activeFilterCount} active
               </span>
             )}
-            <span style={{ color: '#64748b', fontSize: '0.85rem' }}>
+            <span style={{ color: '#64748b', fontSize: 'clamp(0.75rem, 1.8vw, 0.85rem)', whiteSpace: 'nowrap' }}>
               — showing <strong style={{ color: '#0f172a' }}>{filteredRows.length}</strong> of <strong style={{ color: '#0f172a' }}>{allData.length}</strong> papers
             </span>
           </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexShrink: 0 }}>
             {hasActiveFilters && (
               <button
                 onClick={(e) => { e.stopPropagation(); setActiveFilters({ tool_types: [], research_stages: [], creative_thinking_types: [], wallas_stages: [], bodens_types: [] }); }}
-                style={{ background: 'transparent', border: 'none', color: '#ef4444', cursor: 'pointer', fontSize: '0.8rem', fontWeight: 600 }}
+                style={{ background: 'transparent', border: 'none', color: '#ef4444', cursor: 'pointer', fontSize: '0.8rem', fontWeight: 600, whiteSpace: 'nowrap' }}
               >
                 ✕ Clear All
               </button>
@@ -388,7 +397,7 @@ const Dashboard = ({ activeFilters, setActiveFilters }) => {
 
         {/* Filter tags grid */}
         {filterOpen && (
-          <div style={{ padding: '1.1rem 1.25rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '1.25rem' }}>
+          <div style={{ padding: 'clamp(0.75rem, 2vw, 1.1rem) clamp(0.75rem, 2.5vw, 1.25rem)', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(160px, 100%), 1fr))', gap: 'clamp(0.75rem, 2vw, 1.25rem)' }}>
             {TAG_FIELDS.map(({ field, label }) => (
               <div key={field} style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                 <span style={{ fontSize: '0.7rem', fontWeight: 700, color: '#64748b', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
@@ -444,19 +453,36 @@ const Dashboard = ({ activeFilters, setActiveFilters }) => {
         )}
       </div>
 
-      {/* AG Grid */}
-      <div
-        className="ag-theme-quartz"
-        style={{ height: '1100px', width: '100%', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.08)', borderRadius: '8px', overflow: 'hidden' }}
-      >
-        <AgGridReact
-          rowData={filteredRows}
-          columnDefs={colDefs}
-          defaultColDef={defaultColDef}
-          autoSizeStrategy={{ type: 'fitGridWidth' }}
-          pagination={true}
-          paginationPageSize={20}
-        />
+      {/* Mobile scroll hint */}
+      <p className="mobile-hint" style={{
+        alignItems: 'center', gap: '6px',
+        fontSize: '0.75rem', color: '#94a3b8',
+        marginBottom: '0.4rem', marginTop: 0,
+      }}>
+        <span>👆</span> Swipe horizontally to see all columns
+      </p>
+
+      {/* AG Grid — horizontally scrollable on mobile */}
+      <div className="grid-scroll-wrapper" style={{ boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.08)' }}>
+        <div
+          className="ag-theme-quartz"
+          style={{
+            height: 'clamp(500px, 80vh, 1100px)',
+            minWidth: '700px',   /* prevents columns from squishing too much */
+            width: '100%',
+            borderRadius: '8px',
+            overflow: 'hidden',
+          }}
+        >
+          <AgGridReact
+            rowData={filteredRows}
+            columnDefs={colDefs}
+            defaultColDef={defaultColDef}
+            autoSizeStrategy={{ type: 'fitGridWidth' }}
+            pagination={true}
+            paginationPageSize={20}
+          />
+        </div>
       </div>
     </div>
   );

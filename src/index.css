@@ -15,7 +15,50 @@ body {
 
 /* Base App Layout */
 .app-container {
+  --app-px: 2rem;
+  --app-py: 2rem;
   max-width: 1600px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: var(--app-py) var(--app-px);
+}
+
+/* ── Responsive breakpoints ─────────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .app-container {
+    --app-px: 1.25rem;
+    --app-py: 1.25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .app-container {
+    --app-px: 0.75rem;
+    --app-py: 0.75rem;
+  }
+
+  /* Let the AG Grid scroll horizontally on small screens */
+  .ag-theme-quartz {
+    font-size: 0.78rem;
+  }
+}
+
+/* Scrollable AG Grid wrapper on mobile */
+.grid-scroll-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 8px;
+}
+
+/* Mobile card list for small screens (toggled via JS) */
+@media (max-width: 640px) {
+  .mobile-hint {
+    display: flex;
+  }
+}
+
+@media (min-width: 641px) {
+  .mobile-hint {
+    display: none;
+  }
 }

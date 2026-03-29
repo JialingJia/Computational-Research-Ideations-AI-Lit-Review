@@ -1,4 +1,4 @@
-# Literature Review: AI-Assisted Research Ideation Tools
+# Literature Review: Computational Research Ideation
 
 ## Overview: The Design Spectrum of Computational Research Ideation
 
