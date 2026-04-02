@@ -1186,6 +1186,102 @@ export const filteredData = [
     creative_thinking_types: ["Convergent"],
     wallas_stages: ["Preparation"],
     bodens_types: []
+  },
+
+  // ── ENTRY 74 ──────────────────────────────────────────────────────────────
+  {
+    id: "f74",
+    title: "Navigating Ideation Space: Decomposed Conceptual Representations for Positioning Scientific Ideas",
+    authors: ["Shen, Y.", "Liu, M.", "Zhou, D.", "Huang, L."],
+    year: 2026,
+    venue: "arXiv [cs.AI]",
+    url: "https://arxiv.org/abs/2601.08901",
+    core_contributions: "Introduces the Ideation Space framework, which decomposes scientific knowledge into three contrastively trained dimensions (research problem, methodology, core findings) to enable targeted literature retrieval and fine-grained novelty assessment. The Hierarchical Sub-Space Retrieval framework surfaces relevant prior work at each conceptual dimension, while the Decomposed Novelty Assessment algorithm identifies which specific aspects of a researcher's proposed idea are novel versus well-covered — scaffolding the researcher's positioning of their own ideas within the existing landscape.",
+    tool_types: ["Type 1"],
+    research_stages: ["Information Foraging", "Analysis & Sensemaking"],
+    creative_thinking_types: ["Convergent"],
+    wallas_stages: ["Preparation", "Verification"],
+    bodens_types: []
+  },
+
+  // ── ENTRY 75 ──────────────────────────────────────────────────────────────
+  {
+    id: "f75",
+    title: "Artificial intelligence tools expand scientists' impact but contract science's focus",
+    authors: ["Hao, Q.", "Xu, F.", "Li, Y.", "Evans, J."],
+    year: 2026,
+    venue: "Nature",
+    url: "https://doi.org/10.1038/s41586-025-09922-y",
+    core_contributions: "Large-scale empirical analysis of 41.3 million research papers showing that AI-augmented scientists publish more and receive more citations (individual impact expansion), but that collective AI adoption shrinks the volume of scientific topics studied by 4.63% and reduces inter-scientist engagement by 22% — documenting a paradox in which AI tools expand individual scientific output while contracting collective scientific creativity and topic diversity.",
+    tool_types: ["Empirical Study"],
+    research_stages: [],
+    creative_thinking_types: ["Divergent"],
+    wallas_stages: [],
+    bodens_types: []
+  },
+
+  // ── ENTRY 76 ──────────────────────────────────────────────────────────────
+  {
+    id: "f76",
+    title: "ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition",
+    authors: ["Liu, Y.", "et al."],
+    year: 2025,
+    venue: "arXiv [cs.CL]",
+    url: "https://arxiv.org/abs/2503.21248",
+    core_contributions: "Introduces the first large-scale benchmark for evaluating LLMs on near-sufficient sub-tasks of scientific discovery: inspiration retrieval, hypothesis composition, and hypothesis ranking. An automated pipeline extracts research questions, background surveys, inspirations, and hypotheses from papers across 12 disciplines with expert validation; contamination is prevented by focusing on 2024 papers. Evaluation reveals LLMs perform well at inspiration retrieval but struggle at hypothesis composition and ranking, positioning inspiration retrieval as the strongest current LLM contribution to research ideation.",
+    tool_types: ["Survey / Theory"],
+    research_stages: [],
+    creative_thinking_types: ["Convergent"],
+    wallas_stages: ["Verification"],
+    bodens_types: []
+  },
+
+  // ── ENTRY 77 ──────────────────────────────────────────────────────────────
+  {
+    id: "f77",
+    title: "AI Idea Bench 2025: AI Research Idea Generation Benchmark",
+    authors: ["Qiu, Y.", "Zhang, H.", "Xu, Z.", "Li, M.", "Song, D.", "Wang, Z.", "Zhang, K."],
+    year: 2025,
+    venue: "arXiv [cs.AI]",
+    url: "https://arxiv.org/abs/2504.14191",
+    core_contributions: "Proposes AI Idea Bench 2025, a benchmark evaluating LLM-generated research idea quality in the AI domain while addressing three gaps in prior benchmarks: knowledge leakage, absence of open-ended grounded-truth evaluation, and limited feasibility analysis. The dataset comprises 3,495 target AI papers with their motivating papers, enabling two-dimensional quality assessment: alignment with ground-truth content and judgment based on general reference material.",
+    tool_types: ["Survey / Theory"],
+    research_stages: [],
+    creative_thinking_types: ["Convergent"],
+    wallas_stages: ["Verification"],
+    bodens_types: []
+  },
+
+  // ── ENTRY 78 ──────────────────────────────────────────────────────────────
+  {
+    id: "f78",
+    title: "HybridQuestion: Human-AI Collaboration for Identifying High-Impact Research Questions",
+    authors: ["Zhao, K.", "et al."],
+    year: 2026,
+    venue: "arXiv [cs.AI]",
+    url: "https://arxiv.org/abs/2602.03849",
+    core_contributions: "Presents a three-phase human-AI hybrid system for identifying high-impact research questions: AI-Accelerated Information Gathering synthesizes relevant literature; Candidate Question Proposing prompts an ensemble of six diverse LLMs to generate candidate questions filtered via cross-model voting for diversity; Hybrid Question Selection applies a multi-stage filtering process with progressively increasing human oversight. Validated through an experiment identifying the Top 10 Scientific Breakthroughs of 2025 and Top 10 Scientific Questions for 2026; finds human judgment remains crucial for forward-looking question selection where AI agents diverge significantly from domain experts.",
+    tool_types: ["Type 2"],
+    research_stages: ["Problem Framing"],
+    creative_thinking_types: ["Divergent"],
+    wallas_stages: ["Illumination"],
+    bodens_types: ["Combinational"]
+  },
+
+  // ── ENTRY 79 ──────────────────────────────────────────────────────────────
+  {
+    id: "f79",
+    title: "Exploring the role of large language models in the scientific method: from hypothesis to discovery",
+    authors: ["Zhang, Y.", "Khan, S.A.", "Mahmud, A.", "Yang, H.", "Lavin, A.", "Levin, M.", "Frey, J.", "Dunnmon, J.", "Evans, J.", "Bundy, A.", "Dzeroski, S.", "Tegner, J.", "Zenil, H."],
+    year: 2025,
+    venue: "npj Artificial Intelligence",
+    url: "https://www.nature.com/articles/s44387-025-00019-5",
+    core_contributions: "Reviews and synthesizes how LLMs are redefining the scientific method across stages from hypothesis generation through experimental design, data analysis, and discovery. Argues that LLMs function as both creative engines and productivity enhancers but that their potential depends on deep integration with human scientific goals and clear evaluation metrics. Raises concerns about hallucination, reliability, and the ethical implications of AI-driven science — including oversight, attribution of creativity, and the risk of leaving essential aspects of the scientific process to systems whose reasoning cannot be fully audited.",
+    tool_types: ["Survey / Theory"],
+    research_stages: [],
+    creative_thinking_types: ["Divergent", "Convergent"],
+    wallas_stages: ["Preparation", "Illumination", "Verification"],
+    bodens_types: []
   }
 
 ];

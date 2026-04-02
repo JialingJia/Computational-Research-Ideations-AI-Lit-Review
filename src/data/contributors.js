@@ -38,6 +38,17 @@ export const contributors = [
           "Updated cst-categorizer and research-ideation-stages skills with Shneiderman (2020) / Horvitz (1999) grounding",
         ],
       },
+      {
+        month: "April 2026",
+        items: [
+          "Added *Navigating Ideation Space* (Shen et al. 2026) → §Preparatory Scaffolding",
+          "Added *AI tools expand scientists' impact but contract science's focus* (Hao et al. 2026) → §Open Tensions",
+          "Added *ResearchBench* (Liu et al. 2025) → §Theoretical Grounding",
+          "Added *AI Idea Bench 2025* (Qiu et al. 2025) → §Theoretical Grounding",
+          "Added *HybridQuestion* (Zhao et al. 2026) → §LLM-Based Hypothesis Generation",
+          "Added *Exploring the role of LLMs in the scientific method* (Zhang et al. 2025) → §Theoretical Grounding",
+        ],
+      },
     ],
   },
 

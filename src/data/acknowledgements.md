@@ -61,3 +61,14 @@ contributions. Powered by [claude.ai](https://claude.ai).
   *(Run date: 2026-03-28)*
 
 - **Houji** (@JialingJia) — Contributed Section 2.2 dissertation framework ("The Design Spectrum of Computational Research Ideation") as the organizing schema for the review. Framework distinguishes AI Automation (emulation goal, Shneiderman 2020) from Mixed-Initiative tools (application goal, Horvitz 1999), and within the latter distinguishes Preparatory Scaffolding from Generative Support. *(2026-03-28)*
+
+### April 2026
+
+- **Claude (Anthropic)** — Added 6 paper(s) to the review:
+  - *Navigating Ideation Space: Decomposed Conceptual Representations for Positioning Scientific Ideas* (Shen et al. 2026) → §Preparatory Scaffolding: Building the Knowledge Foundation
+  - *Artificial intelligence tools expand scientists' impact but contract science's focus* (Hao et al. 2026) → §Open Tensions and the Design Frontier
+  - *ResearchBench: Benchmarking LLMs in Scientific Discovery via Inspiration-Based Task Decomposition* (Liu et al. 2025) → §Theoretical Grounding: Defining Scientific Creativity
+  - *AI Idea Bench 2025: AI Research Idea Generation Benchmark* (Qiu et al. 2025) → §Theoretical Grounding: Defining Scientific Creativity
+  - *HybridQuestion: Human-AI Collaboration for Identifying High-Impact Research Questions* (Zhao et al. 2026) → §Computational Ideation at Scale: LLM-Based Hypothesis and Idea Generation
+  - *Exploring the role of large language models in the scientific method: from hypothesis to discovery* (Zhang et al. 2025) → §Theoretical Grounding: Defining Scientific Creativity
+  *(Run date: 2026-04-02)*

@@ -87,13 +87,33 @@ LiveIdeaBench [Ruan et al. 2026] takes a divergent-thinking-oriented approach �
 scientific creativity through single-keyword minimal-context prompts grounded in Guilford's theory
 — and finds that creativity performance is only weakly correlated with general intelligence
 benchmarks, underscoring the distinctiveness of creative ideation as a cognitive demand.
+ResearchBench [Liu et al. 2025] decomposes scientific discovery into three near-sufficient
+sub-tasks — inspiration retrieval, hypothesis composition, and hypothesis ranking — building an
+automated extraction pipeline across 12 disciplines with expert validation and drawing exclusively
+on 2024 papers to prevent training-data contamination; its finding that LLMs perform markedly
+better at inspiration retrieval than at hypothesis composition or ranking identifies the retrieval
+of relevant prior work as the strongest current AI contribution to research ideation. AI Idea
+Bench 2025 [Qiu et al. 2025] narrows the aperture to the AI research domain specifically,
+constructing a 3,495-paper benchmark to address gaps in prior evaluation frameworks: knowledge
+leakage from LLM pretraining, the absence of open-ended grounded-truth assessment, and limited
+feasibility analysis. Together, these emerging benchmark initiatives constitute a nascent
+infrastructure for measuring progress in computational research ideation — though as Cox et al.
+[2025] and Alkan et al. [2025] caution, the metrics these benchmarks use still tend to measure
+surface novelty rather than the scientific significance or creative development that practitioners
+actually care about.
 
 Two broader analyses situate this tool landscape in the context of the scientific research
 enterprise as a whole. Krenn et al. [2022] survey the trajectory from automated equation
 discovery systems through modern autonomous research agents, proposing "Popper" as a conceptual
 framework for automated hypothesis generation and falsification loops grounded in Popperian
 philosophy of science — a framework that anticipates the design logic of the AI Automation systems
-reviewed below. Ye et al. [2025] offer an HCI-oriented complement, analyzing the design space
+reviewed below. Zhang et al. [2025], writing in npj Artificial Intelligence, offer a
+comprehensive perspective on LLMs across every stage of the scientific method — from hypothesis
+formulation through experimental design, data analysis, and final discovery — arguing that LLMs
+can function as both creative engines and productivity enhancers but only when deeply integrated
+with human scientific goals and supported by clear evaluation metrics; they raise particular
+concerns about hallucination, reliability, and the unresolved ethics of AI-attributed creativity
+in science. Ye et al. [2025] offer an HCI-oriented complement, analyzing the design space
 of recent AI-assisted research tools specifically across ideation, sensemaking, and scientific
 creativity dimensions, taxonomizing tool capabilities by interaction mode and automation level.
 Zhao et al. [2025], focusing on writing support tools rather than research ideation per se,
@@ -202,7 +222,13 @@ combinational creativity in scientific ideation benefits from grounding not just
 but in prior evidence. Many-heads-are-better [Su et al. 2025] applies the same combinational
 principle through multi-agent diversity: specialized agents simulating scientist, critic, and
 reviewer roles each contribute distinct conceptual perspectives, with the diversity of viewpoints
-driving richer recombination than any single model would produce. The analogical search engine
+driving richer recombination than any single model would produce. HybridQuestion [Zhao et al.
+2026] applies multi-LLM diversity specifically to research question identification: an ensemble
+of six diverse LLMs generates a pool of candidate research questions from synthesized literature,
+filtered via cross-model voting to maximize breadth; human experts then progressively take on
+greater oversight across three selection stages, with AI contribution most useful for identifying
+established breakthroughs and human judgment becoming essential for forward-looking questions
+where model outputs diverge sharply from expert assessment. The analogical search engine
 of Kang et al. [2022] takes a structurally similar approach in the information foraging stage,
 retrieving solutions from distant scientific domains that are structurally analogous to the
 user's problem — letting the system generate the cross-domain connections while the researcher
@@ -370,6 +396,23 @@ emerges from academic search, while its Idea Board gives researchers a canvas fo
 emergent insights into nascent research directions — a transitional affordance between building
 knowledge and beginning to formulate what to investigate.
 
+A more recent contribution to this sensemaking layer is Shen et al.'s Ideation Space framework
+[2026], which approaches the problem of situating a new idea within existing knowledge through
+structured dimensional decomposition. Rather than treating papers as atomic semantic units, the
+system learns separate contrastive representations for a paper's research problem, its
+methodology, and its core findings — enabling retrieval targeted to whichever conceptual
+dimension a researcher cares about, rather than collapsing all aspects into a single similarity
+score. Built on top of these representations, a Hierarchical Sub-Space Retrieval framework
+surfaces relevant prior work at each conceptual level, and a Decomposed Novelty Assessment
+algorithm identifies which specific facets of a proposed idea are novel versus already
+well-covered in the literature. Shen et al. [2026] demonstrate substantial improvements over
+single-embedding baselines on inspiration retrieval and find that their novelty assessment
+attains meaningful correlation with expert judgments — addressing a known weakness of LLM-based
+novelty evaluation, namely susceptibility to sycophancy bias that overstates the originality of
+proposed ideas. This positions the Ideation Space as a Type 1 scaffolding layer at the interface
+of information foraging and analysis and sensemaking: the researcher brings the idea; the system
+shows them where it stands.
+
 ### Generative Support: Scaffolding the Formulation of Ideas
 
 The generative cluster of mixed-initiative tools intervenes at a later stage in the research
@@ -450,8 +493,9 @@ discovery pipeline, and Ye et al. [2025], mapping the design space of AI-assiste
 have begun to map this integration challenge from complementary perspectives.
 
 Several other tensions cut across the paradigm distinction. The first concerns evaluation. Despite
-a proliferation of benchmarks [Guo et al. 2025; Ruan et al. 2026] and surveys [Alkan et al.
-2025; Shahhosseini et al. 2025], there is no consensus on what makes a research idea good.
+a proliferation of benchmarks [Guo et al. 2025; Ruan et al. 2026; Liu et al. 2025; Qiu et al.
+2025] and surveys [Alkan et al. 2025; Shahhosseini et al. 2025; Zhang et al. 2025], there is
+no consensus on what makes a research idea good.
 Novelty, feasibility, significance, and testability are routinely conflated in benchmark design.
 Cox et al. [2025] argue that the field has been measuring outputs when it should be measuring
 creative development — the harder but more meaningful target of whether a tool makes researchers
@@ -468,7 +512,17 @@ lack the cognitive engagement with the generative process needed to critically e
 Liu et al. [2026] find that human effort does not disappear as AI assumes more generative work,
 but redirects toward verification and quality assessment — a shift that raises its own questions
 about whether verification skill is cultivated or eroded by increasing reliance on AI-generated
-proposals.
+proposals. A complementary concern about agency operates at the collective rather than individual
+level. Hao et al. [2026], analyzing 41.3 million research papers spanning distinct eras of AI
+adoption, find that while AI-augmented scientists publish significantly more and accumulate
+substantially more citations, collective scientific focus narrows: AI adoption shrinks the volume
+of scientific topics studied by 4.63% and reduces engagement between scientists by 22%, as
+AI-augmented work moves toward domains richest in training data. This paradox — individual
+scientists expand their output while the collective shrinks its reach — suggests that the design
+emphasis on individual researcher productivity may be trading against the diversity of scientific
+inquiry as a whole. Tool designers aiming to support scientific creativity must contend with the
+possibility that tools optimized for individual ideation throughput may, in aggregate, homogenize
+rather than diversify the directions science pursues.
 
 The third tension is ethical. As AI-assisted ideation tools mature, the boundaries of intellectual
 contribution, credit, and originality in research become harder to draw [Kapania et al. 2025;
