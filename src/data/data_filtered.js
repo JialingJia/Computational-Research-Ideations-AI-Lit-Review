@@ -1378,6 +1378,214 @@ export const filteredData = [
     creative_thinking_types: ["Divergent"],
     wallas_stages: ["Illumination"],
     bodens_types: ["Combinational"]
+  },
+
+  // ── ENTRY 86 ──────────────────────────────────────────────────────────────
+  {
+    id: "f86",
+    title: "FlowPIE: Test-Time Scientific Idea Evolution with Flow-Guided Literature Exploration",
+    authors: ["Wang, Q.", "Wang, H.", "Chen, L.", "Yang, Z.", "Chen, G.", "Alinejad-Rokny, H.", "Li, H.", "Lin, Y.", "Yang, M."],
+    year: 2026,
+    venue: "arXiv [cs.AI]",
+    url: "https://arxiv.org/abs/2603.29557",
+    core_contributions: "FlowPIE is a tightly coupled retrieval-generation framework for scientific idea generation (SIG) that treats literature exploration and idea generation as a co-evolving process. It uses GFlowNet-inspired Monte Carlo Tree Search (MCTS) to expand literature trajectories, guided by an LLM-based generative reward model (GRM). The resulting diverse population undergoes evolutionary selection, crossover, and mutation under an isolation island paradigm to produce novel, feasible, and diverse research ideas. Evaluations show consistently higher novelty, feasibility, and diversity compared to strong LLM-based and agent-based baselines.",
+    tool_types: ["Type 2"],
+    research_stages: ["Problem Framing"],
+    creative_thinking_types: ["Divergent"],
+    wallas_stages: ["Preparation", "Illumination"],
+    bodens_types: ["Exploratory"]
+  },
+
+  // ── ENTRY 87 ──────────────────────────────────────────────────────────────
+  {
+    id: "f87",
+    title: "Structure Liberates: How Constrained Sensemaking Produces More Novel Research Output",
+    authors: ["Mooney, J.", "Kim, Z.M.", "Lee, Y.", "Kang, D."],
+    year: 2026,
+    venue: "arXiv [cs.CL]",
+    url: "https://arxiv.org/abs/2605.00557",
+    core_contributions: "Introduces SCISENSE, a sensemaking-grounded framework that operationalizes research ideation as a structured sequence of eight cognitive stages based on Pirolli & Card (2005). Contributes SCISENSE-Traj, a 100K-scale dataset of citation-conditioned research trajectories in two modes (Target: reconstructing the ideation path to a known paper; Infer: proposing novel directions from the same citations), and SCISENSE-LM, a family of trained models spanning 3B to 70B parameters. Counterintuitively, constrained Target-trained models produce more novel and diverse outputs than open Infer-trained models, demonstrating that structured sensemaking scaffolds more creative output.",
+    tool_types: ["Survey / Theory"],
+    research_stages: [],
+    creative_thinking_types: ["Divergent"],
+    wallas_stages: ["Preparation", "Illumination"],
+    bodens_types: []
+  },
+
+  // ── ENTRY 88 ──────────────────────────────────────────────────────────────
+  {
+    id: "f88",
+    title: "Intentmaking and Sensemaking: Human Interaction with AI-Guided Mathematical Discovery",
+    authors: ["Bäuerle, A.", "Connors, A.", "Novikov, A.", "Wagner, A.Z.", "Vũ, N.", "Viegas, F.", "Wattenberg, M.", "Dixon, L."],
+    year: 2026,
+    venue: "arXiv [cs.AI; cs.HC]",
+    url: "https://arxiv.org/abs/2605.05921",
+    core_contributions: "Formative user study with 11 expert mathematicians using AlphaEvolve, an evolutionary coding agent, for advanced mathematical discovery. Identifies and characterizes 'intentmaking' — the iterative process of discovering, defining, and refining one's experimental goals through active system interaction — as a distinct cognitive workflow that complements sensemaking. Proposes that effective AI tools for scientific discovery should support the interleaved intentmaking–sensemaking cycle rather than acting as opaque question-answer systems.",
+    tool_types: ["Empirical Study"],
+    research_stages: [],
+    creative_thinking_types: ["Divergent", "Convergent"],
+    wallas_stages: ["Preparation", "Incubation", "Illumination", "Verification"],
+    bodens_types: []
+  },
+
+  // ── ENTRY 89 ──────────────────────────────────────────────────────────────
+  {
+    id: "f89",
+    title: "ProjectionBench: Evaluating Scientific Hypothesis Generation in LLMs Under Progressive Information Disclosure",
+    authors: ["Lew, A.J.", "Cao, Y.", "Buehler, M.J."],
+    year: 2026,
+    venue: "arXiv [cs.AI]",
+    url: "https://arxiv.org/abs/2605.30284",
+    core_contributions: "A benchmark framework for evaluating LLM performance in scientific discovery and hypothesis generation. Models receive progressively disclosed information about a research paper (topic → research question → experimental details) and generate hypotheses at each stage; these are compared against the paper's actual conclusions via automated semantic similarity of atomic claims. This progressive design assesses both innovativeness (under minimal information) and grounded reasoning (under full context). Evaluates GPT-5, GPT-5.4, Gemini 2.5 Pro, and Gemini 3.1 Pro across 45 materials science papers.",
+    tool_types: ["Survey / Theory"],
+    research_stages: [],
+    creative_thinking_types: ["Divergent"],
+    wallas_stages: ["Illumination", "Verification"],
+    bodens_types: []
+  },
+
+  // ── ENTRY 90 ──────────────────────────────────────────────────────────────
+  {
+    id: "f90",
+    title: "A Review of LLM-Assisted Ideation",
+    authors: ["Li, S.", "Padilla, S.", "Le Bras, P.", "Dong, J.", "Chantler, M."],
+    year: 2026,
+    venue: "arXiv [cs.HC]",
+    url: "https://arxiv.org/abs/2503.00946",
+    core_contributions: "Systematic survey of 61 studies investigating LLM-assisted ideation across both group and individual settings; introduces the Hourglass Ideation Framework comprising three phases and seven key ideation stages; finds that LLMs are heavily used for idea generation and refinement but remain underutilized in scope specification, foundational material structuring, and multi-idea evaluation and selection — identifying structural gaps in current tool coverage.",
+    tool_types: ["Survey / Theory"],
+    research_stages: [],
+    creative_thinking_types: ["Divergent", "Convergent"],
+    wallas_stages: [],
+    bodens_types: []
+  },
+
+  // ── ENTRY 91 ──────────────────────────────────────────────────────────────
+  {
+    id: "f91",
+    title: "ScholarMate: A Mixed-Initiative Tool for Qualitative Knowledge Work and Information Sensemaking",
+    authors: ["Ye, R.", "Lee, P.Y.K.", "Varona, M.", "Huang, O.", "Nobre, C."],
+    year: 2025,
+    venue: "CHIWORK 2025 (Workshop at ACM CHI 2025)",
+    url: "https://arxiv.org/abs/2504.14406",
+    core_contributions: "ScholarMate is a mixed-initiative system for qualitative research analysis that enables researchers to dynamically arrange text snippets on a non-linear canvas, with AI providing theme suggestions, multi-level summarization, and evidence-based theme naming while maintaining traceability to source documents; pilot studies found that users valued the balance between AI suggestions and direct manipulation as essential for maintaining interpretability and trust in the sensemaking process.",
+    tool_types: ["Type 1"],
+    research_stages: ["Analysis & Sensemaking"],
+    creative_thinking_types: ["Convergent"],
+    wallas_stages: ["Preparation"],
+    bodens_types: []
+  },
+
+  // ── ENTRY 92 ──────────────────────────────────────────────────────────────
+  {
+    id: "f92",
+    title: "AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery",
+    authors: ["Tie, G.", "Shi, J.", "Song, D.", "Huang, Y.", "Sheng, Z.", "Zhou, X.", "Liu, D.", "Zhou, P.", "Chen, Y.", "Xu, R.", "He, L.", "Wen, Q.", "Li, M.", "Lu, C.", "Li, S.", "Xie, P.", "Yuan, Y.", "Meng, R.", "Xing, L.", "Sun, L.", "Xiong, C.", "Yu, P.S.", "Gao, J."],
+    year: 2026,
+    venue: "arXiv [cs.AI; cs.CL]",
+    url: "https://arxiv.org/abs/2605.23204",
+    core_contributions: "Comprehensive survey of AI-powered scientific workflow automation introducing the AutoResearch spectrum, which distinguishes 'Vibe Research' (human-steered AI assistance via prompt-based interaction and human-verified execution) from emerging AI-led systems that begin coordinating larger portions of the discovery loop; identifies fragmentation across current systems in autonomy, domain scope, execution environment, and validation mechanisms, and maps persistent open challenges including evidence preservation, reproducibility, weak-direction rejection, provenance tracking, and cross-domain robustness.",
+    tool_types: ["Survey / Theory"],
+    research_stages: [],
+    creative_thinking_types: ["Divergent"],
+    wallas_stages: [],
+    bodens_types: []
+  },
+
+  // ── ENTRY 93 ──────────────────────────────────────────────────────────────
+  {
+    id: "f93",
+    title: "Innovation Discovery System for Networking Research",
+    authors: ["Zhang, M.", "Huang, B.", "Xu, Y.", "Huang, H.", "Zhao, L.", "Long, M.", "Song, Q.", "Xiang, Q.", "Liu, X.", "Shu, J."],
+    year: 2026,
+    venue: "arXiv [cs.NI; cs.AI]",
+    url: "https://arxiv.org/abs/2603.26496",
+    core_contributions: "SciNet is a research idea generation system for the networking domain that addresses two limitations of generic LLM-based ideation: shallow recombination of existing solutions and the absence of structured idea-level knowledge from domain-specific venues. It constructs a curated discovery dataset from top networking conferences, simulates the human idea discovery workflow through sequential problem setting, inspiration retrieval, and idea generation, and evaluates ideas by jointly measuring novelty and practicality; experiments show SciNet consistently outperforms standalone LLM-based generation in overall idea quality across multiple backbones.",
+    tool_types: ["Type 2"],
+    research_stages: ["Problem Framing"],
+    creative_thinking_types: ["Divergent"],
+    wallas_stages: ["Preparation", "Illumination"],
+    bodens_types: ["Exploratory"]
+  },
+
+  // ── ENTRY 94 ──────────────────────────────────────────────────────────────
+  {
+    id: "f94",
+    title: "Evaluating Novelty in AI-Generated Research Plans Using Multi-Workflow LLM Pipelines",
+    authors: ["Saraogi, D.", "Singhee, R.", "Kumar, D."],
+    year: 2026,
+    venue: "arXiv [cs.CL]",
+    url: "https://arxiv.org/abs/2601.09714",
+    core_contributions: "Comparative empirical evaluation of five LLM-based research-plan generation architectures — reflection-based refinement, evolutionary algorithms (Sakana AI v2), multi-agent deliberation (Google Co-Scientist), recursive decomposition (GPT Deep Research), and multimodal long-context pipelines (Gemini 3 Pro) — rated by expert evaluators on novelty, feasibility, and impact; finds that decomposition-based and long-context workflows achieve the highest novelty scores (mean 4.17/5) while single-step prompting risks 'smart plagiarism' of existing ideas, positioning workflow architecture rather than model scale as the critical determinant of research plan originality.",
+    tool_types: ["Empirical Study"],
+    research_stages: [],
+    creative_thinking_types: ["Divergent"],
+    wallas_stages: ["Illumination", "Verification"],
+    bodens_types: []
+  },
+
+  // ── ENTRY 95 ──────────────────────────────────────────────────────────────
+  {
+    id: "f95",
+    title: "ResearchStudio-Idea: An Evidence-Grounded Research-Ideation Skill Suite from ML Conference Outcomes",
+    authors: ["Zhao, Q.", "Huang, Y.", "Dai, Y.", "Xiao, L.", "Gao, J.", "Zhang, X.", "Wu, W.", "Li, S.", "He, Y.", "Lu, Y.", "Hui, Y.K."],
+    year: 2026,
+    venue: "arXiv [cs.AI]",
+    url: "https://arxiv.org/abs/2607.04439",
+    core_contributions: "ResearchStudio-Idea is a reusable skill suite for the 'first mile' of research ideation, comprising Paper-Search (multi-source literature search), Scoop-Check (a prior-art collision checker for novelty claims), and IdeaSpark, an end-to-end skill that composes evidence grounding, pattern-guided generation, collision retrieval, and outcome-informed auditing into idea-card research proposals. It mines 1,947 ICLR/ICML/NeurIPS papers (2021–2025, including orals, high-citation, and rejected submissions) to distill 31 ideation sub-patterns into 15 reusable ideation patterns, each operationalized as a structured card of research contexts, bottleneck types, differentiation strategies, precedents, and failure modes. Given a problem and evidence bundle, IdeaSpark evaluates evidence readiness, reconstructs research context, identifies unresolved bottlenecks, selects patterns, instantiates a candidate direction, and audits it; blind automated-judge evaluations find it produces stronger proposals than no-skill and generic-skill baselines while maintaining competitive novelty.",
+    tool_types: ["Type 2"],
+    research_stages: ["Information Foraging", "Problem Framing"],
+    creative_thinking_types: ["Divergent", "Convergent"],
+    wallas_stages: ["Preparation", "Illumination", "Verification"],
+    bodens_types: ["Exploratory"]
+  },
+
+  // ── ENTRY 96 ──────────────────────────────────────────────────────────────
+  {
+    id: "f96",
+    title: "Agentic-Ideation: Sample Efficient Agentic Trajectories Synthesis for Scientific Ideation Agents",
+    authors: ["Zhao, K.", "Kong, L.", "Xu, F.", "Li, Y."],
+    year: 2026,
+    venue: "arXiv [cs.AI]",
+    url: "https://arxiv.org/abs/2606.31229",
+    core_contributions: "Agentic-Ideation is a framework for training a specialized agentic LLM for scientific ideation, addressing the rigidity of pre-defined agentic workflows and the prohibitive cost of synthesizing agentic training data. It defines a tool space of three external tools and three cognitive tools, then introduces an Oracle-Guided Data Synthesis strategy that uses a reference idea as oracle guidance to steer a multi-agent system in reconstructing the logical reasoning and tool-invocation paths that lead to a target idea, converting aimless trial-and-error into directed trajectory generation. The agent is trained on these synthesized trajectories with a masking strategy on tool-execution results, yielding an autonomous ideation agent that flexibly navigates the literature search space and the action space of research reasoning.",
+    tool_types: ["Type 2"],
+    research_stages: ["Problem Framing"],
+    creative_thinking_types: ["Divergent"],
+    wallas_stages: ["Preparation", "Illumination"],
+    bodens_types: ["Exploratory"]
+  },
+
+  // ── ENTRY 97 ──────────────────────────────────────────────────────────────
+  {
+    id: "f97",
+    title: "The Ideation-Execution Gap: Execution Outcomes of LLM-Generated versus Human Research Ideas",
+    authors: ["Si, C.", "Hashimoto, T.", "Yang, D."],
+    year: 2025,
+    venue: "arXiv [cs.CL]",
+    url: "https://arxiv.org/abs/2506.20803",
+    core_contributions: "An execution study testing whether the ideation-stage novelty advantage of LLM-generated research ideas survives implementation. Forty-three expert researchers each spent over 100 hours executing a randomly assigned idea — either expert-written or LLM-generated — and documented it in a 4-page paper; the projects were then blind-reviewed by expert NLP researchers. Comparing review scores for the same ideas before and after execution, LLM-generated ideas' scores dropped significantly more than expert ideas on all metrics (novelty, excitement, effectiveness, overall; p < 0.05), closing the ideation-stage gap and even flipping several rankings so human ideas scored higher. The study exposes the limits of current LLMs in producing truly effective research ideas and the difficulty of evaluating ideas without execution outcomes.",
+    tool_types: ["Empirical Study"],
+    research_stages: [],
+    creative_thinking_types: ["Divergent", "Convergent"],
+    wallas_stages: ["Illumination", "Verification"],
+    bodens_types: []
+  },
+
+  // ── ENTRY 98 ──────────────────────────────────────────────────────────────
+  {
+    id: "f98",
+    title: "Partnering with Generative AI: Experimental Evaluation of Human-Led and Model-Led Interaction in Human-AI Co-Creation",
+    authors: ["Maier, S.", "Schneider, M.", "Feuerriegel, S."],
+    year: 2026,
+    venue: "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)",
+    url: "https://arxiv.org/abs/2510.23324",
+    core_contributions: "A randomized controlled experiment (N = 486, independently validated at N = 640) comparing modes of human–LLM collaboration on idea co-creation: two reflective, human-led modes in which the LLM elicits elaboration through suggestions or questions, versus a proactive, model-led mode in which the LLM independently rewrites ideas. The model-led mode substantially improved idea quality but reduced idea diversity and users' perceived ownership, whereas the reflective human-led mode improved quality while preserving both diversity and ownership. The authors argue for designing generative-AI interactions as reflective thought partners that complement human strengths rather than substituting for them. [Borderline: general human-AI co-creation study rather than research-specific ideation; retained for its ownership/diversity trade-off findings that parallel research-ideation work in this corpus.]",
+    tool_types: ["Empirical Study"],
+    research_stages: [],
+    creative_thinking_types: ["Divergent", "Convergent"],
+    wallas_stages: ["Preparation", "Illumination"],
+    bodens_types: []
   }
 
 ];

@@ -81,7 +81,14 @@ et al. 2025]. Shahhosseini et al. [2025] organize LLM-based idea generation meth
 families — external knowledge augmentation, prompt-based distributional steering, inference-time
 scaling, multi-agent collaboration, and parameter-level adaptation — finding that combinational
 novelty is more readily achieved than exploratory or transformational novelty and that current
-evaluation metrics are poorly calibrated to detect this difference. IdeaBench [Guo et al. 2025]
+evaluation metrics are poorly calibrated to detect this difference. Li et al. [2026] take a
+broader lens in a complementary survey of 61 studies on LLM-assisted ideation across individual
+and group settings, proposing the Hourglass Ideation Framework — a three-phase, seven-stage model
+that maps where in the ideation workflow LLM assistance currently concentrates and where it
+remains underdeveloped. Their audit reveals a pronounced asymmetry: LLMs are heavily deployed for
+idea generation and refinement in the middle of the process but remain largely absent from scope
+specification, foundational material structuring, and multi-idea evaluation and selection —
+identifying concrete structural gaps that future tool design must address. IdeaBench [Guo et al. 2025]
 represents a systematic attempt at standardized comparison across hypothesis generation systems.
 LiveIdeaBench [Ruan et al. 2026] takes a divergent-thinking-oriented approach — evaluating LLMs'
 scientific creativity through single-keyword minimal-context prompts grounded in Guilford's theory
@@ -160,10 +167,41 @@ the agency question directly through a mixed-methods study in which 54 researche
 agentic ideation probe at three levels of LLM control, finding that creativity support is
 non-linear across control levels and that human effort does not disappear as AI assumes more
 generative work — it redirects from generation toward verification and quality assessment.
+Bäuerle et al. [2026] deepen this empirical picture through a formative study of eleven expert
+mathematicians using AlphaEvolve, an evolutionary coding agent, for advanced mathematical
+discovery. Their analysis surfaces "intentmaking" — the iterative process of discovering,
+defining, and refining one's experimental goals through active interaction with an AI system —
+as a distinct cognitive workflow that precedes and continuously interleaves with sensemaking.
+Where sensemaking describes how researchers interpret AI-generated outputs, intentmaking describes
+how they develop and revise their understanding of what they want the system to investigate: a
+layer of cognitive work largely invisible in tool designs that focus narrowly on the output
+evaluation stage. The study suggests that AI tools for scientific discovery should be conceived
+as collaborative instruments that support this bidirectional cycle of goal refinement and result
+interpretation, rather than as question-answer systems that deliver proposals for one-shot
+acceptance or rejection.
+
 Kapania et al. [2025] provide an ethical complement to this picture, documenting how HCI
 researchers navigate the ethical tensions of using LLMs in their own research practice — tensions
 between efficiency gains and concerns about intellectual integrity that are not yet resolved by
 any community norm.
+
+A further set of studies interrogates the durability of ideation-stage gains and the way
+interaction design shapes them. Si et al. [2025] move the evaluation lens past the idea itself to
+its execution: recruiting 43 experts to spend over 100 hours each implementing either an
+expert-written or an LLM-generated idea and then blind-reviewing the resulting short papers, they
+find that the novelty advantage LLM ideas enjoy at the ideation stage erodes significantly after
+execution — review scores fall more for machine ideas on every metric (novelty, excitement,
+effectiveness, and overall), and several rankings flip so that human ideas ultimately score higher.
+This "ideation–execution gap" cautions that ideation-stage novelty judgments, the very quantity
+that most generation systems optimize, may be a poor proxy for downstream research value. Maier et
+al. [2026] locate a complementary concern in interaction design rather than idea provenance: across
+two randomized controlled experiments (N = 486; N = 640), a proactive, model-led mode in which the
+LLM independently rewrites ideas raised idea quality but flattened diversity and eroded users'
+perceived ownership, whereas reflective, human-led modes that elicited elaboration through
+questions or suggestions improved quality while preserving both. Read together, these results
+reinforce that where and how generative capability enters the workflow — at ideation versus
+execution, under human-led versus model-led control — shapes creative outcomes at least as much as
+the raw capability itself.
 
 Together these empirical findings frame the design challenge: the appropriate form of
 computational assistance depends less on raw capability than on how that capability is structured
@@ -254,7 +292,15 @@ actionable. Hypothesis Search [Wang et al. 2023] formalizes the exploration as a
 with LMs systematically enumerating and testing candidate hypotheses against inductive reasoning
 tasks. Zhou et al. [2024] investigate the quality, novelty, and plausibility of machine-generated
 hypotheses relative to human-authored ones, providing an early empirical baseline for this class
-of system. ResearchAgent [Baek et al. 2025] and IRIS [Garikaparthi et al. 2025] both operate
+of system. Saraogi et al. [2026] extend this empirical trajectory to the level of full research
+plans, benchmarking five distinct agentic architectures — reflection-based refinement, evolutionary
+algorithms, multi-agent deliberation (Google Co-Scientist), recursive decomposition (GPT Deep
+Research), and multimodal long-context pipelines (Gemini 3 Pro) — against expert evaluations of
+novelty, feasibility, and impact. Decomposition-based and long-context workflows achieve the
+highest novelty scores, while single-step prompting is found to risk "smart plagiarism" — the
+production of superficially reworded versions of existing ideas — that agentic multi-step
+architectures meaningfully mitigate. This finding positions workflow architecture, not model scale
+alone, as a critical determinant of the originality of AI-generated research plans. ResearchAgent [Baek et al. 2025] and IRIS [Garikaparthi et al. 2025] both operate
 as iterative ideation engines: ResearchAgent continuously mines literature to generate and
 self-critique research ideas in an autonomous loop, while IRIS emphasizes transparency — making
 the evidence trail behind each generated hypothesis visible so researchers can assess the
@@ -268,7 +314,29 @@ et al.'s Spark system [2025] takes the evaluation component a step further: rath
 a critic on researcher feedback alone, it trains a dedicated reviewer model (Judge) on 600K
 scientific peer reviews from OpenReview, coupling retrieval-augmented idea generation with this
 learned evaluator to produce a self-contained generation-and-assessment pipeline grounded
-explicitly in Boden's computational creativity framework. The minimum Bayes risk decoding approach
+explicitly in Boden's computational creativity framework. FlowPIE [Wang et al. 2026] advances the exploratory trajectory through a co-evolutionary
+architecture that treats retrieval and generation not as sequential stages but as mutually
+dependent processes that evolve together. A GFlowNet-inspired Monte Carlo Tree Search drives the
+construction of diverse literature trajectories, guided by an LLM-based generative reward model
+that assesses current idea quality and steers adaptive retrieval toward underexplored regions of
+the idea space. The resulting population of candidate ideas is then refined through evolutionary
+selection, crossover, and mutation under an isolation island paradigm — incorporating cross-domain
+knowledge at each cycle. Evaluations demonstrate consistently higher novelty, feasibility, and
+diversity compared to strong LLM-based and agent-based frameworks, and show that test-time reward
+scaling, long established in other machine learning settings, transfers productively to scientific
+ideation. Domain-specific instantiation of this exploratory logic is illustrated by SciNet [Zhang
+et al. 2026], a research idea generation system designed for the networking research community.
+SciNet addresses two limitations that generic LLM-based ideation exhibits in technical domains:
+the tendency to recombine existing solutions at a shallow level, and the absence of structured,
+idea-level knowledge derived from domain-specific venues. By constructing a curated discovery
+dataset from top networking conferences and simulating the human idea discovery workflow through
+sequential problem setting, inspiration retrieval, and idea generation stages, SciNet produces
+networking research ideas that evaluators rate as significantly more novel and practical than
+those generated by standalone LLMs — demonstrating that domain-focused curation of training
+signals, not just prompting strategy, is a meaningful lever for improving the scientific quality
+of exploratory ideation in specialized research communities.
+
+The minimum Bayes risk decoding approach
 of Jinnai et al. [2024] addresses a methodological problem common to all of these systems: the
 tendency of LLMs toward repetitive, low-diversity generation. By optimizing simultaneously for
 quality and diversity in the decoding process, it enables ideation systems to produce varied idea
@@ -285,6 +353,27 @@ construction. Similarly, Augmenting Research Ideation with Data [Liu et al. 2025
 investigates whether providing social science data alongside literature during ideation improves
 idea quality — finding that data augmentation improves feasibility without reducing novelty —
 and in doing so frames ideation quality assessment as an open research question in its own right.
+
+A recent strand within this exploratory tradition works to make the generative process both more
+disciplined and cheaper to instantiate. ResearchStudio-Idea [Zhao, Q. et al. 2026] reframes LLM
+ideation as a reusable "skill suite" grounded in the empirical record of what succeeds at
+publication: mining 1,947 ICLR, ICML, and NeurIPS papers — accepted orals, a high-citation subset,
+and rejected submissions alike — it distills fifteen recurring ideation patterns, each encoded as a
+structured card of research contexts, bottleneck types, differentiation strategies, and
+characteristic failure modes. Its end-to-end IdeaSpark skill composes evidence grounding,
+pattern-guided generation, prior-art collision checking, and outcome-informed auditing into a
+single pipeline that turns a problem and an evidence bundle into a traceable proposal, with blind
+automated judges rating these proposals above no-skill and generic-skill baselines while preserving
+novelty. Where ResearchStudio-Idea structures the generative act with mined patterns,
+Agentic-Ideation [Zhao, K. et al. 2026] attacks the cost of building such agents: rather than
+hand-coding a fixed workflow, it trains a specialized agentic LLM on synthesized reasoning-and-tool-
+use trajectories, using a reference idea as oracle guidance to steer a multi-agent system in
+reconstructing the paths that lead to a target idea and so converting expensive trial-and-error
+exploration into directed trajectory generation. Both systems retain the Type 2 signature — the
+system performs the generative work while the researcher supplies the problem and adjudicates the
+output — yet they mark a shift from prompting a general model toward engineering the ideation
+process itself, whether through externalized pattern libraries or through training data that
+encodes expert ideation trajectories.
 
 ### Full-Pipeline Autonomous Research Agents
 
@@ -322,7 +411,15 @@ memory modules that carry across independent runs, enabling the system to avoid 
 unproductive directions without human guidance. Gridach et al. [2025], surveying agentic AI
 systems across the full scientific discovery pipeline, map this integration challenge and identify
 reliability, literature automation, and ethical accountability as the central open problems for
-this paradigm.
+this paradigm. Tie et al. [2026] offer a panoramic view of this landscape through the AutoResearch
+framework, which distinguishes "Vibe Research" — the human-steered region where AI expands local
+research capability through prompt-based assistance and human-verified execution — from emerging
+AI-led systems that coordinate larger portions of the discovery loop without yet achieving robust
+autonomy. Their survey maps persistent structural challenges that fragment current systems across
+autonomy levels and domain scopes: evidence preservation, reproducibility, weak-direction
+rejection, provenance tracking, and cross-domain robustness — problems that no current autonomous
+pipeline has satisfactorily resolved and that define the agenda for the next generation of
+full-pipeline agents.
 
 ### Specialized Autonomous Discovery
 
@@ -416,7 +513,16 @@ accumulated reading. Threddy [Fok et al. 2023] helps researchers build and navig
 across time and venue, externalizing the researcher's evolving understanding of a topic as a
 navigable artifact. Synergi [Kang et al. 2023d] operates at a similar level, helping scholars
 build thematic threads across multiple papers and making the system's surface of connections
-visible while leaving meaning-making firmly with the researcher. Fuzzy Linkography [Smith et al.
+visible while leaving meaning-making firmly with the researcher. A closely related contribution
+addressing qualitative research specifically is Ye et al.'s ScholarMate [2025], a mixed-initiative
+system for making sense of large document collections in qualitative knowledge work. Where Synergi
+operates at the level of papers and thematic threads, ScholarMate works at the level of text
+snippets: researchers arrange extracted passages on a non-linear canvas while the system offers
+AI-generated theme suggestions, multi-level summarization, and evidence-based theme naming, with
+each suggestion traceable back to its source document. Pilot studies found that users valued the
+balance between AI suggestions and direct manipulation as essential for maintaining interpretability
+and trust — reinforcing the mixed-initiative principle that AI contributions in sensemaking must
+remain auditable to be genuinely useful. Fuzzy Linkography [Smith et al.
 2025] extends sensemaking in a retrospective direction: rather than helping researchers make
 sense of the literature they are reading, it generates automated graphical summaries of recorded
 creative activity traces, enabling researchers and creators to reflect on their own ideation
@@ -527,13 +633,27 @@ have begun to map this integration challenge from complementary perspectives.
 
 Several other tensions cut across the paradigm distinction. The first concerns evaluation. Despite
 a proliferation of benchmarks [Guo et al. 2025; Ruan et al. 2026; Liu et al. 2025; Qiu et al.
-2025] and surveys [Alkan et al. 2025; Shahhosseini et al. 2025; Zhang et al. 2025], there is
-no consensus on what makes a research idea good.
-Novelty, feasibility, significance, and testability are routinely conflated in benchmark design.
-Cox et al. [2025] argue that the field has been measuring outputs when it should be measuring
-creative development — the harder but more meaningful target of whether a tool makes researchers
-more capable thinkers over time. The difficulty of operationalizing this criterion is itself an
-open research problem.
+2025; Mooney et al. 2026; Lew et al. 2026] and surveys [Alkan et al. 2025; Shahhosseini et al.
+2025; Zhang et al. 2025], there is no consensus on what makes a research idea good. Novelty,
+feasibility, significance, and testability are routinely conflated in benchmark design. Two recent
+contributions attempt to impose more structure on this problem. Mooney et al. [2026] introduce
+SCISENSE, which operationalizes research ideation as a structured eight-stage sensemaking
+trajectory based on the Pirolli-Card model and contributes a 100K-scale dataset (SCISENSE-Traj)
+of citation-conditioned ideation paths in two modes — Target, which reconstructs the trajectory
+leading to a known paper, and Infer, which proposes novel directions from the same citations.
+Their counterintuitive central finding — that constrained Target-trained models produce more novel
+and diverse outputs than open Infer-trained models — suggests that structured sensemaking stages
+may be a more tractable proxy for ideation quality than direct novelty optimization. Lew et al.
+[2026] develop ProjectionBench, which evaluates hypothesis generation through progressive
+information disclosure: models receive information about a research paper incrementally (topic,
+then research question, then full experimental details) and generate hypotheses at each stage,
+with automated semantic similarity to the paper's actual conclusions providing graded assessment
+of both innovativeness under minimal context and grounded reasoning under full context. Together
+these frameworks begin to decompose ideation into components that can be independently evaluated
+— a separation the field has largely lacked. Cox et al. [2025] argue more broadly that the field
+has been measuring outputs when it should be measuring creative development — whether a tool makes
+researchers more capable thinkers over time. The difficulty of operationalizing this criterion is
+itself an open research problem.
 
 The second tension concerns agency. Empirical work consistently finds that the same LLM capability
 that expands ideation when used collaboratively can narrow independent thinking when used passively

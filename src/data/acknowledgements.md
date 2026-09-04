@@ -81,3 +81,31 @@ contributions. Powered by [claude.ai](https://claude.ai).
   - *From Toil to Thought: Designing for Strategic Exploration and Responsible AI in Systematic Literature Reviews* (Ye et al. 2026) → §Preparatory Scaffolding: Building the Knowledge Foundation
   - *Enhancing Research Idea Generation through Combinatorial Innovation and Multi-Agent Iterative Search Strategies* (Chen & Zhang 2026) → §LLM-Based Hypothesis Generation
   *(Run date: 2026-05-01)*
+
+### June 2026
+
+- **Claude (Anthropic)** — Added 4 paper(s) to the review:
+  - *FlowPIE: Test-Time Scientific Idea Evolution with Flow-Guided Literature Exploration* (Wang et al. 2026) → §LLM-Based Hypothesis Generation
+  - *Structure Liberates: How Constrained Sensemaking Produces More Novel Research Output* (Mooney et al. 2026) → §Open Tensions and the Design Frontier
+  - *Intentmaking and Sensemaking: Human Interaction with AI-Guided Mathematical Discovery* (Bäuerle et al. 2026) → §Empirical Foundations: How Researchers Actually Ideate
+  - *ProjectionBench: Evaluating Scientific Hypothesis Generation in LLMs Under Progressive Information Disclosure* (Lew et al. 2026) → §Open Tensions and the Design Frontier
+  *(Run date: 2026-06-01)*
+
+### July 2026
+
+- **Claude (Anthropic)** — Added 5 paper(s) to the review:
+  - *A Review of LLM-Assisted Ideation* (Li et al. 2026) → §Theoretical Grounding: Defining Scientific Creativity
+  - *ScholarMate: A Mixed-Initiative Tool for Qualitative Knowledge Work and Information Sensemaking* (Ye et al. 2025) → §Preparatory Scaffolding: Building the Knowledge Foundation
+  - *AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery* (Tie et al. 2026) → §Full-Pipeline Autonomous Research Agents
+  - *Innovation Discovery System for Networking Research* (Zhang et al. 2026) → §LLM-Based Hypothesis Generation
+  - *Evaluating Novelty in AI-Generated Research Plans Using Multi-Workflow LLM Pipelines* (Saraogi et al. 2026) → §LLM-Based Hypothesis Generation
+  *(Run date: 2026-07-01)*
+
+### September 2026
+
+- **Claude (Anthropic)** — Added 4 paper(s) to the review:
+  - *ResearchStudio-Idea: An Evidence-Grounded Research-Ideation Skill Suite from ML Conference Outcomes* (Zhao et al. 2026) → §LLM-Based Hypothesis Generation
+  - *Agentic-Ideation: Sample Efficient Agentic Trajectories Synthesis for Scientific Ideation Agents* (Zhao et al. 2026) → §LLM-Based Hypothesis Generation
+  - *The Ideation-Execution Gap: Execution Outcomes of LLM-Generated versus Human Research Ideas* (Si et al. 2025) → §Empirical Foundations: How Researchers Actually Ideate
+  - *Partnering with Generative AI: Experimental Evaluation of Human-Led and Model-Led Interaction in Human-AI Co-Creation* (Maier et al. 2026) → §Empirical Foundations: How Researchers Actually Ideate
+  *(Run date: 2026-09-01)*

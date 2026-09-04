@@ -58,6 +58,34 @@ export const contributors = [
           "Added *Enhancing Research Idea Generation through Combinatorial Innovation and Multi-Agent Iterative Search Strategies* (Chen & Zhang 2026) → §LLM-Based Hypothesis Generation",
         ],
       },
+      {
+        month: "June 2026",
+        items: [
+          "Added *FlowPIE: Test-Time Scientific Idea Evolution with Flow-Guided Literature Exploration* (Wang et al. 2026) → §LLM-Based Hypothesis Generation",
+          "Added *Structure Liberates: How Constrained Sensemaking Produces More Novel Research Output* (Mooney et al. 2026) → §Open Tensions",
+          "Added *Intentmaking and Sensemaking: Human Interaction with AI-Guided Mathematical Discovery* (Bäuerle et al. 2026) → §Empirical Foundations",
+          "Added *ProjectionBench: Evaluating Scientific Hypothesis Generation in LLMs Under Progressive Information Disclosure* (Lew et al. 2026) → §Open Tensions",
+        ],
+      },
+      {
+        month: "July 2026",
+        items: [
+          "Added *A Review of LLM-Assisted Ideation* (Li et al. 2026) → §Theoretical Grounding",
+          "Added *ScholarMate: A Mixed-Initiative Tool for Qualitative Knowledge Work and Information Sensemaking* (Ye et al. 2025) → §Preparatory Scaffolding",
+          "Added *AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery* (Tie et al. 2026) → §Full-Pipeline Autonomous Research Agents",
+          "Added *Innovation Discovery System for Networking Research* (Zhang et al. 2026) → §LLM-Based Hypothesis Generation",
+          "Added *Evaluating Novelty in AI-Generated Research Plans Using Multi-Workflow LLM Pipelines* (Saraogi et al. 2026) → §LLM-Based Hypothesis Generation",
+        ],
+      },
+      {
+        month: "September 2026",
+        items: [
+          "Added *ResearchStudio-Idea: An Evidence-Grounded Research-Ideation Skill Suite from ML Conference Outcomes* (Zhao et al. 2026) → §LLM-Based Hypothesis Generation",
+          "Added *Agentic-Ideation: Sample Efficient Agentic Trajectories Synthesis for Scientific Ideation Agents* (Zhao et al. 2026) → §LLM-Based Hypothesis Generation",
+          "Added *The Ideation-Execution Gap: Execution Outcomes of LLM-Generated versus Human Research Ideas* (Si et al. 2025) → §Empirical Foundations",
+          "Added *Partnering with Generative AI: Experimental Evaluation of Human-Led and Model-Led Interaction in Human-AI Co-Creation* (Maier et al. 2026) → §Empirical Foundations",
+        ],
+      },
     ],
   },
 
